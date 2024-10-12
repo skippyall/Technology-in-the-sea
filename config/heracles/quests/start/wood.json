@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "kelp"
+  ],
+  "tasks": {
+    "bamboo_block": {
+      "type": "heracles:item",
+      "item": "minecraft:bamboo_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Make Wood"
+    },
+    "description": [
+      "Craft"
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          120,
+          1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bamboo_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seawood"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

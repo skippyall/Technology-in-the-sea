@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "kelp": {
+      "type": "heracles:item",
+      "item": "minecraft:kelp",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "sea_pickles": {
+      "type": "heracles:item",
+      "item": "minecraft:sea_pickle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Find Kelp and Sea Pickles"
+    },
+    "description": [
+      "Look at the roof. By the way, don't waste Sea Pickles until you can make more of them if you don't want to kill fish."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:kelp",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Just need rice"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

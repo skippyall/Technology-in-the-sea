@@ -2,6 +2,7 @@
 !/config
 /config/*
 !/config/yigd.json
+!/config/heracles
 
 !/kubejs
 /kubejs/jsconfig.json
@@ -10,4 +11,3 @@
 /kubejs/config
 
 !/resourepacks
-!/knownkeys.txt

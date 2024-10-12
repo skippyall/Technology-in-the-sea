@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "bonemeal"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft Floral Fertilizer"
+    },
+    "description": [],
+    "groups": {
+      "Start": {
+        "position": [
+          180,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Floral Fertilizer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

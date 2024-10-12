@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "start": {
+      "title": "Start Playing",
+      "icon": {
+        "item": {
+          "id": "minecraft:water_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "money": {
+      "item": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Click to learn more about quests."
+    },
+    "description": [
+      "Let the fun begin!"
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          0,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Let's go!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

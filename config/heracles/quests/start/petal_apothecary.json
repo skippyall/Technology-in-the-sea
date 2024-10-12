@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "cobblestone",
+    "mystical_flowers"
+  ],
+  "tasks": {
+    "petal_apothecary": {
+      "type": "heracles:item",
+      "item": "botania:apothecary_default",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Make a Petal Apothecary"
+    },
+    "description": [
+      "Make a Petal Apothecary and unlock the Botania chapter!"
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          60,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:apothecary_default",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "In case of an emergency..."
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

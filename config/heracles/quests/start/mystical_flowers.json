@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "floral_fertilizer"
+  ],
+  "tasks": {
+    "mystical_flower": {
+      "type": "heracles:item",
+      "item": "#botania:mystical_flowers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "botania:white_mystical_flower",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Obtain any Mystical Flower"
+    },
+    "description": [
+      "Obtain Mystical Flowers by using Floral Fertilizer on a Grass Block. To make more Mystical flowers, turn them into Petals in a Crafting Table, place the Petals on the ground and use bonemeal on them."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          120,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:white_mystical_flower",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Make it bloom!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

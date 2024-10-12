@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "fish": {
+      "amount": 1,
+      "tasks": {
+        "salmon": {
+          "entity": {
+            "type": "minecraft:salmon"
+          },
+          "amount": 1,
+          "type": "heracles:kill_entity"
+        },
+        "cod": {
+          "entity": {
+            "type": "minecraft:cod"
+          },
+          "amount": 1,
+          "type": "heracles:kill_entity"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Just don't do it..."
+    },
+    "description": [
+      "Just don't do it..."
+    ],
+    "groups": {
+      "Start": {
+        "position": [
+          0,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:salmon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seadeath"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
