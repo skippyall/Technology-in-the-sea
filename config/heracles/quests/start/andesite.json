@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "start"
+    "cobblestone"
   ],
   "tasks": {
-    "cobblestone": {
+    "andesite": {
       "type": "heracles:item",
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:andesite",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,29 +13,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Cobblestone."
+      "translate": "Obtain Andesite"
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      "Make Andesite from Gravel and Cobblestone."
     ],
     "groups": {
       "Start": {
         "position": [
           0,
-          60
+          120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:cobblestone",
+        "id": "minecraft:andesite",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "It's not red"
+      "translate": "Alloyable stone"
     }
   },
   "settings": {

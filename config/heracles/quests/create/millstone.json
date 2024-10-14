@@ -1,11 +1,18 @@
 {
   "dependencies": [
-    "start"
+    "wood",
+    "andesite"
   ],
   "tasks": {
-    "cobblestone": {
+    "hand_crank": {
       "type": "heracles:item",
-      "item": "minecraft:cobblestone",
+      "item": "create:hand_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "millstone": {
+      "type": "heracles:item",
+      "item": "create:millstone",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,29 +20,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Cobblestone."
+      "translate": "Make a Millstone and a Hand Crank"
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      "The Hand Crank can be attached to the bottom side of the Millstone."
     ],
     "groups": {
-      "Start": {
+      "Create": {
         "position": [
           0,
-          60
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:cobblestone",
+        "id": "create:millstone",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "It's not red"
+      "translate": "millstone"
     }
   },
   "settings": {

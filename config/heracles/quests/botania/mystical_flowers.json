@@ -26,10 +26,10 @@
       "Obtain Mystical Flowers by using Floral Fertilizer on a Grass Block. To make more Mystical flowers, turn them into Petals in a Crafting Table, place the Petals on the ground and use bonemeal on them."
     ],
     "groups": {
-      "Start": {
+      "Botania": {
         "position": [
           120,
-          60
+          0
         ]
       }
     },
@@ -46,10 +46,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

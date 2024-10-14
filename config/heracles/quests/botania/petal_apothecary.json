@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "start"
+    "cobblestone",
+    "mystical_flowers"
   ],
   "tasks": {
-    "cobblestone": {
+    "petal_apothecary": {
       "type": "heracles:item",
-      "item": "minecraft:cobblestone",
+      "item": "botania:apothecary_default",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,29 +14,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Cobblestone."
+      "translate": "Make a Petal Apothecary"
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      "Make a Petal Apothecary and unlock the Botania chapter!"
     ],
     "groups": {
-      "Start": {
+      "Botania": {
         "position": [
-          0,
-          60
+          180,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:cobblestone",
+        "id": "botania:apothecary_default",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "It's not red"
+      "translate": "In case of an emergency..."
     }
   },
   "settings": {

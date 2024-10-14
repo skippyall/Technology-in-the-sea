@@ -1,12 +1,17 @@
 {
   "dependencies": [
-    "cobblestone",
-    "mystical_flowers"
+    "millstone"
   ],
   "tasks": {
-    "petal_apothecary": {
+    "copper": {
       "type": "heracles:item",
-      "item": "botania:apothecary_default",
+      "item": "create:copper_nugget",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "zinc": {
+      "type": "heracles:item",
+      "item": "create:zinc_nugget",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -14,36 +19,37 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Make a Petal Apothecary"
+      "translate": "Mill gravel to obtain Copper and Zinc!"
     },
     "description": [
-      "Make a Petal Apothecary and unlock the Botania chapter!"
+      ""
     ],
     "groups": {
-      "Start": {
+      "Create": {
         "position": [
           60,
-          60
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:apothecary_default",
+        "id": "create:copper_nugget",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "In case of an emergency..."
+      "translate": "Zinc is not copper!"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

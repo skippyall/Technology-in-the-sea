@@ -1,41 +1,36 @@
 {
-  "dependencies": [
-    "start"
-  ],
+  "dependencies": [],
   "tasks": {
-    "cobblestone": {
-      "type": "heracles:item",
-      "item": "minecraft:cobblestone",
-      "amount": 1,
-      "collection": "AUTOMATIC"
+    "botania_intro": {
+      "type": "heracles:check"
     }
   },
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Cobblestone."
+      "text": ""
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      ""
     ],
     "groups": {
-      "Start": {
+      "Botania": {
         "position": [
           0,
-          60
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:cobblestone",
+        "id": "botania:blue_mystical_flower",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "It's not red"
+      "translate": "Welcome to Botania"
     }
   },
   "settings": {

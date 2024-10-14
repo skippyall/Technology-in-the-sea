@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "start"
+    "copper_zinc"
   ],
   "tasks": {
-    "cobblestone": {
+    "copper": {
       "type": "heracles:item",
-      "item": "minecraft:cobblestone",
+      "item": "create:andesite_alloy",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -13,29 +13,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Cobblestone."
+      "text": ""
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      ""
     ],
     "groups": {
-      "Start": {
+      "Create": {
         "position": [
-          0,
-          60
+          120,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:cobblestone",
+        "id": "create:andesite_alloy",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "It's not red"
+      "translate": "Andesite Alloy"
     }
   },
   "settings": {

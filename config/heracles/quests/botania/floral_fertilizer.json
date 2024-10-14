@@ -1,19 +1,29 @@
 {
   "dependencies": [
+    "botania_intro",
     "bonemeal"
   ],
-  "tasks": {},
+  "tasks": {
+    "floral_fertilizer": {
+      "type": "heracles:item",
+      "item": "botania:fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "translate": "Craft Floral Fertilizer"
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
-      "Start": {
+      "Botania": {
         "position": [
-          180,
-          60
+          60,
+          0
         ]
       }
     },
@@ -30,10 +40,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
