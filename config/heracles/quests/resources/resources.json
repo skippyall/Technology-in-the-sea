@@ -1,47 +1,45 @@
 {
-  "dependencies": [
-    "millstone"
-  ],
+  "dependencies": [],
   "tasks": {
-    "copper": {
-      "type": "heracles:item",
-      "item": "create:copper_nugget",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "zinc": {
-      "type": "heracles:item",
-      "item": "create:zinc_nugget",
-      "amount": 1,
-      "collection": "AUTOMATIC"
+    "test": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "value": "70a76a3a-5b1f-4ab1-a6fa-c46883c2",
+      "description": "",
+      "type": "heracles:dummy"
     }
   },
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Mill gravel to obtain Copper and Zinc!"
+      "translate": "The good stuff"
     },
     "description": [
       ""
     ],
     "groups": {
-      "Create": {
+      "Resources": {
         "position": [
-          60,
+          0,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:copper_nugget",
+        "id": "minecraft:netherite_scrap",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Zinc is not copper!"
+      "translate": "Resources"
     }
   },
   "settings": {

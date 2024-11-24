@@ -22,6 +22,15 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+        "minecraft:campfire",
+        [
+            "minecraft:kelp",
+            "minecraft:cobblestone",
+            "minecraft:flint"
+        ]
+    )
+
     event.shaped(
         "minecraft:bamboo_block", 
         [

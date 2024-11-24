@@ -1,7 +1,7 @@
 {
   "dimensions": {
     "overworld": {
-      "type": "minecraft:overworld",
+      "type": "technologyinthesea:sea",
       "generator": {
         "type": "minecraft:flat",
         "settings": {
@@ -15,10 +15,11 @@
               "block": "minecraft:gravel"
             },
             {
-              "height": 384,
+              "height": 60,
               "block": "minecraft:water"
             }
           ],
+          "biome": "minecraft:warm_ocean",
           "structure_overrides": []
         }
       }

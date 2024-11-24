@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "cobblestone",
-    "mystical_flowers"
+    "andesite_alloy"
   ],
   "tasks": {
-    "petal_apothecary": {
+    "waterwheel": {
       "type": "heracles:item",
-      "item": "botania:apothecary_default",
+      "item": "create:water_wheel",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -14,29 +13,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Make a Petal Apothecary"
+      "text": ""
     },
     "description": [
-      "Make a Petal Apothecary and unlock the Botania chapter!"
+      ""
     ],
     "groups": {
-      "Botania": {
+      "Create": {
         "position": [
-          180,
+          120,
           -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:apothecary_default",
+        "id": "create:water_wheel",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "In case of an emergency..."
+      "translate": "Perpetuum Mobile"
     }
   },
   "settings": {

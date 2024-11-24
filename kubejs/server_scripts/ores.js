@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {
-    event.remove({"id": "create:milling/gravel"})
+    event.remove({"id": "create:splashing/gravel"})
     createRecipe(
         event,
-        "create:milling",
+        "create:splashing",
         [
             {
                 "item": "minecraft:gravel"
@@ -11,16 +11,33 @@ ServerEvents.recipes(event => {
         ],
         [
             {
-                "item": "create:zinc_nugget",
-                "chance": 0.05
+                "item": "minecraft:iron_nugget",
+                "chance": 0.15
             },
             {
                 "item": "create:copper_nugget",
-                "chance": 0.05
+                "chance": 0.15
+            }
+        ]
+    )
+    createRecipe(
+        event,
+        "create:mixing",
+        [
+            {
+                "item": "minecraft:dried_kelp",
+            },
+            {
+                "item": "minecraft:dried_kelp",
+            },
+            {
+                "item": "minecraft:andesite",
             }
         ],
-        {
-            "processingTime": 10
-        }
+        [
+            {
+                "item": "minecraft:tuff"
+            }
+        ]
     )
 })

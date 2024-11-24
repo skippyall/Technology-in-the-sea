@@ -14,16 +14,16 @@ function getJsonAndRemove(recipe) {
 
 ServerEvents.recipes(event => {
     event.shaped(
-        "create:millstone",
+        "create:encased_fan",
         [
             " A ",
             "ALA",
-            " S "
+            " C "
         ],
         {
             "A": "minecraft:andesite",
             "L": "#c:stripped_logs",
-            "S": "#c:stones"
+            "C": "#technologyinthesea:dead_coral_fans"
         }
     )
 
@@ -38,4 +38,12 @@ ServerEvents.recipes(event => {
             "A": "minecraft:andesite"
         }
     )
+})
+
+ServerEvents.tags("item", event => {
+    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_tube_coral_fan")
+    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_horn_coral_fan")
+    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_fire_coral_fan")
+    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_brain_coral_fan")
+    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_bubble_coral_fan")
 })

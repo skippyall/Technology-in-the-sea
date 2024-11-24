@@ -1,8 +1,5 @@
 {
-  "dependencies": [
-    "wood",
-    "andesite"
-  ],
+  "dependencies": [],
   "tasks": {
     "hand_crank": {
       "type": "heracles:item",
@@ -28,8 +25,8 @@
     "groups": {
       "Create": {
         "position": [
-          0,
-          0
+          60,
+          60
         ]
       }
     },
@@ -42,7 +39,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "millstone"
+      "translate": "Mill Stone!"
     }
   },
   "settings": {

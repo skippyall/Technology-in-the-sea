@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "cobblestone",
-    "mystical_flowers"
+    "kelp"
   ],
   "tasks": {
-    "petal_apothecary": {
+    "campfire": {
       "type": "heracles:item",
-      "item": "botania:apothecary_default",
+      "item": "minecraft:campfire",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -14,29 +13,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Make a Petal Apothecary"
+      "translate": "Craft a Campfire"
     },
     "description": [
-      "Make a Petal Apothecary and unlock the Botania chapter!"
+      ""
     ],
     "groups": {
-      "Botania": {
+      "Start": {
         "position": [
-          180,
-          -60
+          120,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:apothecary_default",
+        "id": "minecraft:campfire",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "In case of an emergency..."
+      "translate": "FIRE!"
     }
   },
   "settings": {

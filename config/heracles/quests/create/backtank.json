@@ -1,12 +1,20 @@
 {
   "dependencies": [
-    "cobblestone",
-    "mystical_flowers"
+    "andesite_alloy"
   ],
   "tasks": {
-    "petal_apothecary": {
+    "diving_helmet": {
       "type": "heracles:item",
-      "item": "botania:apothecary_default",
+      "item": "create:copper_diving_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "backtank": {
+      "type": "heracles:item",
+      "item": "create:copper_backtank",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -14,29 +22,32 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Make a Petal Apothecary"
+      "text": ""
     },
     "description": [
-      "Make a Petal Apothecary and unlock the Botania chapter!"
+      ""
     ],
     "groups": {
-      "Botania": {
+      "Create": {
         "position": [
-          180,
-          -60
+          120,
+          60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:apothecary_default",
-        "count": 1
+        "id": "create:copper_diving_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "In case of an emergency..."
+      "translate": "Training for Space"
     }
   },
   "settings": {

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "kelp"
+    "campfire"
   ],
   "tasks": {
     "bamboo_block": {
@@ -22,7 +22,7 @@
       "Start": {
         "position": [
           120,
-          1
+          60
         ]
       }
     },

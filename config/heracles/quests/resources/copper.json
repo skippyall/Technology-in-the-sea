@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "cobblestone",
-    "mystical_flowers"
+    "iron"
   ],
   "tasks": {
-    "petal_apothecary": {
+    "copper": {
       "type": "heracles:item",
-      "item": "botania:apothecary_default",
+      "item": "create:copper_nugget",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -14,29 +13,29 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Make a Petal Apothecary"
+      "translate": "possibilities exceptionally rarely."
     },
     "description": [
-      "Make a Petal Apothecary and unlock the Botania chapter!"
+      "Mill Gravel in a Millstone to make Iron and Copper"
     ],
     "groups": {
-      "Botania": {
+      "Resources": {
         "position": [
-          180,
-          -60
+          120,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:apothecary_default",
+        "id": "minecraft:copper_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "In case of an emergency..."
+      "translate": "Copper opens plenty..."
     }
   },
   "settings": {

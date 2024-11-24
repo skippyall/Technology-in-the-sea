@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "copper_zinc"
+    "fan"
   ],
   "tasks": {
     "copper": {
