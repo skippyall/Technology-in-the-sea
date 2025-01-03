@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "create"
+    "management"
   ],
   "tasks": {
-    "fan": {
+    "manasteel": {
       "type": "heracles:item",
-      "item": "create:encased_fan",
+      "item": "botania:manasteel_ingot",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -19,23 +19,23 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Botania": {
         "position": [
-          60,
+          300,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:encased_fan",
+        "id": "botania:manasteel_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "You are my fan!"
+      "translate": "Manasteel"
     }
   },
   "settings": {

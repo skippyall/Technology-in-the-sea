@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({"input": "#c:ores"})
     event.remove({"id": "create:splashing/gravel"})
     createRecipe(
         event,
@@ -40,4 +41,10 @@ ServerEvents.recipes(event => {
             }
         ]
     )
+})
+
+ServerEvents.blockLootTables(event => {
+    event.modifyBlock("#c:ores", table => {
+        table.clearPools()
+    })
 })

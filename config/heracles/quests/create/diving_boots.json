@@ -1,11 +1,14 @@
 {
   "dependencies": [
-    "create"
+    "backtank"
   ],
   "tasks": {
-    "fan": {
+    "diving_boots": {
       "type": "heracles:item",
-      "item": "create:encased_fan",
+      "item": "create:copper_diving_boots",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -21,21 +24,24 @@
     "groups": {
       "Create": {
         "position": [
-          60,
-          0
+          120,
+          120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:encased_fan",
-        "count": 1
+        "id": "create:copper_diving_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "You are my fan!"
+      "translate": "diving_boots"
     }
   },
   "settings": {

@@ -19,13 +19,6 @@
           "collection": "AUTOMATIC"
         }
       },
-      "icon": {
-        "item": {
-          "id": "botania:hydroangeas",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:composite"
     }
   },

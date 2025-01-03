@@ -1,11 +1,18 @@
 {
   "dependencies": [
-    "create"
+    "pure_daisy",
+    "endoflame"
   ],
   "tasks": {
-    "fan": {
+    "mana pool": {
       "type": "heracles:item",
-      "item": "create:encased_fan",
+      "item": "botania:mana_pool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "mana_spreader": {
+      "type": "heracles:item",
+      "item": "botania:mana_spreader",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -19,23 +26,23 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Botania": {
         "position": [
-          60,
+          240,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:encased_fan",
+        "id": "botania:mana_pool",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "You are my fan!"
+      "translate": "Mana gement"
     }
   },
   "settings": {

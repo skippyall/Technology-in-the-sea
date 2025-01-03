@@ -1,5 +1,5 @@
 // priority: 0
-const $ResourceKey = Java.loadClass(`net.minecraft.resources.ResourceKey`)
+
 
 const SUN_DAMAGE_KEY = $ResourceKey.create(new ResourceLocation("minecraft", "damage_type"), new ResourceLocation("technologyinthesea","sun"))
 const OVERWORLD_KEY = new ResourceLocation("minecraft", "overworld")

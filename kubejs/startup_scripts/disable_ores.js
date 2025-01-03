@@ -1,5 +1,12 @@
+
+
 WorldgenEvents.remove(event => {
-    event.removeOres(props => {props.worldgenLayer = "underground_ores"})
+    
+    event.removeOres(props => {
+        console.log("Script was called!")
+        props.worldgenLayer ="underground_ores"
+        props.blocks = '/.+ore/'
+    })
 })
 
-console.log("Script was called!");
+
