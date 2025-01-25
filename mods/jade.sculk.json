@@ -1,21 +1,21 @@
 {
-    "filename": "Jade-1.20-Fabric-11.12.0.jar",
+    "filename": "Jade-1.20-Fabric-11.12.3.jar",
     "side": "both",
     "hashes": {
-        "sha1": "a963ffed9599badbec94fdd1341bdddff228ba95",
-        "sha512": "ce292fd0ea419b18bbd59ee631b322a7d3101080c55780a1ca8fde29bdf61ffef1eec5e781463e540254ff175cffa1af4d59e4ee31a5f63fb1e4a4539c124915",
+        "sha1": "e915ddb56b1ff48a617380695cdda42d0be018bc",
+        "sha512": "0ca8f2e57633114d2f2b444b9c37422e3eabf5296f155fb0e73a7342a7aa68bc75356de1bb716826ab2cd03cc6ebfbfc08b7a744495dfd3c308b4f17b82bcfea",
         "murmur2": 4074518562
     },
-    "fileSize": 570414,
+    "fileSize": 570213,
     "sources": {
         "curseforge": {
             "projectId": 324717,
-            "fileUrl": "https://edge.forgecdn.net/files/5771/0/Jade-1.20-Fabric-11.12.0.jar",
-            "fileId": 5771000
+            "fileUrl": "https://edge.forgecdn.net/files/6106/93/Jade-1.20-Fabric-11.12.3.jar",
+            "fileId": 6106093
         },
         "modrinth": {
             "projectId": "nvQzSEkH",
-            "fileUrl": "https://cdn.modrinth.com/data/nvQzSEkH/versions/Lvyx1o7I/Jade-1.20-Fabric-11.12.0.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/nvQzSEkH/versions/oJx1UoWN/Jade-1.20-Fabric-11.12.3.jar"
         }
     }
 }

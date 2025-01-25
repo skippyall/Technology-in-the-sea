@@ -1,21 +1,21 @@
 {
-    "filename": "Neruina-2.2.7-fabric+1.20.1.jar",
+    "filename": "Neruina-2.2.8-fabric+1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "ca07ff217675c2f182160d3d7c85a14a37e458f7",
-        "sha512": "d3ad26589f1a4093f1b1a4477914736f1bc042839ecdf588d5be562745a93d7d3e77b923789fb72a134ccaf3e1d9b885dad388de7d541f5bb8d1cc3953e5f4c5",
+        "sha1": "a25ef9f4ba8a5c862f58b08fda73a88fb19461fb",
+        "sha512": "a7b15549fcb5f93d971a7ec3ecbf2de6cc2d1710d214a524624daf71bd61d16e5e38a5878b589554e81f78728192b587216be7c6b1e79b5db95235734b2a1c4b",
         "murmur2": 3222320779
     },
-    "fileSize": 3783894,
+    "fileSize": 3783469,
     "sources": {
         "curseforge": {
             "projectId": 851046,
-            "fileUrl": "https://edge.forgecdn.net/files/6017/453/Neruina-2.2.7-fabric%2b1.20.1.jar",
-            "fileId": 6017453
+            "fileUrl": "https://edge.forgecdn.net/files/6077/765/Neruina-2.2.8-fabric%2b1.20.1.jar",
+            "fileId": 6077765
         },
         "modrinth": {
             "projectId": "1s5x833P",
-            "fileUrl": "https://cdn.modrinth.com/data/1s5x833P/versions/WJkokFGw/Neruina-2.2.7-fabric%2B1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/1s5x833P/versions/go3qvSKY/Neruina-2.2.8-fabric%2B1.20.1.jar"
         }
     }
 }

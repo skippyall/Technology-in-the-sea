@@ -1,21 +1,21 @@
 {
-    "filename": "jei-1.20.1-fabric-15.20.0.105.jar",
+    "filename": "jei-1.20.1-fabric-15.20.0.106.jar",
     "side": "both",
     "hashes": {
-        "sha1": "363ad32248fffe39139217c47ffaa082d6965a76",
-        "sha512": "9e6c42a56782d656d97db61d48420168174564f8e1389fc8fdc304f9e1f79c60b03365db1a1ad2dabecbfd8b0cc5c2681e669416c317bd3c0d5e13e85018d278",
+        "sha1": "dc779e3f78374c56cfba4a7e0ad2d480d08cc20a",
+        "sha512": "c84f58f186c16c47799b46a603b30b352b4cf45b210de59c347c6c974f2886de04593a77c08794b52c409d279b42d6d0e0667e88eeb97550f3963f64dfc2abf7",
         "murmur2": 2188549101
     },
-    "fileSize": 1392580,
+    "fileSize": 1392720,
     "sources": {
         "curseforge": {
             "projectId": 238222,
-            "fileUrl": "https://edge.forgecdn.net/files/5846/809/jei-1.20.1-fabric-15.20.0.105.jar",
-            "fileId": 5846809
+            "fileUrl": "https://edge.forgecdn.net/files/6075/246/jei-1.20.1-fabric-15.20.0.106.jar",
+            "fileId": 6075246
         },
         "modrinth": {
             "projectId": "u6dRKJwZ",
-            "fileUrl": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/AFNTMB1o/jei-1.20.1-fabric-15.20.0.105.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/KcsHvRrB/jei-1.20.1-fabric-15.20.0.106.jar"
         }
     }
 }

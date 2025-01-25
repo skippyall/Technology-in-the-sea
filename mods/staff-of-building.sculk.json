@@ -8,11 +8,6 @@
     },
     "fileSize": 95459,
     "sources": {
-        "curseforge": {
-            "projectId": 1045006,
-            "fileUrl": "https://edge.forgecdn.net/files/5458/119/staffofbuilding-1.20.1-1.5.2-rc1.jar",
-            "fileId": 5458119
-        },
         "modrinth": {
             "projectId": "A8lXhT3W",
             "fileUrl": "https://cdn.modrinth.com/data/A8lXhT3W/versions/bDSN4PT0/staffofbuilding-1.20.1-1.5.2-rc1.jar"

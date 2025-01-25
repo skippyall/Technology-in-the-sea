@@ -1,21 +1,21 @@
 {
-    "filename": "pattern_schematics-1.1.16+fabric-1.20.1.jar",
+    "filename": "pattern_schematics-1.1.19+fabric-1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "d6f93d3b95daaf197168ac80f3a1415ce12d6130",
-        "sha512": "a12f42c976de21c5f9f2ad193caf7d185f63816f46f3318170d499681aaffa3d973804772f0af9eaab4f08373558fd1b0e7e8c0c675b38859e77b9379856ae3e",
+        "sha1": "bebeb6bcfff4fa3dd3505bc63e87302a7b3949bb",
+        "sha512": "04e72091910239a023db0abb34d19028a8381189b6c93d3762ce3a001f8b56bbabfe18a71b4292238ee502bd7403bd475dfbb9175f30d620c5191135e4e79483",
         "murmur2": 2649304855
     },
-    "fileSize": 215521,
+    "fileSize": 217608,
     "sources": {
         "curseforge": {
             "projectId": 1072349,
-            "fileUrl": "https://edge.forgecdn.net/files/5962/763/pattern_schematics-1.1.16%2bfabric-1.20.1.jar",
-            "fileId": 5962763
+            "fileUrl": "https://edge.forgecdn.net/files/6104/290/pattern_schematics-1.1.19%2bfabric-1.20.1.jar",
+            "fileId": 6104290
         },
         "modrinth": {
             "projectId": "cpqKG67r",
-            "fileUrl": "https://cdn.modrinth.com/data/cpqKG67r/versions/TTqV7pm1/pattern_schematics-1.1.16%2Bfabric-1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/cpqKG67r/versions/AisNWHR7/pattern_schematics-1.1.19%2Bfabric-1.20.1.jar"
         }
     }
 }

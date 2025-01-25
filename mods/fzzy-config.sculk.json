@@ -1,21 +1,21 @@
 {
-    "filename": "fzzy_config-0.5.9+1.20.1.jar",
+    "filename": "fzzy_config-0.6.3+1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "7476aee7c341496ceace79dd1480b173ae0c027e",
-        "sha512": "da05f3df85d5f58da356b59ca9e9d943549396b377550699644fd0b8a549489921760161781f18ac160e81c5e5bd8cf185e51b3e7c2b3fef6fede798e4a28417",
+        "sha1": "04905dbc789bedb906813710bcd1bd048aeda8fb",
+        "sha512": "5f179711f2d4d38534f018a0ffb2c060ea6297dbf48388b73094b67117941b1340344089effd9df8f043f19f7157fefbd660bbfb37b3c9319acf6aaefc87dcc3",
         "murmur2": 558759162
     },
-    "fileSize": 1540306,
+    "fileSize": 1896518,
     "sources": {
         "curseforge": {
             "projectId": 1005914,
-            "fileUrl": "https://edge.forgecdn.net/files/5969/708/fzzy_config-0.5.9%2b1.20.1.jar",
-            "fileId": 5969708
+            "fileUrl": "https://edge.forgecdn.net/files/6097/812/fzzy_config-0.6.2%2b1.20.1.jar",
+            "fileId": 6097812
         },
         "modrinth": {
             "projectId": "hYykXjDp",
-            "fileUrl": "https://cdn.modrinth.com/data/hYykXjDp/versions/rCqTwPkm/fzzy_config-0.5.9%2B1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/hYykXjDp/versions/5YpsfG82/fzzy_config-0.6.3%2B1.20.1.jar"
         }
     }
 }

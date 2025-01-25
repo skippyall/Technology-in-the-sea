@@ -1,16 +1,16 @@
 {
-    "filename": "sophisticatedcore-1.20.1-0.7.12.2.96.jar",
+    "filename": "sophisticatedcore-1.20.1-1.0.8.1.119.jar",
     "side": "both",
     "hashes": {
-        "sha1": "00865b71fa4115f418407e909cebec299593bacf",
-        "sha512": "793211d5c386ed5f82aabc7170e04653d62575315fa29b9a4f524c1ac91abce0816d0e87bc203c1990340ed0ea77b4e3afdc486d3ae99fb836e188bdba15caeb",
+        "sha1": "9d9dd8d72890c50b864bd697c9615ef4f44acc14",
+        "sha512": "313e712e397135b6544ecdc10b7148a869cd1bc1ab27e4d78a2b1080f249831b876a704ea92ce5cb0e32c97bf0d4dac3b6ffad28426679b393e728cf3bb75d70",
         "murmur2": 2829024938
     },
-    "fileSize": 3137887,
+    "fileSize": 3172499,
     "sources": {
         "modrinth": {
             "projectId": "9jxwkYQL",
-            "fileUrl": "https://cdn.modrinth.com/data/9jxwkYQL/versions/HOD7NZlD/sophisticatedcore-1.20.1-0.7.12.2.96.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/9jxwkYQL/versions/KrzdxAak/sophisticatedcore-1.20.1-1.0.8.1.119.jar"
         }
     }
 }

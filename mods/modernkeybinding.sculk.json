@@ -1,17 +1,17 @@
 {
-    "filename": "ModernKeyBinding-Fabric-1.20-1.2.0.jar",
+    "filename": "ModernKeyBinding-Fabric-1.20-1.2.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "178d06d782267fbe120061f1cbd3f8415980c22a",
-        "sha512": "e78ce9a7c967a70f9edb1b2643db14214a7b1d2bb8b0436eae787a1fab8e223dc7a4935c61b23dcd8893037d5979ad06954b4444af1f1cca46ca01c0bfb020ce",
+        "sha1": "b7f27e0b2e6445abde0497bf868c8d060eb096f4",
+        "sha512": "c0f51e393ab2794d63ea2c2c994a11549b013d4fd3fe551acf360f85fb1c1d0a6543186ea65894a7f1103c88f3b00e64b29e8c9b339d5d68dc338bb7983632a0",
         "murmur2": 785472374
     },
-    "fileSize": 57898,
+    "fileSize": 53874,
     "sources": {
         "curseforge": {
             "projectId": 695433,
-            "fileUrl": "https://edge.forgecdn.net/files/4646/836/ModernKeyBinding-Fabric-1.20-1.2.0.jar",
-            "fileId": 4646836
+            "fileUrl": "https://edge.forgecdn.net/files/4913/784/ModernKeyBinding-Fabric-1.20-1.2.1.jar",
+            "fileId": 4913784
         },
         "modrinth": {
             "projectId": "rQszQPD2",

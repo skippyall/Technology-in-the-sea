@@ -10,7 +10,7 @@
     "manifests": [
         {
             "path": "mods/ad-astra-giselle-addon.sculk.json",
-            "sha256": "7788d015f00ee57d4ddf1b1babad33e90b735f6d8d55714e9212144390668acd"
+            "sha256": "16394509307369996651ade9953f5411d7cb1d86009557f10d76c9e46da4cbcb"
         },
         {
             "path": "mods/advancement-plaques.sculk.json",
@@ -78,7 +78,7 @@
         },
         {
             "path": "mods/jade.sculk.json",
-            "sha256": "9a621b8a5b4e640edb6e9e84792e196ab4bf683e78ffb9ef4bff7493e50666a0"
+            "sha256": "7251f9866619aec4a6dec72dcc9a550d1750155f0d2471204ec1f61a1f5d40c2"
         },
         {
             "path": "mods/jade-addons-fabric.sculk.json",
@@ -86,7 +86,7 @@
         },
         {
             "path": "mods/modernkeybinding.sculk.json",
-            "sha256": "61a86e7001761e247c8c554be33c7ffa56d38d9ea620bce5531a9228ff55923f"
+            "sha256": "2bbd0cb0e70b400e6cb3f6a9a492fb9e340f94122f8a1c70058221bab8798bcd"
         },
         {
             "path": "mods/mouse-tweaks.sculk.json",
@@ -94,7 +94,7 @@
         },
         {
             "path": "mods/neruina.sculk.json",
-            "sha256": "55ab6a088433e747810d5d3dc82ceb247b435effbae967d6eb8c5171d95473da"
+            "sha256": "31298ae6aa8405b3776c2b5e7f8f5635037b989398c9f5eab16fb037718c7b75"
         },
         {
             "path": "mods/obscure-api.sculk.json",
@@ -114,7 +114,7 @@
         },
         {
             "path": "mods/vegan-delight-fabric.sculk.json",
-            "sha256": "2d1eb84dbd6fbe372e4310c413858584a53df2d54a568fcff04240a4a6b31f22"
+            "sha256": "0e9359d4237965bf48c8eb401b99252b19ac6eabcdcb6672c8e935bb663b5940"
         },
         {
             "path": "mods/xaeros-world-map.sculk.json",
@@ -122,7 +122,7 @@
         },
         {
             "path": "mods/xaeros-minimap.sculk.json",
-            "sha256": "700c818de7b716c357394d9236fd2d057e6ca6bc88dac5a8b3d1150ad96f7405"
+            "sha256": "c8ca171a360373a238fdf6878bbb9ef870a63f90461e6834778cbed49a22e8a3"
         },
         {
             "path": "mods/yacl.sculk.json",
@@ -154,7 +154,7 @@
         },
         {
             "path": "mods/ae2.sculk.json",
-            "sha256": "aebf04c95c5b077c6e4dc66481ea20bd9cedeb2c548016a3ea3a15b4acc5e587"
+            "sha256": "c55866e6f5bcaaae162d7c81dc358d2432c517f0aab07731b726d4d0985f80de"
         },
         {
             "path": "mods/architectury-api.sculk.json",
@@ -170,7 +170,7 @@
         },
         {
             "path": "mods/balm.sculk.json",
-            "sha256": "a3ef6b209d35e32e259ea84baced42de077219cadfa88e951e02872660a0e4af"
+            "sha256": "dc47be49b6ab71d0f851171a2f8d4a50d126600b05c14eb0d15e0e045106b750"
         },
         {
             "path": "mods/bellsandwhistles.sculk.json",
@@ -186,7 +186,7 @@
         },
         {
             "path": "mods/cc-tweaked.sculk.json",
-            "sha256": "6a8ed7ef3c9754b26ab8a34b19ef64f3b3b2cc19bd51f53540276a626ddfb0da"
+            "sha256": "4e9ae9b128045d20668254731fb73e6a4d6ac17dc8a6d9c3994be590ab221a98"
         },
         {
             "path": "mods/cccbridge.sculk.json",
@@ -194,7 +194,7 @@
         },
         {
             "path": "mods/chat-heads.sculk.json",
-            "sha256": "27cf7c208a8220b8b400d5a910b805c50aa46d3a5d6a6aa7bc4397555d8acfad"
+            "sha256": "36c321906462e6a733c7509754148e36dd6641eaf606b21977d4ce01a1acd63a"
         },
         {
             "path": "mods/chipped.sculk.json",
@@ -234,7 +234,7 @@
         },
         {
             "path": "mods/create-jetpack.sculk.json",
-            "sha256": "7c684a0e3ca83d2495d63980fa2a7d6375e789a8980d880c963875e263d0141a"
+            "sha256": "972ee0c3593f7fd37ca95ddf7a9484af0218fef7a76758dbf5e683e729597ce2"
         },
         {
             "path": "mods/create-curios-jetpack.sculk.json",
@@ -250,7 +250,7 @@
         },
         {
             "path": "mods/create-air-fabric.sculk.json",
-            "sha256": "d8e39b259a458125d66ba174bb6e5b7e967474e52802dd3a481712296eb16362"
+            "sha256": "4f7cc7af2f816878b2beda536bdfdc79c4d0d0e3a059eda5214b86e8e69e19e4"
         },
         {
             "path": "mods/create-deco.sculk.json",
@@ -282,7 +282,7 @@
         },
         {
             "path": "mods/emi.sculk.json",
-            "sha256": "711b6b975b487b9147796064bc69cd08ab4ae1ce7e3f70596807888a346727b5"
+            "sha256": "1f04594a4775303a37f7fc14884ea4341bf2dbf38b312f645065a42554b2f32e"
         },
         {
             "path": "mods/emi-loot.sculk.json",
@@ -298,7 +298,7 @@
         },
         {
             "path": "mods/extra-mod-integrations.sculk.json",
-            "sha256": "09901903412f9f86b6bca32599efd7a6da94ac497f83225ea5cf7768dd694112"
+            "sha256": "67131b6674a8e9fa8808c7f9c665186e69b280fde0595257ca41960232c3e7f1"
         },
         {
             "path": "mods/fabric-api.sculk.json",
@@ -318,7 +318,7 @@
         },
         {
             "path": "mods/fzzy-config.sculk.json",
-            "sha256": "8a9af86e8622e7b3a65ddaca1150434e4058bd25be44c2a07db59a238de56bc8"
+            "sha256": "77e30e9d37f8dcc92a7b6d2724b69fbb9bbcee5ffcd15ce059e8a2714f88d113"
         },
         {
             "path": "mods/indium.sculk.json",
@@ -334,7 +334,7 @@
         },
         {
             "path": "mods/jei.sculk.json",
-            "sha256": "ec9adb5ea1884be420b56aed0504adcae1e498000be4247dac3483296a806975"
+            "sha256": "d8afc17f7e60b2df240d30c6efa308979f295d8cc3f30cb71aae946fed3d3595"
         },
         {
             "path": "mods/konkrete.sculk.json",
@@ -354,7 +354,7 @@
         },
         {
             "path": "mods/lithium.sculk.json",
-            "sha256": "9c2d2792b067d20f67459317f85a98429a20a64708cc379beee0e62b8a0ae5ca"
+            "sha256": "32a3082cc0f3dde1b537e126e73ecf8a79a04498c3cbbdaebb73376c1831cf7c"
         },
         {
             "path": "mods/lmft.sculk.json",
@@ -390,7 +390,7 @@
         },
         {
             "path": "mods/not-enough-animations.sculk.json",
-            "sha256": "5ed159c312e6a4ad7516ca599a1a26d28fae75c68e50f6a2af0fe96604b5ffdd"
+            "sha256": "0692570bbc4815882f6e345a6e8b24a847eb094a4134622aa917ccf09dedeea4"
         },
         {
             "path": "mods/observable.sculk.json",
@@ -398,7 +398,7 @@
         },
         {
             "path": "mods/create-pattern-schematics.sculk.json",
-            "sha256": "564fd1dd48446045ac01bffb13231804d27650d24db0249c9e384a440380701f"
+            "sha256": "197736b39311b6de1ecc86dd5af9b96b28adeca56c6b2a3e08b5e31dfd261f06"
         },
         {
             "path": "mods/peripheralium.sculk.json",
@@ -414,7 +414,7 @@
         },
         {
             "path": "mods/probejs.sculk.json",
-            "sha256": "d46670d1209f5bedf0026167331ee5cc543968841e093ee4b8cb0c9ad96de4f6"
+            "sha256": "f4de6a50ea79cfa76acc84fded2b3fa109c1f8c1d00b3451f63e0afb5c26e7fd"
         },
         {
             "path": "mods/resourceful-config.sculk.json",
@@ -446,11 +446,11 @@
         },
         {
             "path": "mods/sophisticated-backpacks-(unoffical-fabric-port).sculk.json",
-            "sha256": "494201df49d17fb6990a1deb13dc9afaf71eacf23ceecc22e0bea397fbd15f00"
+            "sha256": "9cb925f3d7df423236f0a226b52349f1f8e8b30fd6d4828768e49efbb5928d71"
         },
         {
             "path": "mods/sophisticated-core-(unofficial-fabric-port).sculk.json",
-            "sha256": "5ae600ab5e3bef3b10d894ab5a2d3467ce08fa78df437f8942e9f994f86dbf0a"
+            "sha256": "d37deacded0d15f577b610fbbcc629047a38ee44b16b29a8bc0cbcc7578ed8a1"
         },
         {
             "path": "mods/spark.sculk.json",
@@ -462,7 +462,7 @@
         },
         {
             "path": "mods/supermartijn642s-core-lib.sculk.json",
-            "sha256": "250c44226f460524fc9a444a846e509e5d7086cc5e07b34fd450bd21c3845815"
+            "sha256": "4e88a96ae1c51e5553c7a067a2a0700d5938e95a3e4a52e4da9bb75b34fa1517"
         },
         {
             "path": "mods/star-wars-planets.sculk.json",
@@ -494,23 +494,19 @@
         },
         {
             "path": "mods/yigd.sculk.json",
-            "sha256": "5a24f3fc3c65cf4105583591a825f73a5ffa5e814b7ec72926607146fbc4fd71"
+            "sha256": "5e9a6797994a1cfb9bf2e2dad9c1769368da7038bb972f2faa92434a7ca86a76"
         },
         {
             "path": "mods/bits-and-chisels.sculk.json",
             "sha256": "ba6572f51fd512d39c08ad6e0f2d11c18fcfc372e12a6a91238b0424af227517"
         },
         {
-            "path": "mods/clumps-cf.sculk.json",
-            "sha256": "73f398a18c54e6d025895bc36f0acb88b29ede5c116a5c469e6bb1f1db8c49d8"
-        },
-        {
             "path": "mods/clumps.sculk.json",
-            "sha256": "ce08acda94aecaac62c43e57e45c901d920c71453669eeeecf19e7e4620e87d1"
+            "sha256": "e5a8ceef9c3761adfb2529c62f9cdb57cf6890a1301a8087566cdb058aa20f3b"
         },
         {
             "path": "mods/staff-of-building.sculk.json",
-            "sha256": "949173223315d672c649b3052c33f816984a936e462d3830f00d3e347e43ae2c"
+            "sha256": "9af5ae55d4c6e7ff9a090f87c8983d4bc97c75910777dfce47c069df46f8eb80"
         }
     ],
     "files": [

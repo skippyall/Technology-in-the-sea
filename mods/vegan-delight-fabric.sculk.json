@@ -1,17 +1,17 @@
 {
-    "filename": "VeganDelightFabric-1.1.0-1.20.1.jar",
+    "filename": "VeganDelightFabric-1.4.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "8e0ba19bba7eb8ae6e5a0bcb0ca38d1aa32e0001",
-        "sha512": "5eb37f041b4104323913ea954973ae04c40b219fbeaef6a71f4b7142787454b28166a0bef1d69c358e736c9b589dfb70ca20a44432e7c152d3ebac21fbf0ec12",
+        "sha1": "c598555acaa64a2ce36f0394d55b2e28e7a87c04",
+        "sha512": "c36535897f7889400268665d47830a293fc573b2db65e84ee39884a39a97da6dce75bb8a2fa26fb91dbd9527b3feeb0af55396fd6222c7b8ac994729327bcca7",
         "murmur2": 834941079
     },
-    "fileSize": 166008,
+    "fileSize": 166492,
     "sources": {
         "curseforge": {
             "projectId": 928290,
-            "fileUrl": "https://edge.forgecdn.net/files/5957/582/VeganDelightFabric-1.1.0-1.20.1.jar",
-            "fileId": 5957582
+            "fileUrl": "https://edge.forgecdn.net/files/6102/629/VeganDelightFabric-1.4.1.jar",
+            "fileId": 6102629
         },
         "modrinth": {
             "projectId": "vtNhfMsL",

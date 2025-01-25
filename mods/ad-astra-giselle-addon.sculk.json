@@ -1,17 +1,17 @@
 {
-    "filename": "Ad-Astra-Giselle-Addon-fabric-1.20.1-6.5.jar",
+    "filename": "Ad-Astra-Giselle-Addon-fabric-1.20.1-6.16.jar",
     "side": "both",
     "hashes": {
-        "sha1": "1564f58e5d18dd1d01a2e132f3599fd454b6906c",
-        "sha512": "48a5bf5fc61f0ef770e5b0df8e6fefb58bf981750d915a8122b947ddc5220fd97beac3ba87d2d1494af2b7c071fbe2ec4dc5bf3bd38a06cf8c15f91aa348ce58",
+        "sha1": "1f613545f55851bc9b378215cb14ffd10e2379c5",
+        "sha512": "166692bbfd77b47fc348415b72ff26f19be66edb1de3f99905928b0fb9c9ddc7f75df4444d9395c220c765622be252e3b1fce7c0f344a956f4c2dc9d4a3db8d7",
         "murmur2": 320552805
     },
-    "fileSize": 363426,
+    "fileSize": 388941,
     "sources": {
         "curseforge": {
             "projectId": 714958,
-            "fileUrl": "https://edge.forgecdn.net/files/5132/352/Ad-Astra-Giselle-Addon-fabric-1.20.1-6.5.jar",
-            "fileId": 5132352
+            "fileUrl": "https://edge.forgecdn.net/files/5964/818/Ad-Astra-Giselle-Addon-fabric-1.20.1-6.16.jar",
+            "fileId": 5964818
         },
         "modrinth": {
             "projectId": "XQDxCBVw",
