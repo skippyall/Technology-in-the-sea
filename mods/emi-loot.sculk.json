@@ -1,0 +1,21 @@
+{
+    "filename": "emi_loot-0.7.4+1.20.1+fabric.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "12d51d5a0fbee92cc45432fcc7af456c95fd4668",
+        "sha512": "d6ceaa5eb8750641f7dc8dd0f1ddf363b910b650c809079d8a994063686a85e1d6ce39a47b582248856ad42902371b510c8986e5bd4aaf1a3fab12800d4dc3fa",
+        "murmur2": 3055093228
+    },
+    "fileSize": 390707,
+    "sources": {
+        "curseforge": {
+            "projectId": 681783,
+            "fileUrl": "https://edge.forgecdn.net/files/5760/207/emi_loot-0.7.4%2b1.20.1%2bfabric.jar",
+            "fileId": 5760207
+        },
+        "modrinth": {
+            "projectId": "qbbO7Jns",
+            "fileUrl": "https://cdn.modrinth.com/data/qbbO7Jns/versions/HsRd2NvY/emi_loot-0.7.4%2B1.20.1%2Bfabric.jar"
+        }
+    }
+}

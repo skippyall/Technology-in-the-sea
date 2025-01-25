@@ -1,0 +1,21 @@
+{
+    "filename": "youre-in-grave-danger-fabric-2.0.10.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "5d40cac5596da84f5464a32b29ebc01e3b9e63db",
+        "sha512": "761bdade70fbd2ccafee1a7993ed805ea2c1ec0ef1ce951bc73daf3d71fc409e14cc1642d31803b09011d2aeaf2098408c68dd3d873ba838a6199c3522bb146a",
+        "murmur2": 2251446741
+    },
+    "fileSize": 804806,
+    "sources": {
+        "curseforge": {
+            "projectId": 544912,
+            "fileUrl": "https://edge.forgecdn.net/files/5802/593/youre-in-grave-danger-fabric-2.0.10.jar",
+            "fileId": 5802593
+        },
+        "modrinth": {
+            "projectId": "HnD1GX6e",
+            "fileUrl": "https://cdn.modrinth.com/data/HnD1GX6e/versions/YEzWRzSs/youre-in-grave-danger-fabric-2.0.10.jar"
+        }
+    }
+}

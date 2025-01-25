@@ -1,0 +1,21 @@
+{
+    "filename": "supermartijn642corelib-1.1.18-fabric-mc1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "52f4cc790850eacd81d95170acdafbe020f60881",
+        "sha512": "77aebffb2bd4e270a2d9d750907295b94c36b90da60b90eb5ecbd45f7c9ffaad0b8b89030f5421540ea41afc21009a9566a65dbe894910944c6c42ce99b088f7",
+        "murmur2": 1457663008
+    },
+    "fileSize": 587430,
+    "sources": {
+        "curseforge": {
+            "projectId": 454372,
+            "fileUrl": "https://edge.forgecdn.net/files/6034/750/supermartijn642corelib-1.1.18-fabric-mc1.20.1.jar",
+            "fileId": 6034750
+        },
+        "modrinth": {
+            "projectId": "rOUBggPv",
+            "fileUrl": "https://cdn.modrinth.com/data/rOUBggPv/versions/vnByJzWQ/supermartijn642corelib-1.1.18-fabric-mc1.20.1.jar"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "filename": "sliceanddice-fabric-3.3.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "2c146668d44d80af97df15f37165a3a5933b0308",
+        "sha512": "0afb4988affe98b88122285f956d045f4e345aca25c16dd2c62b0d876f1ff21e0f613f2ab06399634ae32ed196ce888b6c7bb7df06c7e4b4a53713761a0fcc94",
+        "murmur2": 1435309265
+    },
+    "fileSize": 563207,
+    "sources": {
+        "curseforge": {
+            "projectId": 659674,
+            "fileUrl": "https://edge.forgecdn.net/files/5749/831/sliceanddice-fabric-3.3.1.jar",
+            "fileId": 5749831
+        },
+        "modrinth": {
+            "projectId": "GmjmRQ0A",
+            "fileUrl": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/EzpVcwYV/sliceanddice-fabric-3.3.1.jar"
+        }
+    }
+}

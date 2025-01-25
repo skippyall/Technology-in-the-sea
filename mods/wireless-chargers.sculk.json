@@ -1,0 +1,21 @@
+{
+    "filename": "wirelesschargers-1.0.9a-fabric-mc1.20.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "2ed1fca40e1ea8a6bacb5bb058959482f7c8435a",
+        "sha512": "586c1b97f104669730f4e9bdd36e2a2edcf51306442dab34cd1607c329d185ae3f8e2d3e6177668b8bff53ea21c90f9f4d90040a0eda91bfb1135a45ce5404da",
+        "murmur2": 1119594410
+    },
+    "fileSize": 348296,
+    "sources": {
+        "curseforge": {
+            "projectId": 510656,
+            "fileUrl": "https://edge.forgecdn.net/files/5294/268/wirelesschargers-1.0.9a-fabric-mc1.20.jar",
+            "fileId": 5294268
+        },
+        "modrinth": {
+            "projectId": "nCk7Sfz8",
+            "fileUrl": "https://cdn.modrinth.com/data/nCk7Sfz8/versions/IYYCJZyP/wirelesschargers-1.0.9a-fabric-mc1.20.jar"
+        }
+    }
+}

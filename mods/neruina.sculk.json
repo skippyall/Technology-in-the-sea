@@ -1,0 +1,21 @@
+{
+    "filename": "Neruina-2.2.7-fabric+1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "ca07ff217675c2f182160d3d7c85a14a37e458f7",
+        "sha512": "d3ad26589f1a4093f1b1a4477914736f1bc042839ecdf588d5be562745a93d7d3e77b923789fb72a134ccaf3e1d9b885dad388de7d541f5bb8d1cc3953e5f4c5",
+        "murmur2": 3222320779
+    },
+    "fileSize": 3783894,
+    "sources": {
+        "curseforge": {
+            "projectId": 851046,
+            "fileUrl": "https://edge.forgecdn.net/files/6017/453/Neruina-2.2.7-fabric%2b1.20.1.jar",
+            "fileId": 6017453
+        },
+        "modrinth": {
+            "projectId": "1s5x833P",
+            "fileUrl": "https://cdn.modrinth.com/data/1s5x833P/versions/WJkokFGw/Neruina-2.2.7-fabric%2B1.20.1.jar"
+        }
+    }
+}

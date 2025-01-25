@@ -1,0 +1,21 @@
+{
+    "filename": "appliedenergistics2-fabric-15.3.2-beta.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "85f6638136ac2e51addc445e9144447987a44497",
+        "sha512": "e3093ac454b666fce6497ad9e4431de23f7f7bfa3145ad7fb23a9ba478cfb34e3e405b1d2897f3f02fb2624eb42b7d5285256ea3130d0b6dd4d06293a82dbdf0",
+        "murmur2": 1434750005
+    },
+    "fileSize": 9870419,
+    "sources": {
+        "curseforge": {
+            "projectId": 223794,
+            "fileUrl": "https://edge.forgecdn.net/files/6014/939/appliedenergistics2-fabric-15.3.2-beta.jar",
+            "fileId": 6014939
+        },
+        "modrinth": {
+            "projectId": "XxWD5pD3",
+            "fileUrl": "https://cdn.modrinth.com/data/XxWD5pD3/versions/gQGsxQoZ/appliedenergistics2-fabric-15.3.2-beta.jar"
+        }
+    }
+}

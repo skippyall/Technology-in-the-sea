@@ -1,0 +1,21 @@
+{
+    "filename": "drippyloadingscreen_fabric_3.0.8_MC_1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "4cadd09fde14ee5207eb7fc595e0bcd1a676c839",
+        "sha512": "894ab2d799b1e10fa0a0381ccdf80cea6ea05e453c312db1137eb4ee49e6bb46b5c82030c2b9597ffb4143f8aa8974702539e45f1f841eae05b12ba68f69c25d",
+        "murmur2": 648630561
+    },
+    "fileSize": 230397,
+    "sources": {
+        "curseforge": {
+            "projectId": 511770,
+            "fileUrl": "https://edge.forgecdn.net/files/5794/101/drippyloadingscreen_fabric_3.0.8_MC_1.20.1.jar",
+            "fileId": 5794101
+        },
+        "modrinth": {
+            "projectId": "v3CYg2V9",
+            "fileUrl": "https://cdn.modrinth.com/data/v3CYg2V9/versions/9x0lKayP/drippyloadingscreen_fabric_3.0.8_MC_1.20.1.jar"
+        }
+    }
+}

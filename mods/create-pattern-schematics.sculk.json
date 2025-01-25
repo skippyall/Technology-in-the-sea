@@ -1,0 +1,21 @@
+{
+    "filename": "pattern_schematics-1.1.16+fabric-1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "d6f93d3b95daaf197168ac80f3a1415ce12d6130",
+        "sha512": "a12f42c976de21c5f9f2ad193caf7d185f63816f46f3318170d499681aaffa3d973804772f0af9eaab4f08373558fd1b0e7e8c0c675b38859e77b9379856ae3e",
+        "murmur2": 2649304855
+    },
+    "fileSize": 215521,
+    "sources": {
+        "curseforge": {
+            "projectId": 1072349,
+            "fileUrl": "https://edge.forgecdn.net/files/5962/763/pattern_schematics-1.1.16%2bfabric-1.20.1.jar",
+            "fileId": 5962763
+        },
+        "modrinth": {
+            "projectId": "cpqKG67r",
+            "fileUrl": "https://cdn.modrinth.com/data/cpqKG67r/versions/TTqV7pm1/pattern_schematics-1.1.16%2Bfabric-1.20.1.jar"
+        }
+    }
+}

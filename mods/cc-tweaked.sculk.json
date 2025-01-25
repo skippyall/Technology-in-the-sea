@@ -1,0 +1,16 @@
+{
+    "filename": "cc-tweaked-1.20.1-fabric-1.114.2.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "38fec6d326ec81d707911969950a0bd70da577cc",
+        "sha512": "c4ebea128203b72f7075bd3403effd7cb0caff99b39bf102c78308a112044d37f22f566a354d5190e1469b873416b07d6afb175379836c917a46242c8a7b33b2",
+        "murmur2": 3134790128
+    },
+    "fileSize": 3456220,
+    "sources": {
+        "modrinth": {
+            "projectId": "gu7yAYhd",
+            "fileUrl": "https://cdn.modrinth.com/data/gu7yAYhd/versions/h2Kak2Xm/cc-tweaked-1.20.1-fabric-1.114.2.jar"
+        }
+    }
+}

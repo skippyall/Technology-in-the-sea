@@ -1,0 +1,16 @@
+{
+    "filename": "turtlechargingstation-1.5.4-1.20.1-fabric.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "6aae3dcfcf4f3bffb8098cb43e8ada7f12fd92cd",
+        "sha512": "751a64e4281b3f4fd99ad3e73f1e63c431073f2908d534f5a784cb32b9abe7f042b4ad679857d50f79c2c66c37eb796bf9dddddabbbe6ad2144605debd341cc1",
+        "murmur2": 2138989756
+    },
+    "fileSize": 316097,
+    "sources": {
+        "modrinth": {
+            "projectId": "f7J3NZvt",
+            "fileUrl": "https://cdn.modrinth.com/data/f7J3NZvt/versions/4r3AUvMB/turtlechargingstation-1.5.4-1.20.1-fabric.jar"
+        }
+    }
+}

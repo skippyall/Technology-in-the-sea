@@ -1,0 +1,21 @@
+{
+    "filename": "bitsandchisels-2.7.3.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "67da7240e5948cd898725b95933466fd3776ad33",
+        "sha512": "434be17efcdb4e63a03927bfff0dd35937abb8cd846bcfdd9b350e517f7dd106d1e20a721084655ded130ad78447ae2a84cb42632788469b37c2124b8f9c3017",
+        "murmur2": 2332577675
+    },
+    "fileSize": 303304,
+    "sources": {
+        "curseforge": {
+            "projectId": 420709,
+            "fileUrl": "https://edge.forgecdn.net/files/4670/613/bitsandchisels-2.7.3.jar",
+            "fileId": 4670613
+        },
+        "modrinth": {
+            "projectId": "q8MC5tW2",
+            "fileUrl": "https://cdn.modrinth.com/data/q8MC5tW2/versions/kqHohJYy/bitsandchisels-2.7.3.jar"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "filename": "emi-1.1.18+1.20.1+fabric.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "a3d0e04cc276327287711cea92564671f0bed21d",
+        "sha512": "a827007f3b040ce2ddb1c082fc256d2c0b220b0042a8b66cec3766339e662c66af9f340942e86d10754a0f49cb1a85da10feecc08054d19cdd231a74dabbb975",
+        "murmur2": 1326149309
+    },
+    "fileSize": 1023360,
+    "sources": {
+        "curseforge": {
+            "projectId": 580555,
+            "fileUrl": "https://edge.forgecdn.net/files/5872/525/emi-1.1.18%2b1.20.1%2bfabric.jar",
+            "fileId": 5872525
+        },
+        "modrinth": {
+            "projectId": "fRiHVvU7",
+            "fileUrl": "https://cdn.modrinth.com/data/fRiHVvU7/versions/7z8wc2Iv/emi-1.1.18%2B1.20.1%2Bfabric.jar"
+        }
+    }
+}

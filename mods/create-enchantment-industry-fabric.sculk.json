@@ -1,0 +1,21 @@
+{
+    "filename": "create_enchantment_industry-1.2.16.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "c1153315e3d0e7d216ca3179e483fe8b9f794433",
+        "sha512": "c9b9c8d03c763aa6e378d20534e8ae25861e6895b8f2f301108ae7271a6bfaceae306f1b45fbf79db5aa05a0164efc57db5dba37be54cc82dc3a652d6f6d5c3d",
+        "murmur2": 1276619316
+    },
+    "fileSize": 520093,
+    "sources": {
+        "curseforge": {
+            "projectId": 876129,
+            "fileUrl": "https://edge.forgecdn.net/files/5170/120/create_enchantment_industry-1.2.16.jar",
+            "fileId": 5170120
+        },
+        "modrinth": {
+            "projectId": "AEZO385x",
+            "fileUrl": "https://cdn.modrinth.com/data/AEZO385x/versions/SI0RzkGk/create_enchantment_industry-1.2.16.jar"
+        }
+    }
+}

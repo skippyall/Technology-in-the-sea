@@ -1,0 +1,21 @@
+{
+    "filename": "create-new-age-fabric-1.20.1-1.1.2.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "b7620a4c47911da46a7fff253ef0ce4ce7aa54ab",
+        "sha512": "a94c20d349546a774a89265c56650e547de353af7e8eb8d7ca7a69033570bdaa7c8d478edda3a6c50379d64d708c3ffd581da4214abc3930694fcf8462b03058",
+        "murmur2": 1985976867
+    },
+    "fileSize": 657516,
+    "sources": {
+        "curseforge": {
+            "projectId": 905861,
+            "fileUrl": "https://edge.forgecdn.net/files/5080/952/create-new-age-fabric-1.20.1-1.1.2.jar",
+            "fileId": 5080952
+        },
+        "modrinth": {
+            "projectId": "FTeXqI9v",
+            "fileUrl": "https://cdn.modrinth.com/data/FTeXqI9v/versions/rk63oafd/create-new-age-fabric-1.20.1-1.1.2.jar"
+        }
+    }
+}

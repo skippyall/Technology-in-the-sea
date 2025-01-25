@@ -1,0 +1,16 @@
+{
+    "filename": "sophisticatedbackpacks-1.20.1-3.20.17.1.60.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "d78278e2cc66d1a3d019803b0b17ef0e291276bd",
+        "sha512": "8f556887a7b166446868718cc4bcb58b8772e677ee6250ae4484acea05a5e21d781e9fa8b2c69b61bc9d7acfca2e1b45a3bf3164ee97c86136671561e70d38bd",
+        "murmur2": 3615787206
+    },
+    "fileSize": 948244,
+    "sources": {
+        "modrinth": {
+            "projectId": "ouNrBQtq",
+            "fileUrl": "https://cdn.modrinth.com/data/ouNrBQtq/versions/QohWxuZ4/sophisticatedbackpacks-1.20.1-3.20.17.1.60.jar"
+        }
+    }
+}

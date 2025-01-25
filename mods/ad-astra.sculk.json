@@ -1,0 +1,21 @@
+{
+    "filename": "ad_astra-fabric-1.20.1-1.15.19.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "f5f13b1431c44b6fafe37ec7b69d9fd9b44fb8bd",
+        "sha512": "3f9eb5857c7a0a078abc11e53627669ccc9eb23177c64b1e5741c6cf2268bd50c9f979a92d746bcd394f7a961c8b9ba346a3ea4452e87ed3583053d2bfcae5cd",
+        "murmur2": 3759323223
+    },
+    "fileSize": 7317497,
+    "sources": {
+        "curseforge": {
+            "projectId": 635042,
+            "fileUrl": "https://edge.forgecdn.net/files/5914/895/ad_astra-fabric-1.20.1-1.15.19.jar",
+            "fileId": 5914895
+        },
+        "modrinth": {
+            "projectId": "3ufwT9JF",
+            "fileUrl": "https://cdn.modrinth.com/data/3ufwT9JF/versions/Xtm1uo8F/ad_astra-fabric-1.20.1-1.15.19.jar"
+        }
+    }
+}

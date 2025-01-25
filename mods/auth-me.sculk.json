@@ -1,0 +1,21 @@
+{
+    "filename": "authme-7.0.2+1.20.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "5e430805cf3dfd79fc5f0995f97604edac1491cd",
+        "sha512": "ddc38925b31596b6dc80acdfeb65a5d0353f2bc1bb5f5fbe368fd39a9d91b77ac3a85d7f16cb54692048160ff53fa64b9d6b47ee0e0bbca1a0789751f4838061",
+        "murmur2": 2993354962
+    },
+    "fileSize": 1250699,
+    "sources": {
+        "curseforge": {
+            "projectId": 356643,
+            "fileUrl": "https://edge.forgecdn.net/files/4629/826/authme-7.0.2%2b1.20.jar",
+            "fileId": 4629826
+        },
+        "modrinth": {
+            "projectId": "yjgIrBjZ",
+            "fileUrl": "https://cdn.modrinth.com/data/yjgIrBjZ/versions/RiTU8rGC/authme-7.0.2%2B1.20.jar"
+        }
+    }
+}

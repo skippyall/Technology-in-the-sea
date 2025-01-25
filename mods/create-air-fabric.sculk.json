@@ -1,0 +1,16 @@
+{
+    "filename": "createairfabric-1.0+1.20.1-18.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "fef489dc4116c8eeb6d0c15472e314cfc128aa9b",
+        "sha512": "2f333870d510cae575499fef796f02837456e90ba08b234152e5adc8687a3455883b72bd1b78f9f997f33931ca9002ebe2bb34ca2fca6b944a0007bea753e2cb",
+        "murmur2": 3767040512
+    },
+    "fileSize": 70712,
+    "sources": {
+        "modrinth": {
+            "projectId": "C90qpzXw",
+            "fileUrl": "https://cdn.modrinth.com/data/C90qpzXw/versions/G7gYc139/createairfabric-1.0%2B1.20.1-18.jar"
+        }
+    }
+}

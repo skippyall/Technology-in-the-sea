@@ -1,0 +1,21 @@
+{
+    "filename": "createdeco-2.0.2-1.20.1-fabric.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "b7b525c64cde199d1ab12fee7f1171812a283646",
+        "sha512": "f7ce4b520b7eb47fb9d1a8f510465b96673dee2d6f91ff0720713ee62143d095b399a980666538ebfb8b401fb5e93baf50a2cb2be6a4f2adfde2024f198a35c9",
+        "murmur2": 3827291203
+    },
+    "fileSize": 3971046,
+    "sources": {
+        "curseforge": {
+            "projectId": 739872,
+            "fileUrl": "https://edge.forgecdn.net/files/5293/979/createdeco-2.0.2-1.20.1-fabric.jar",
+            "fileId": 5293979
+        },
+        "modrinth": {
+            "projectId": "sMvUb4Rb",
+            "fileUrl": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/GsxgfeNu/createdeco-2.0.2-1.20.1-fabric.jar"
+        }
+    }
+}

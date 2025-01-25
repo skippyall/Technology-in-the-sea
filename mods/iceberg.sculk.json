@@ -1,0 +1,21 @@
+{
+    "filename": "Iceberg-1.20.1-fabric-1.1.25.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "365e70abde54faab847d2594420dc2bbd589ad3d",
+        "sha512": "9eb15454de0d42aebbb6357dda55ddd7e634de58e71629b7344e6c6550cbb098002a8fe08aa827280d08ce5685c779398edd1d8fa66e3d4c1a0c43238250732c",
+        "murmur2": 1109845028
+    },
+    "fileSize": 119018,
+    "sources": {
+        "curseforge": {
+            "projectId": 539382,
+            "fileUrl": "https://edge.forgecdn.net/files/5838/145/Iceberg-1.20.1-fabric-1.1.25.jar",
+            "fileId": 5838145
+        },
+        "modrinth": {
+            "projectId": "5faXoLqX",
+            "fileUrl": "https://cdn.modrinth.com/data/5faXoLqX/versions/AiO84cp2/Iceberg-1.20.1-fabric-1.1.25.jar"
+        }
+    }
+}

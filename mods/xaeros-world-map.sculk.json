@@ -1,0 +1,21 @@
+{
+    "filename": "XaerosWorldMap_1.39.2_Fabric_1.20.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "4bce8020d2a50c453bfd941798c8f0f2ee714230",
+        "sha512": "92cfae3f90b13cd2fe17c3e539cf278a6dbcbc29dc40cf741070933fc8874b6e4ecbf7d619522d54d4c23a1f5510f956b42018ea74bd863e84be1a47e16685f8",
+        "murmur2": 2246653484
+    },
+    "fileSize": 950403,
+    "sources": {
+        "curseforge": {
+            "projectId": 317780,
+            "fileUrl": "https://edge.forgecdn.net/files/5987/151/XaerosWorldMap_1.39.2_Fabric_1.20.jar",
+            "fileId": 5987151
+        },
+        "modrinth": {
+            "projectId": "NcUtCpym",
+            "fileUrl": "https://cdn.modrinth.com/data/NcUtCpym/versions/VXCG8MnU/XaerosWorldMap_1.39.2_Fabric_1.20.jar"
+        }
+    }
+}

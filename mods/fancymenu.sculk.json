@@ -1,0 +1,21 @@
+{
+    "filename": "fancymenu_fabric_3.3.2_MC_1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "64b30930082e453d9b31c9fb0d8e4a8bc99a155a",
+        "sha512": "9d0ec1f9498a26d66712dd8fb3f58bd70aca4eccd4e4885b09d9fe1472c8ffcd8203afbe5510738eabefe593622815543e6a818d22b23174050123582e650fa2",
+        "murmur2": 904920627
+    },
+    "fileSize": 2877394,
+    "sources": {
+        "curseforge": {
+            "projectId": 367706,
+            "fileUrl": "https://edge.forgecdn.net/files/5823/941/fancymenu_fabric_3.3.2_MC_1.20.1.jar",
+            "fileId": 5823941
+        },
+        "modrinth": {
+            "projectId": "Wq5SjeWM",
+            "fileUrl": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/XnYGeBPl/fancymenu_fabric_3.3.2_MC_1.20.1.jar"
+        }
+    }
+}

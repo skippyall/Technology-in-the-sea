@@ -1,0 +1,21 @@
+{
+    "filename": "Ad-Astra-Giselle-Addon-fabric-1.20.1-6.5.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "1564f58e5d18dd1d01a2e132f3599fd454b6906c",
+        "sha512": "48a5bf5fc61f0ef770e5b0df8e6fefb58bf981750d915a8122b947ddc5220fd97beac3ba87d2d1494af2b7c071fbe2ec4dc5bf3bd38a06cf8c15f91aa348ce58",
+        "murmur2": 320552805
+    },
+    "fileSize": 363426,
+    "sources": {
+        "curseforge": {
+            "projectId": 714958,
+            "fileUrl": "https://edge.forgecdn.net/files/5132/352/Ad-Astra-Giselle-Addon-fabric-1.20.1-6.5.jar",
+            "fileId": 5132352
+        },
+        "modrinth": {
+            "projectId": "XQDxCBVw",
+            "fileUrl": "https://cdn.modrinth.com/data/XQDxCBVw/versions/MM9gmig3/Ad-Astra-Giselle-Addon-fabric-1.20.1-6.5.jar"
+        }
+    }
+}

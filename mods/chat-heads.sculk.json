@@ -1,0 +1,21 @@
+{
+    "filename": "chat_heads-0.13.7-fabric-1.20.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "0a244a278262aea0945f90bf96e4829af83b740b",
+        "sha512": "7599760e99c7e7e987377d78c5b866640dc44cc0ddceaa62fcd34b171ec7a351f704eed608040929bbae8f3af6f612b944ca4b0be4a7bb58544b6463e38f857d",
+        "murmur2": 4204295577
+    },
+    "fileSize": 76261,
+    "sources": {
+        "curseforge": {
+            "projectId": 407206,
+            "fileUrl": "https://edge.forgecdn.net/files/5936/596/chat_heads-0.13.7-fabric-1.20.jar",
+            "fileId": 5936596
+        },
+        "modrinth": {
+            "projectId": "Wb5oqrBJ",
+            "fileUrl": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/fKY4vKuA/chat_heads-0.13.7-fabric-1.20.jar"
+        }
+    }
+}

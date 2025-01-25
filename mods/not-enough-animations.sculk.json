@@ -1,0 +1,21 @@
+{
+    "filename": "notenoughanimations-fabric-1.9.0-mc1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "475ba5553b9c3078387a91d327b40eb9654d23b7",
+        "sha512": "fa6998871daaa68f4115a0605e88f61ad522ca204274bf823220131d9ed61e1b937ef002563fe1a6978632bb34917398b05b5d8a472a4e0907ee2fd486b59e1e",
+        "murmur2": 3876639951
+    },
+    "fileSize": 440757,
+    "sources": {
+        "curseforge": {
+            "projectId": 433760,
+            "fileUrl": "https://edge.forgecdn.net/files/6019/990/notenoughanimations-fabric-1.9.0-mc1.20.1.jar",
+            "fileId": 6019990
+        },
+        "modrinth": {
+            "projectId": "MPCX6s5C",
+            "fileUrl": "https://cdn.modrinth.com/data/MPCX6s5C/versions/uGFFRHD6/notenoughanimations-fabric-1.9.0-mc1.20.1.jar"
+        }
+    }
+}

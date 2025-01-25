@@ -1,0 +1,21 @@
+{
+    "filename": "create_jetpack-fabric-4.2.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "971c4e3a425573d28ddf6ebbd1ca83c1ef38f247",
+        "sha512": "c3e62854591196ba225c57fe5a24a4ae50389c3f8bfb928f18a8235d954624f028d3707acb4299e4c9e41378afa582b305d38105d7946f0b91f0440bbd26d1ae",
+        "murmur2": 103904229
+    },
+    "fileSize": 223957,
+    "sources": {
+        "curseforge": {
+            "projectId": 655608,
+            "fileUrl": "https://edge.forgecdn.net/files/5922/316/create_jetpack-fabric-4.2.1.jar",
+            "fileId": 5922316
+        },
+        "modrinth": {
+            "projectId": "UbFnAd4l",
+            "fileUrl": "https://cdn.modrinth.com/data/UbFnAd4l/versions/8uCe6WkD/create_jetpack-fabric-4.2.1.jar"
+        }
+    }
+}

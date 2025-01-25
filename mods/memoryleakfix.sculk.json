@@ -1,0 +1,16 @@
+{
+    "filename": "memoryleakfix-fabric-1.17+-1.1.5.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "784bbbe9c64ac9d3d4ad19786c02291e607fcf4e",
+        "sha512": "a7bf7429340d076f4b30602bc714280c3f5cb8e814e76e89296c8155e3355b33304a148e9218378a3383127e95b7ba47402506c687f1d58609704fe8cc60ab93",
+        "murmur2": 753446388
+    },
+    "fileSize": 49334,
+    "sources": {
+        "modrinth": {
+            "projectId": "NRjRiSSD",
+            "fileUrl": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar"
+        }
+    }
+}

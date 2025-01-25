@@ -1,0 +1,21 @@
+{
+    "filename": "Botania-1.20.1-446-FABRIC.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "a7f668a85b88b3c9ce5fdf151fa372a62dff0b03",
+        "sha512": "2a0d4dea002b6de97cd126e978e2659e2dabe1da43c68e757ad2cccbc44a41357e939c3614257739e5aa0f5840df8880ffbd9c9e9e2989e037d9b89a2f3e33eb",
+        "murmur2": 3808139988
+    },
+    "fileSize": 12623115,
+    "sources": {
+        "curseforge": {
+            "projectId": 421839,
+            "fileUrl": "https://edge.forgecdn.net/files/5594/996/Botania-1.20.1-446-FABRIC.jar",
+            "fileId": 5594996
+        },
+        "modrinth": {
+            "projectId": "pfjLUfGv",
+            "fileUrl": "https://cdn.modrinth.com/data/pfjLUfGv/versions/8kglDuQk/Botania-1.20.1-446-FABRIC.jar"
+        }
+    }
+}

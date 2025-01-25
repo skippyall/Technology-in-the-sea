@@ -1,0 +1,21 @@
+{
+    "filename": "peripheralworks-fabric-1.20.1-1.4.4.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "947380bc2e70c15f1e44415fe05b82e61fee9102",
+        "sha512": "7ab309ed37dc50222b2a596702c250b3b92237c443f665b8bf3562963b18b402fd2a5cc98aee9ec7f5161ce3515df2d687860384f83286ef9cdcd716792baff2",
+        "murmur2": 2484897808
+    },
+    "fileSize": 943870,
+    "sources": {
+        "curseforge": {
+            "projectId": 621851,
+            "fileUrl": "https://edge.forgecdn.net/files/5647/709/peripheralworks-fabric-1.20.1-1.4.4.jar",
+            "fileId": 5647709
+        },
+        "modrinth": {
+            "projectId": "Sf7QBsRP",
+            "fileUrl": "https://cdn.modrinth.com/data/Sf7QBsRP/versions/I1L2tTCe/peripheralworks-fabric-1.20.1-1.4.4.jar"
+        }
+    }
+}

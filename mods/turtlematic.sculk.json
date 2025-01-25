@@ -1,0 +1,21 @@
+{
+    "filename": "turtlematic-fabric-1.20.1-1.3.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "b10d9ebaf99f6ce3633612cf36d35ae99b68e0c1",
+        "sha512": "c023ad2b9115145bd2bd58850c0705421f1dc7d94bc283fd7bfd8c8fe9ac416e4502b48eb4bc1e9739e167c95c26d1daf38a048207be4eff5da45f0d3de99ce7",
+        "murmur2": 2418699388
+    },
+    "fileSize": 663886,
+    "sources": {
+        "curseforge": {
+            "projectId": 618288,
+            "fileUrl": "https://edge.forgecdn.net/files/5647/719/turtlematic-fabric-1.20.1-1.3.1.jar",
+            "fileId": 5647719
+        },
+        "modrinth": {
+            "projectId": "UogK5QqE",
+            "fileUrl": "https://cdn.modrinth.com/data/UogK5QqE/versions/tbbVplTH/turtlematic-fabric-1.20.1-1.3.1.jar"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "filename": "Clumps-fabric-1.20.1-12.0.0.4.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "4a845a29ddfd40bcc4695bbbc82872c237dbbac5",
+        "sha512": "047da3de837330310e85e606f960e89fcc253d988ad2fe2cfdf64fd11503bb22bc28d9fe03885dc178955d0a433ad33d791f058e6ca296f4a63216a732998be9",
+        "murmur2": 179162416
+    },
+    "fileSize": 21987,
+    "sources": {
+        "curseforge": {
+            "projectId": 256717,
+            "fileUrl": "https://edge.forgecdn.net/files/5278/537/Clumps-fabric-1.20.1-12.0.0.4.jar",
+            "fileId": 5278537
+        }
+    }
+}

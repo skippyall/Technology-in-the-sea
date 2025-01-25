@@ -1,0 +1,21 @@
+{
+    "filename": "ItemPhysic_FABRIC_v1.8.4_mc1.20.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "904b892684e64baa76753373c8d049797c0094ba",
+        "sha512": "a344dd5b522de300fcbea293b26759ce55351d86c104f845db623f6ed1526fd33904aba8335e876d57bdf8eff9d3380468246565d37e4d81f0f516e3bd64c98f",
+        "murmur2": 3448793300
+    },
+    "fileSize": 55435,
+    "sources": {
+        "curseforge": {
+            "projectId": 258587,
+            "fileUrl": "https://edge.forgecdn.net/files/6045/996/ItemPhysic_FABRIC_v1.8.4_mc1.20.1.jar",
+            "fileId": 6045996
+        },
+        "modrinth": {
+            "projectId": "aT8BzaOj",
+            "fileUrl": "https://cdn.modrinth.com/data/aT8BzaOj/versions/3CVfTuzD/ItemPhysic_FABRIC_v1.8.4_mc1.20.1.jar"
+        }
+    }
+}
