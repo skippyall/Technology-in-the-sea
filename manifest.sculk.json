@@ -157,10 +157,6 @@
             "sha256": "c55866e6f5bcaaae162d7c81dc358d2432c517f0aab07731b726d4d0985f80de"
         },
         {
-            "path": "mods/architectury-api.sculk.json",
-            "sha256": "84ede6a145131f60fe6f2e14a6fa1570c9dbe04b046e58d7819675781d6270e7"
-        },
-        {
             "path": "mods/athena-ctm.sculk.json",
             "sha256": "6c07a45a5c88cdcbb579a2bda845f334f1e619aee601b4107a41284f92f0129a"
         },
@@ -249,10 +245,6 @@
             "sha256": "f7e21877c38e3faab912cb19a807b40ae4c30c36bf1594b89bd8a947d8b71c6b"
         },
         {
-            "path": "mods/create-air-fabric.sculk.json",
-            "sha256": "4f7cc7af2f816878b2beda536bdfdc79c4d0d0e3a059eda5214b86e8e69e19e4"
-        },
-        {
             "path": "mods/create-deco.sculk.json",
             "sha256": "ac5854cc839171fd12e2ee02957e8c4ad8e10874acede2f58c617292cd158181"
         },
@@ -318,7 +310,7 @@
         },
         {
             "path": "mods/fzzy-config.sculk.json",
-            "sha256": "77e30e9d37f8dcc92a7b6d2724b69fbb9bbcee5ffcd15ce059e8a2714f88d113"
+            "sha256": "b6936adb21d09f063f00488e26c1e04aa7ea867d967d4c732108f1fd84ded97d"
         },
         {
             "path": "mods/indium.sculk.json",
@@ -469,16 +461,8 @@
             "sha256": "a05a84edef4f3de5694c78290b03ca7067c431a50394ddd772d65b4b6b3437d8"
         },
         {
-            "path": "mods/telluriumforge.sculk.json",
-            "sha256": "4339aa0f6b186b242e2b7106b77cf930e1fd42d2323c086c0bf4d1e5530c359a"
-        },
-        {
             "path": "mods/trinkets.sculk.json",
             "sha256": "5f0912d70839384acba2c43057f8cecec4361158d1503f83c5a6805e3fb76d45"
-        },
-        {
-            "path": "mods/turtle-charging-station.sculk.json",
-            "sha256": "91348a1900543ca26da047f0fc2435627cd6d3f4ff1e3e375c9c2426f72b4eae"
         },
         {
             "path": "mods/turtlematic.sculk.json",
@@ -505,8 +489,16 @@
             "sha256": "e5a8ceef9c3761adfb2529c62f9cdb57cf6890a1301a8087566cdb058aa20f3b"
         },
         {
-            "path": "mods/staff-of-building.sculk.json",
-            "sha256": "9af5ae55d4c6e7ff9a090f87c8983d4bc97c75910777dfce47c069df46f8eb80"
+            "path": "mods/owo-lib.sculk.json",
+            "sha256": "3d3bf19fbfd88122fb55cac1f3a95435f2a9581ee6d01365cfebb4dad2281635"
+        },
+        {
+            "path": "mods/architectury-api.sculk.json",
+            "sha256": "84ede6a145131f60fe6f2e14a6fa1570c9dbe04b046e58d7819675781d6270e7"
+        },
+        {
+            "path": "mods/construction-wand-fabric.sculk.json",
+            "sha256": "d142e27ad8c67bf67cf2e6b90b24da2388f1e48136015ffbe9207d6b00dfaa1f"
         }
     ],
     "files": [
