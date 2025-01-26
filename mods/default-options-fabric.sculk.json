@@ -1,0 +1,17 @@
+{
+    "filename": "defaultoptions-fabric-1.20-18.0.1.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "26701ef8fb983de5b6655f5f648a0859a93a338a",
+        "sha512": "38325d96dc186195272c4b3597aaf56ef2cae81cc3a116d0a0169299ba13969f7535205171406b30218430cf64286f96c05801ad71393fa05e35c343c7a7d134",
+        "murmur2": 1485538509
+    },
+    "fileSize": 87707,
+    "sources": {
+        "curseforge": {
+            "projectId": 547694,
+            "fileUrl": "https://edge.forgecdn.net/files/4635/875/defaultoptions-fabric-1.20-18.0.1.jar",
+            "fileId": 4635875
+        }
+    }
+}

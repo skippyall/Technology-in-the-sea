@@ -29,10 +29,6 @@
             "sha256": "8b28910cbf0f54a59f6ae9128f4f9f23020a31d7853ccf487a3ca16627119730"
         },
         {
-            "path": "mods/controlling.sculk.json",
-            "sha256": "40b7bef76e8c8544e39c051ff7b877f01711999041ba2eabf0caf203a03684c7"
-        },
-        {
             "path": "mods/numismatics.sculk.json",
             "sha256": "80f32406a7bac05a7662358217bfc680cbc3f29122049ff5b345c99ec8fa5654"
         },
@@ -105,10 +101,6 @@
             "sha256": "cc24c003bf9d16816d8b6f57a27e6c01bce8476ade05d132d3ed01cdd604f419"
         },
         {
-            "path": "mods/searchables.sculk.json",
-            "sha256": "b1adeae0dafaeee851e69ae04514fdb449d263a3230554d681f238762373b7cb"
-        },
-        {
             "path": "mods/create-steam-n-rails.sculk.json",
             "sha256": "94df70bcff4fce49bb81b1e1085567982b9717df07f871074b23570fbf211d73"
         },
@@ -169,10 +161,6 @@
             "sha256": "57d0c51619024ff64704af97bdfa95985afc3c31f6962e170e56858544750871"
         },
         {
-            "path": "mods/balm.sculk.json",
-            "sha256": "dc47be49b6ab71d0f851171a2f8d4a50d126600b05c14eb0d15e0e045106b750"
-        },
-        {
             "path": "mods/bellsandwhistles.sculk.json",
             "sha256": "615a5ad893746cda75ca8c1391645aab257b70d414b5364538eb05b55048a2f8"
         },
@@ -183,10 +171,6 @@
         {
             "path": "mods/botarium.sculk.json",
             "sha256": "dc55f94e7a044c63d3cce9f18eb4725e79ccef9a1cbc96eac8fa91085da09604"
-        },
-        {
-            "path": "mods/cc-tweaked.sculk.json",
-            "sha256": "4e9ae9b128045d20668254731fb73e6a4d6ac17dc8a6d9c3994be590ab221a98"
         },
         {
             "path": "mods/cccbridge.sculk.json",
@@ -249,10 +233,6 @@
             "sha256": "f7e21877c38e3faab912cb19a807b40ae4c30c36bf1594b89bd8a947d8b71c6b"
         },
         {
-            "path": "mods/create-air-fabric.sculk.json",
-            "sha256": "4f7cc7af2f816878b2beda536bdfdc79c4d0d0e3a059eda5214b86e8e69e19e4"
-        },
-        {
             "path": "mods/create-deco.sculk.json",
             "sha256": "ac5854cc839171fd12e2ee02957e8c4ad8e10874acede2f58c617292cd158181"
         },
@@ -273,10 +253,6 @@
             "sha256": "586b070fe9a629abd37911d0b0c905441f4ef412cf2f6a9acef4304b12d5c941"
         },
         {
-            "path": "mods/default-options.sculk.json",
-            "sha256": "d74c053e8cbe0ef3cddf2fe6a1d8f606976a123697946815119565c93b7f63b7"
-        },
-        {
             "path": "mods/drippy-loading-screen.sculk.json",
             "sha256": "99e845ba440b4f48bd995858cc06ebdb07b4d3e71627f917332afbb592f3112b"
         },
@@ -291,10 +267,6 @@
         {
             "path": "mods/emitrades.sculk.json",
             "sha256": "fff2a6d5d85e1967c1bc530d2ada0112ba4e741f91255fa77ce9f1eef2b809f9"
-        },
-        {
-            "path": "mods/entityculling.sculk.json",
-            "sha256": "037106b6b8ae898ef33d69e8b4a18c0467848e3739886a7bbe2db812e0d83a37"
         },
         {
             "path": "mods/extra-mod-integrations.sculk.json",
@@ -363,10 +335,6 @@
         {
             "path": "mods/melody.sculk.json",
             "sha256": "ab4978fd3ef9888fbf0c5755a089b94d49a221f1c8dd90d85062644f346b205d"
-        },
-        {
-            "path": "mods/memoryleakfix.sculk.json",
-            "sha256": "c6a9456a5bf8da13cd8f530e261e5bb81b1453abe56eb375b46199f03c59a6bc"
         },
         {
             "path": "mods/mixintrace.sculk.json",
@@ -445,14 +413,6 @@
             "sha256": "4faf43a599e1635849debb3eae6145c1cfa3dcac03f9e46d07ce4bae2084fcf1"
         },
         {
-            "path": "mods/sophisticated-backpacks-(unoffical-fabric-port).sculk.json",
-            "sha256": "9cb925f3d7df423236f0a226b52349f1f8e8b30fd6d4828768e49efbb5928d71"
-        },
-        {
-            "path": "mods/sophisticated-core-(unofficial-fabric-port).sculk.json",
-            "sha256": "d37deacded0d15f577b610fbbcc629047a38ee44b16b29a8bc0cbcc7578ed8a1"
-        },
-        {
             "path": "mods/spark.sculk.json",
             "sha256": "8a9ccdd6c288bada1f90a5d201ad0b597ee7cd3e8dd5aae488ebf72a0e689276"
         },
@@ -469,16 +429,8 @@
             "sha256": "a05a84edef4f3de5694c78290b03ca7067c431a50394ddd772d65b4b6b3437d8"
         },
         {
-            "path": "mods/telluriumforge.sculk.json",
-            "sha256": "4339aa0f6b186b242e2b7106b77cf930e1fd42d2323c086c0bf4d1e5530c359a"
-        },
-        {
             "path": "mods/trinkets.sculk.json",
             "sha256": "5f0912d70839384acba2c43057f8cecec4361158d1503f83c5a6805e3fb76d45"
-        },
-        {
-            "path": "mods/turtle-charging-station.sculk.json",
-            "sha256": "91348a1900543ca26da047f0fc2435627cd6d3f4ff1e3e375c9c2426f72b4eae"
         },
         {
             "path": "mods/turtlematic.sculk.json",
@@ -501,12 +453,32 @@
             "sha256": "ba6572f51fd512d39c08ad6e0f2d11c18fcfc372e12a6a91238b0424af227517"
         },
         {
-            "path": "mods/clumps.sculk.json",
-            "sha256": "e5a8ceef9c3761adfb2529c62f9cdb57cf6890a1301a8087566cdb058aa20f3b"
+            "path": "mods/cc-tweaked.sculk.json",
+            "sha256": "928a185c1a14353e499dee0214b60ea662d86dcfa4b7a244fac6009e59dadeb1"
         },
         {
-            "path": "mods/staff-of-building.sculk.json",
-            "sha256": "9af5ae55d4c6e7ff9a090f87c8983d4bc97c75910777dfce47c069df46f8eb80"
+            "path": "mods/default-options-fabric.sculk.json",
+            "sha256": "4e4a5b8201d5a6ed372d47d79086af3805b745bf867fd1a09021b48164922e65"
+        },
+        {
+            "path": "mods/balm-fabric.sculk.json",
+            "sha256": "104b51ce641e65b4a6075b0610153be27f5e35067c3e5acd3b85c0ead06f0570"
+        },
+        {
+            "path": "mods/sophisticated-backpacks-unofficial-fabric-port.sculk.json",
+            "sha256": "8d9672de6c5ddb2341dc3346de499b4eb0ab9c291d269e429f26b49862088d9a"
+        },
+        {
+            "path": "mods/sophisticated-core-unofficial-fabric-port.sculk.json",
+            "sha256": "22cf9edaa5e0fd1077a71f236951bac81aef3d5867ad7cd8b60d4c898cbfb102"
+        },
+        {
+            "path": "mods/clumps.sculk.json",
+            "sha256": "73f398a18c54e6d025895bc36f0acb88b29ede5c116a5c469e6bb1f1db8c49d8"
+        },
+        {
+            "path": "mods/construction-wand-fabric.sculk.json",
+            "sha256": "c7e0361a8255ca7e3ba26f40a31dc87d6a7105d6b85172daa12db310974a1ac0"
         }
     ],
     "files": [

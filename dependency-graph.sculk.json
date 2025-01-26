@@ -1,1 +1,8 @@
-{}
+{
+    "mods/balm-fabric.sculk.json": [
+        "mods/default-options-fabric.sculk.json"
+    ],
+    "mods/sophisticated-core-unofficial-fabric-port.sculk.json": [
+        "mods/sophisticated-backpacks-unofficial-fabric-port.sculk.json"
+    ]
+}

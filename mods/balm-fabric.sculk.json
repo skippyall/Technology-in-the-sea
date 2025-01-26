@@ -1,0 +1,17 @@
+{
+    "filename": "balm-fabric-1.20.1-7.3.11.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "e1e8b3a8ed540272c1d0d4a8ae6c11cafc3a8b3f",
+        "sha512": "ffb5aa9b6cdad1e4f83ade23528d8f2d7c14d382b3a9817a78910233601875e5a021eeff100e1d777b7adae3aecb4af7cef4355ba416526df7156b20d4a60d2d",
+        "murmur2": 3755637293
+    },
+    "fileSize": 411523,
+    "sources": {
+        "curseforge": {
+            "projectId": 500525,
+            "fileUrl": "https://edge.forgecdn.net/files/6077/678/balm-fabric-1.20.1-7.3.11.jar",
+            "fileId": 6077678
+        }
+    }
+}

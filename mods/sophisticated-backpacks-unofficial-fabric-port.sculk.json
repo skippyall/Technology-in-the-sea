@@ -1,0 +1,17 @@
+{
+    "filename": "sophisticatedbackpacks-1.20.1-3.21.2.1.81.jar",
+    "side": "both",
+    "hashes": {
+        "sha1": "615f3cfaa122b8653ff84f94636fb5b7b1939ccc",
+        "sha512": "f45dbb55613186f0b5e89119a907b232b67dbe62bd2d8a34bfb0966006bed05866993e9939b12ec493c962ebcfe5f1629502c334b1a4a57b8750a1133964d76c",
+        "murmur2": 2846273566
+    },
+    "fileSize": 970105,
+    "sources": {
+        "curseforge": {
+            "projectId": 979322,
+            "fileUrl": "https://edge.forgecdn.net/files/6099/410/sophisticatedbackpacks-1.20.1-3.21.2.1.81.jar",
+            "fileId": 6099410
+        }
+    }
+}

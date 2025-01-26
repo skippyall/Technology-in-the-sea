@@ -1,16 +1,17 @@
 {
-    "filename": "cc-tweaked-1.20.1-fabric-1.114.3.jar",
+    "filename": "cc-tweaked-1.20.1-fabric-1.113.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "cd8d339d74b0543de1c94854ef3b60a68d0c8953",
-        "sha512": "309c83dd869019e9d2dfb76c8ef4ec429214e189d0b34ff639147b7f00540aa2f7dd451bddccbca63226cb66314e8ad0b7c6552daadb74543b1dc136600c9f82",
-        "murmur2": 3134790128
+        "sha1": "6c8177da26d3de753599884a78b61d3f2b2598c4",
+        "sha512": "a5024ac6da3004396c8aaa275ee6096802ac0fc8fb2fbf8aa6b6287e45820b8f6c1bd1f922340b8750010b1051739547c1abf1b003f437a223624fe4f1a88891",
+        "murmur2": 3061142767
     },
-    "fileSize": 3550863,
+    "fileSize": 3423775,
     "sources": {
-        "modrinth": {
-            "projectId": "gu7yAYhd",
-            "fileUrl": "https://cdn.modrinth.com/data/gu7yAYhd/versions/z3c0AlLN/cc-tweaked-1.20.1-fabric-1.114.3.jar"
+        "curseforge": {
+            "projectId": 282001,
+            "fileUrl": "https://edge.forgecdn.net/files/5714/509/cc-tweaked-1.20.1-fabric-1.113.1.jar",
+            "fileId": 5714509
         }
     }
 }
