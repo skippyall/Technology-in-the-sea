@@ -1,21 +1,21 @@
 {
-    "filename": "fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+    "filename": "fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
     "side": "both",
     "hashes": {
-        "sha1": "e3d4ebcc5aef85967ba622f9631e0897cbcd4e2c",
-        "sha512": "bd6acac5e2196aae0095ec453aec46d54e0d925289895fac94b1426cabd3db7e275302502475c61b9719fc8f026e7aaa305122dcdf374c58620bc38b8b4e99a7",
+        "sha1": "b28cc99b01aef86d0d6ca3ea7f468512bd0595c4",
+        "sha512": "8e3609ef53a731c5509b304397e7fd4e37f2bbb4353b0d6234e74438846f0464743022f3339ba4f5acf21b023c80420ce59c194c1dfb11aeb79caffa6f842fb6",
         "murmur2": 966928508
     },
-    "fileSize": 7089756,
+    "fileSize": 7107488,
     "sources": {
         "curseforge": {
             "projectId": 308769,
-            "fileUrl": "https://edge.forgecdn.net/files/5950/505/fabric-language-kotlin-1.13.0%2bkotlin.2.1.0.jar",
-            "fileId": 5950505
+            "fileUrl": "https://edge.forgecdn.net/files/6133/24/fabric-language-kotlin-1.13.1%2bkotlin.2.1.10.jar",
+            "fileId": 6133024
         },
         "modrinth": {
             "projectId": "Ha28R6CL",
-            "fileUrl": "https://cdn.modrinth.com/data/Ha28R6CL/versions/csX9r2wS/fabric-language-kotlin-1.13.0%2Bkotlin.2.1.0.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/Ha28R6CL/versions/476dzMG5/fabric-language-kotlin-1.13.1%2Bkotlin.2.1.10.jar"
         }
     }
 }

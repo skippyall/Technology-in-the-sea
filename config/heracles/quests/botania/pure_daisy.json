@@ -2,7 +2,14 @@
   "dependencies": [
     "petal_apothecary"
   ],
-  "tasks": {},
+  "tasks": {
+    "pure_daisy": {
+      "type": "heracles:item",
+      "item": "botania:pure_daisy",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

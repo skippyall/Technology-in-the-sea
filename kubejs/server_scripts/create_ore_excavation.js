@@ -1,7 +1,3 @@
-ServerEvents.tags("minecraft:worldgen/biome", event => {
-    event.add("technologyinthesea:moon_biomes", "ad_astra:lunar_wastelands")
-})
-
 ServerEvents.recipes(event => {
     event.remove({output: "createoreexcavation:drilling_machine"})
     event.remove({output: "createoreexcavation:extractor"})
@@ -37,11 +33,4 @@ ServerEvents.recipes(event => {
             "G": "create:metal_girder"
         }
     )
-
-    event.recipes.createoreexcavation.vein("Desh Vein", "ad_astra:raw_desh")
-        .placement(384, 64, 133023984)
-        .biomeWhitelist("technologyinthesea:moon_biomes")
-        .id("technologyinthesea:desh_vein")
-
-    event.recipes.createoreexcavation.drilling("ad_astra:raw_desh", "technologyinthesea:desh_vein", 1500)
 })

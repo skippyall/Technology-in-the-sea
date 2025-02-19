@@ -1,21 +1,21 @@
 {
-    "filename": "notenoughanimations-fabric-1.9.1-mc1.20.1.jar",
+    "filename": "notenoughanimations-fabric-1.9.2-mc1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "2be7e913b54cd1f3d2d738fea217870008ecbf9e",
-        "sha512": "755b8581b4ef9a2081192328e5accf1ce12aa1ea9875ac56e153bcc8c7bdce1e612e7cc81d9bb0296ac19558fec429ae13397880511a49b4f1a42cb1c98db314",
+        "sha1": "4a0f326c7f48dc307fbc589ae7df9bc16c431c03",
+        "sha512": "e37e5bfd29fff3272fa516e8267e7d9a6fd06b5a1dde5c4eaa7d0938936942669e4966fb41befb884f8c4f0318d97f19b714aae0325898b9bfff951cd7a11b79",
         "murmur2": 3876639951
     },
-    "fileSize": 444338,
+    "fileSize": 450578,
     "sources": {
         "curseforge": {
             "projectId": 433760,
-            "fileUrl": "https://edge.forgecdn.net/files/6100/500/notenoughanimations-fabric-1.9.1-mc1.20.1.jar",
-            "fileId": 6100500
+            "fileUrl": "https://edge.forgecdn.net/files/6179/88/notenoughanimations-fabric-1.9.2-mc1.20.1.jar",
+            "fileId": 6179088
         },
         "modrinth": {
             "projectId": "MPCX6s5C",
-            "fileUrl": "https://cdn.modrinth.com/data/MPCX6s5C/versions/ftMaR4HE/notenoughanimations-fabric-1.9.1-mc1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/MPCX6s5C/versions/sXmCy47p/notenoughanimations-fabric-1.9.2-mc1.20.1.jar"
         }
     }
 }

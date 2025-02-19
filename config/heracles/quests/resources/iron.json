@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "resources",
-    "millstone"
+    "resources"
   ],
   "tasks": {
     "zinc": {

@@ -1,6 +1,6 @@
 const disable_items = [
-    "wormhole:coal_generator",
-    "ad_astra:coal_generator"
+    "ad_astra:coal_generator",
+    "ae2:vibration_chamber"
 ];
 
 ServerEvents.recipes(event => {
@@ -8,4 +8,3 @@ ServerEvents.recipes(event => {
         event.remove({output:value});
     });
 });
-

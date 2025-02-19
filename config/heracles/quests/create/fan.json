@@ -8,6 +8,12 @@
       "item": "create:encased_fan",
       "amount": 1,
       "collection": "AUTOMATIC"
+    },
+    "crank": {
+      "type": "heracles:item",
+      "item": "create:hand_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},

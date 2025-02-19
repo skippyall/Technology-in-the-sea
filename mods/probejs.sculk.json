@@ -1,18 +1,13 @@
 {
-    "filename": "probejs-6.0.1-fabric.jar",
+    "filename": "probejs-6.0.0-fabric.jar",
     "side": "both",
     "hashes": {
-        "sha1": "6e3adc6ca671414b8b8044ceeaf247f212765999",
-        "sha512": "3dd0c67c8abd0f9fdc304667fdc044c4914c53afdea49384e6ee36f1973aed2862269121f9a30e0582d08ad76de02deff28e42f37538b1e33aae8317db81025b",
+        "sha1": "8cfcbc17c7ffafb5558f5e78c3b1fd9105d4f847",
+        "sha512": "1641cd45320c89f5774270f23fdce48c6ef8cb0ce9aa4c45d6876db6d7aab60b6a8ec8bc73563c80e0e8d58ab40a338cbd52108e4271f6b199bc40629aec4175",
         "murmur2": 702565429
     },
-    "fileSize": 2358139,
+    "fileSize": 981009,
     "sources": {
-        "curseforge": {
-            "projectId": 585406,
-            "fileUrl": "https://edge.forgecdn.net/files/5227/391/probejs-6.0.1-fabric.jar",
-            "fileId": 5227391
-        },
         "modrinth": {
             "projectId": "JJNYRb4B",
             "fileUrl": "https://cdn.modrinth.com/data/JJNYRb4B/versions/yzoeAC7L/probejs-6.0.0-fabric.jar"

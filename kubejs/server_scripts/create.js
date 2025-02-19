@@ -1,4 +1,5 @@
-function createRecipe(event,type,input,output,extra) {
+// priority: 1
+function createRecipe(/** @type {Internal.RecipesEventJS} */ event, /** @type {string} */ type, /** @type {{}[]} */ input, /** @type {{}[]} */ output, /** @type {{}} */ extra) {
     return event.custom(Object.assign({
         "type": type,
         "ingredients": input,

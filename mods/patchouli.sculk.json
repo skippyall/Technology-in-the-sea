@@ -1,21 +1,21 @@
 {
-    "filename": "Patchouli-1.20.1-84-FABRIC.jar",
+    "filename": "Patchouli-1.20.1-84.1-FABRIC.jar",
     "side": "both",
     "hashes": {
-        "sha1": "acbbeaae2f57052058a8444439f93d9a2d3efaf2",
-        "sha512": "b20cebaab0972443ccc7f3b10b2038d32cfa7baa953a1cc8de6333fa711f63fd51b1b5933e0f2757445385b98e132ef295bd7c17f67ebb44bc8481295329d8bf",
+        "sha1": "ac0b6b19b150fcb97dc037df26a298ab93f2cd90",
+        "sha512": "a08ae7db9381bf44ff5a22e5fa0cc44ff744fe220df6c88863eded09274786609e8705dc6a31f70c072127c81255a413d37aa479dd2aaf07bc7ed0c822e0a070",
         "murmur2": 1613838849
     },
-    "fileSize": 856882,
+    "fileSize": 857105,
     "sources": {
         "curseforge": {
             "projectId": 393236,
-            "fileUrl": "https://edge.forgecdn.net/files/4966/124/Patchouli-1.20.1-84-FABRIC.jar",
-            "fileId": 4966124
+            "fileUrl": "https://edge.forgecdn.net/files/6164/574/Patchouli-1.20.1-84.1-FABRIC.jar",
+            "fileId": 6164574
         },
         "modrinth": {
             "projectId": "nU0bVIaL",
-            "fileUrl": "https://cdn.modrinth.com/data/nU0bVIaL/versions/Y6tuH1cn/Patchouli-1.20.1-84-FABRIC.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/nU0bVIaL/versions/Muu5nGmj/Patchouli-1.20.1-84.1-FABRIC.jar"
         }
     }
 }

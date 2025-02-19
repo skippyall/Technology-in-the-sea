@@ -1,21 +1,21 @@
 {
-    "filename": "CreateNumismatics-1.0.10+fabric-mc1.20.1.jar",
+    "filename": "CreateNumismatics-1.0.11+fabric-mc1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "fe8a790c0eb06eb958c4ec102db8667447b6e711",
-        "sha512": "b5dc8ff2b72bf3ee65e98e9ad95e1313e4ad5213194587ede87f037e7c08a64c5dddd631436c72e5cdf4e7f643fcf0ffc0a7046490f0a45786cc143048ac3a2b",
+        "sha1": "0bc4646f6bec38a133fdf83fb546c98c844c6bd8",
+        "sha512": "fbab8909921d7a88b72ec4c3d34a842c936ce82b08015b18636b444f97d9257f288b0a2d04a6c0386024f224e137817d42c801961b3680ccca29a2313f4663a4",
         "murmur2": 1646092619
     },
-    "fileSize": 711189,
+    "fileSize": 711191,
     "sources": {
         "curseforge": {
             "projectId": 889722,
-            "fileUrl": "https://edge.forgecdn.net/files/5982/781/CreateNumismatics-1.0.10%2bfabric-mc1.20.1.jar",
-            "fileId": 5982781
+            "fileUrl": "https://edge.forgecdn.net/files/6192/457/CreateNumismatics-1.0.11%2bfabric-mc1.20.1.jar",
+            "fileId": 6192457
         },
         "modrinth": {
             "projectId": "Jdbbtt0i",
-            "fileUrl": "https://cdn.modrinth.com/data/Jdbbtt0i/versions/TYxoB2MX/CreateNumismatics-1.0.10%2Bfabric-mc1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/Jdbbtt0i/versions/vnV7qp9x/CreateNumismatics-1.0.11%2Bfabric-mc1.20.1.jar"
         }
     }
 }

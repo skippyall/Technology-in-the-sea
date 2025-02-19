@@ -8,6 +8,11 @@
     },
     "fileSize": 612049,
     "sources": {
+        "curseforge": {
+            "projectId": 1035665,
+            "fileUrl": "https://edge.forgecdn.net/files/5662/3/constructionwand-1.0.6%2b1.20.1.jar",
+            "fileId": 5662003
+        },
         "modrinth": {
             "projectId": "SdT4Yu5L",
             "fileUrl": "https://cdn.modrinth.com/data/SdT4Yu5L/versions/vQw4OLOu/constructionwand-1.0.6%2B1.20.1.jar"

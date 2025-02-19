@@ -1,21 +1,21 @@
 {
-    "filename": "Xaeros_Minimap_25.0.0_Fabric_1.20.jar",
+    "filename": "Xaeros_Minimap_25.1.0_Fabric_1.20.jar",
     "side": "both",
     "hashes": {
-        "sha1": "e3c0726b03a8de9be98a8291e8c472dcb617ef1c",
-        "sha512": "cd4f455761995c9ef4964c59e44e0ec95f62c1915650392dc26c694db58685f56f9b95422bbd7dc1598dab06ebe251c1010ddb39e7c2ae1a75be10e789b97a86",
+        "sha1": "e8b660cf02686e0274d74111dd201804003f8de9",
+        "sha512": "bdb174980f0592a3b8e1c5d6e9854e680725ff153280687b2b58e9265c84db9c2bd266b419c52bbf6f3a3cf4bee2e3f1c8221ed83b12838713d072fb88a38120",
         "murmur2": 3062170076
     },
-    "fileSize": 1684397,
+    "fileSize": 1702458,
     "sources": {
         "curseforge": {
             "projectId": 263420,
-            "fileUrl": "https://edge.forgecdn.net/files/6116/17/Xaeros_Minimap_25.0.0_Fabric_1.20.jar",
-            "fileId": 6116017
+            "fileUrl": "https://edge.forgecdn.net/files/6184/432/Xaeros_Minimap_25.1.0_Fabric_1.20.jar",
+            "fileId": 6184432
         },
         "modrinth": {
             "projectId": "1bokaNcj",
-            "fileUrl": "https://cdn.modrinth.com/data/1bokaNcj/versions/FjbEr0Vb/Xaeros_Minimap_25.0.0_Fabric_1.20.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/1bokaNcj/versions/sDUGXv1w/Xaeros_Minimap_25.1.0_Fabric_1.20.jar"
         }
     }
 }

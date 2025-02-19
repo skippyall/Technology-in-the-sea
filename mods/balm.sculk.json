@@ -1,16 +1,16 @@
 {
-    "filename": "balm-fabric-1.20.1-7.3.11.jar",
+    "filename": "balm-fabric-1.20.1-7.3.17.jar",
     "side": "both",
     "hashes": {
-        "sha1": "e2152eb4728a64ec0e69b920c8b7ea2348fe2d7d",
-        "sha512": "933c678bb501ae09d6377d16f9f54e84e6f15622ef22b17df5bf510982e3eaddba7c430942f00b9ad2fd6a4df91735648747b0465c1a8105da60d524f55764c7",
+        "sha1": "1786d717c091630165b73f3d5511a99ae431134c",
+        "sha512": "21c2a3178610884ba89894c04f8778cf8719597613bf8525d52cfe5a36b6f69ee2679625b81f4aefeb741b1cc03a0f83d4f9be421c908f35c552818ed29f3fb5",
         "murmur2": 3767521373
     },
-    "fileSize": 411523,
+    "fileSize": 471175,
     "sources": {
         "modrinth": {
             "projectId": "MBAkmtvl",
-            "fileUrl": "https://cdn.modrinth.com/data/MBAkmtvl/versions/n7vxIoYf/balm-fabric-1.20.1-7.3.11.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/MBAkmtvl/versions/5kZFe7Nq/balm-fabric-1.20.1-7.3.17.jar"
         }
     }
 }

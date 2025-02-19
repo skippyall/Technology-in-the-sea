@@ -1,21 +1,21 @@
 {
-    "filename": "fancymenu_fabric_3.3.2_MC_1.20.1.jar",
+    "filename": "fancymenu_fabric_3.4.4_MC_1.20.1.jar",
     "side": "both",
     "hashes": {
-        "sha1": "64b30930082e453d9b31c9fb0d8e4a8bc99a155a",
-        "sha512": "9d0ec1f9498a26d66712dd8fb3f58bd70aca4eccd4e4885b09d9fe1472c8ffcd8203afbe5510738eabefe593622815543e6a818d22b23174050123582e650fa2",
+        "sha1": "ffcee7aee5394735d04b24b05ec8aab42b402d40",
+        "sha512": "c3a2067a7e13dc6bd89b775e19c5c28bfe40c47a25996cf1c7e316010e729dc23ceba609e1453c3428197bbdc8741d5904238b78fa1d4235ff9620b3b692d834",
         "murmur2": 904920627
     },
-    "fileSize": 2877394,
+    "fileSize": 3066608,
     "sources": {
         "curseforge": {
             "projectId": 367706,
-            "fileUrl": "https://edge.forgecdn.net/files/5823/941/fancymenu_fabric_3.3.2_MC_1.20.1.jar",
-            "fileId": 5823941
+            "fileUrl": "https://edge.forgecdn.net/files/6186/991/fancymenu_fabric_3.4.4_MC_1.20.1.jar",
+            "fileId": 6186991
         },
         "modrinth": {
             "projectId": "Wq5SjeWM",
-            "fileUrl": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/XnYGeBPl/fancymenu_fabric_3.3.2_MC_1.20.1.jar"
+            "fileUrl": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/SFjziXVb/fancymenu_fabric_3.4.4_MC_1.20.1.jar"
         }
     }
 }
