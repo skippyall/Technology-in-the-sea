@@ -25,6 +25,7 @@ StartupEvents.registry("item", event => {
         })
     event.create("technologyinthesea:aqua_shard")
     event.create("technologyinthesea:liquidest_bottle_of_liquids")
+    event.create("technologyinthesea:diamond_wire")
 })
 
 StartupEvents.registry("enchantment", event => {

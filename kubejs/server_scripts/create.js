@@ -1,10 +1,22 @@
 // priority: 1
-function createRecipe(/** @type {Internal.RecipesEventJS} */ event, /** @type {string} */ type, /** @type {{}[]} */ input, /** @type {{}[]} */ output, /** @type {{}} */ extra) {
+function createRecipe(
+    /** @type {Internal.RecipesEventJS} */ event, /** @type {string} */ type, /** @type {Ingredient[]} */ input, /** @type {(OutputItem | Fluid)[]} */ output, /** @type {{}} */ extra) {
     return event.custom(Object.assign({
         "type": type,
         "ingredients": input,
         "results": output
     },extra))
+}
+
+function sequencedAssembly(
+    /** @type {Internal.RecipesEventJS} */ event, 
+    /** @type {Ingredient} */ input,
+    /** @type {OutputItem[]} */ outputs,
+    /** @type {Internal.RecipeJS[]} */ steps,
+    /** @type {number}*/ repeats,
+    
+) {
+    
 }
 
 function getJsonAndRemove(recipe) {

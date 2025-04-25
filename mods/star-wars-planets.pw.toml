@@ -1,0 +1,16 @@
+filename = 'swplanets-fabric-1.20.1-1.4.6.jar'
+name = 'Star Wars Planets'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c629f773cacdc207255437fa67ab52ac1f5de5cfeb1d84fb838e86a8745afe54d10d046753668cd0f9afc7ff360bcc9a38c9e46ee8e5bb913ee22e1bfd0b665e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sgQirvDi/versions/TRTOjoGB/swplanets-fabric-1.20.1-1.4.6.jar'
+
+[update.modrinth]
+mod-id = 'sgQirvDi'
+version = 'TRTOjoGB'

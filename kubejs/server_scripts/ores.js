@@ -44,6 +44,10 @@ ServerEvents.recipes(event => {
             }
         ]
     )
+
+    event.custom({
+        "type":
+    })
 })
 
 ServerEvents.blockLootTables(event => {

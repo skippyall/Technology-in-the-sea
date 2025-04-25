@@ -1,0 +1,8 @@
+README.md
+LICENSE
+*.mrpack
+*.zip
+kubejs/probe/**
+kubejs/jsconfig.json
+.vscode/**
+packwiz

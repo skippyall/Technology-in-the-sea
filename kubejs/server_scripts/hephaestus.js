@@ -11,5 +11,5 @@ function castingRecipe(/** @type {Internal.RecipesEventJS} */ event, /** @type {
 
 ServerEvents.recipes(event => {
     event.remove({output: "tconstruct:smeltery_controller"})
-    castingRecipe(event, "tconstruct:casting_basin", Ingredient.of("#tconstruct:seared_blocks"), Fluid.of("tconstruct:molten_brass"), true, 100)
+    castingRecipe(event, "tconstruct:casting_basin", Ingredient.of("#tconstruct:seared_blocks"), Fluid.of("tconstruct:molten_brass"), "tconstruct:smeltery_controller", true, 100)
 })

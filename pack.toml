@@ -1,0 +1,13 @@
+name = "Technology in the Sea"
+author = "skippyall"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b7af00f2f8764534280cdf73dc46348e7a20870e3849d339a00171e25f5a7779"
+
+[versions]
+fabric = "0.16.14"
+minecraft = "1.20.1"
