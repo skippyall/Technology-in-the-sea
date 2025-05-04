@@ -13,7 +13,7 @@ function sequencedAssembly(
     /** @type {Ingredient} */ input,
     /** @type {OutputItem[]} */ outputs,
     /** @type {Internal.RecipeJS[]} */ steps,
-    /** @type {number}*/ repeats,
+    /** @type {number}*/ repeats
     
 ) {
     

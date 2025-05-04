@@ -1,5 +1,4 @@
 Platform.getMods().get("kubejs").setName("Technology in the Sea")
-Platform.getMods().get("")
 
 StartupEvents.registry("fluid", event => {
     event.create("technologyinthesea:void_essence")
@@ -23,8 +22,10 @@ StartupEvents.registry("item", event => {
                 .alwaysEdible()
                 .effect("technologyinthesea:sun_protection", 1200, 0, 1)
         })
+    
     event.create("technologyinthesea:aqua_shard")
     event.create("technologyinthesea:liquidest_bottle_of_liquids")
+
     event.create("technologyinthesea:diamond_wire")
 })
 

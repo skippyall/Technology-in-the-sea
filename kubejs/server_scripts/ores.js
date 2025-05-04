@@ -45,9 +45,26 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    event.custom({
-        "type":
-    })
+    event.remove({"id": "create:crushing/tuff"})
+
+    createRecipe(
+        event,
+        "create:milling",
+        [
+            {
+                "item": "minecraft:tuff"
+            }
+        ],
+        [
+            {
+                "item": "create:raw_zinc"
+            }
+        ]
+    )
+
+    event.remove({"input": "create:raw_zinc"})
+    
+
 })
 
 ServerEvents.blockLootTables(event => {

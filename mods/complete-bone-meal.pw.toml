@@ -1,6 +1,6 @@
 filename = 'complete-bone-meal-2.1.1+1.20.1.jar'
 name = 'Complete Bone Meal'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

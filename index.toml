@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-client.toml"
+hash = "af5f4e8ea3228d59dc286a1c5e54d4f748d7c6ebfc0b73eda3c40b6e7acd5c87"
+
+[[files]]
 file = "config/create_jetpack-common.toml"
 hash = "e4764a5ba187056cc30242fbf0ed79dba962bfe58b4dec23ca4a92bc663168af"
+
+[[files]]
+file = "config/cumulus_menus-client.toml"
+hash = "8b9972dccec0fb8b250bb8a38004a4ed7d6cde2e21c6b5abbd882cc2e50d7554"
 
 [[files]]
 file = "config/heracles/groups.txt"
@@ -141,6 +149,18 @@ file = "kubejs/assets/technologyinthesea/lang/en_us.json"
 hash = "fa185fb803d8ded52b889298d715c4082eea1b02b565c0407cd188febc3984dc"
 
 [[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/aqua_shard.png"
+hash = "106d9e518ce8aed7e8cd4914be6ffacb8629fb95006be87d2add3526c83035ea"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/sun_screen.png"
+hash = "93f73262863a683025d8f1a9dc316e32fc3f16490f53b0d2bede546a0cde44af"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/mob_effect/sun_protection.png"
+hash = "d706035ccecbb057da5f321e6942e803e5e794610e086e9c7785e1fa0224c04f"
+
+[[files]]
 file = "kubejs/client_scripts/ad_astra.js"
 hash = "ae116ceea2a9dd950162e77d90a1b60576acd192cf7bb446add80dbecb1e33da"
 
@@ -222,7 +242,7 @@ hash = "a833343c04ee2e855bc396b6ee9b871474784b879baeb8f1a44fe1c8bf8a86cb"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
-hash = "e04093a2e4d1b5d563e4135fb298401bd430fdc3ed0d7c077d4ff5b1e10acd25"
+hash = "d4944230993bae7ccf53718fc571089f0f66b8a6e87590d59ef306022ec0e77d"
 
 [[files]]
 file = "kubejs/server_scripts/botania.js"
@@ -246,7 +266,7 @@ hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
-hash = "ed5158c785b396d29148ba11804982e4f7ab98dbffff37a0099b876cdd48343b"
+hash = "266bf7eee6435e4ee0ece78aa3928da599713359e0bb85abba5101d6175731ef"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"
@@ -258,7 +278,7 @@ hash = "5a63b9ec7f647d5373f5d1f73e03887182344f0615aed7df564d7d074d3a26ee"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "b55072e1c6570822f5c1e5a65a4860f55d194c7b73d680ad38ced8f888246c7b"
+hash = "66082598fe887425f6b843b26cded7b60d0c3a994006030a101abd373837dd7d"
 
 [[files]]
 file = "kubejs/server_scripts/spawn.js"
@@ -266,7 +286,7 @@ hash = "1437e5be386bdfb1a54c664952f64398e8110d20821c340bc3510788d62fe319"
 
 [[files]]
 file = "kubejs/server_scripts/start.js"
-hash = "9d56bcdb28f96b27739b7a306ad7747007d18ab1b68a638c5308c86d0edfccbc"
+hash = "fb4ce48abb38f13ab430483eacdda5e5ffd7fa0f26a89f2b0ec79e32915259f3"
 
 [[files]]
 file = "kubejs/server_scripts/sun.js"
@@ -274,7 +294,7 @@ hash = "d364d513e14c14c330620973347e4974a9815985fd39b1073c63a7d7c04b031a"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "514f775304fd958fe11c8f701dd5c52651620e074ef3a3d494f4b3e50b6f286a"
+hash = "14bed77f9a70ff24e74df8b207cc3985d56ac649e39247fa2a409ad54d2dc2bd"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -318,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "21e20e60031dffa3bdbeed8f9123a2bf34c9b37b4f593e60ad4acaa0f103ceea"
+hash = "fb92380f0a6ce4eb13e5f1bf9fbc36843974ef426ee512c2eabf9f1de699d24b"
 metafile = true
 
 [[files]]
@@ -382,6 +402,11 @@ hash = "a5dc532eb294bc91cec4f83cef915397d442bd53c8ea2e2dfd414b569855acf0"
 metafile = true
 
 [[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "0ed502ad7d53ca1936079cb7508b2e085909610ac51337fff2a3ce0fa6dcae28"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "72b23c18039d65a955bfa111b87af4c0cbce8893e539d644e5a4449f3e473ec9"
 metafile = true
@@ -393,7 +418,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d2d50d01c719a70deba69d83a0ca8f3cb811810a6d80bf40f838178a5b93e867"
+hash = "a64fd77827cfe582e2ad434fbf5fd6a70450796c191525cab9ea33d42e98a212"
 metafile = true
 
 [[files]]
@@ -413,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/complete-bone-meal.pw.toml"
-hash = "b37e361f67a453dc0d340db06e0199428ae892cf5df7e8e233a7f8138197971a"
+hash = "62823ea5b504ec6316123630f77afc5dde2a3d3b3bc1fc0faeadefc6f4f78db3"
 metafile = true
 
 [[files]]
@@ -438,17 +463,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-curios-jetpack.pw.toml"
-hash = "c366e0411d7578431b7b19ad96ad6753e0ecdfc868c03735d87c0dfb104afaaa"
+hash = "b941ceb429ed12e57ef955823698dd61e5eb0abddc01442ad83375e3351b2815"
 metafile = true
 
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "cb5b55935e85b9b225d21c18646ba3c1340e7e3b204e9ba3e5ac5395a53f4751"
-metafile = true
-
-[[files]]
-file = "mods/create-dynamic-lights.pw.toml"
-hash = "d9cb854d77033ae8ed3957d0a9f95c073433b77e9cbe35efc70db72c454a1ceb"
 metafile = true
 
 [[files]]
@@ -507,11 +527,6 @@ hash = "78085457d022d795c7f4f5566476fde9a8a4e81eee96db09ef7f5bd09eb34926"
 metafile = true
 
 [[files]]
-file = "mods/custom-default-world-preset.pw.toml"
-hash = "d72c285d81effe80d8017126dbf463f36064e4b82b7aa55fb59708a519536809"
-metafile = true
-
-[[files]]
 file = "mods/dcwa.pw.toml"
 hash = "817d0d523739c33568b8103aaa0ed49f97e79e5949e6b5bfff769b95eff1ce4a"
 metafile = true
@@ -527,13 +542,8 @@ hash = "d9778545b64403309a610324c4f0ca1c993e1130d516fa6ba54279334005d32d"
 metafile = true
 
 [[files]]
-file = "mods/emi-create-schematics.pw.toml"
-hash = "69d89cc2267ee64784912b12fd2e7c48cececb0e78bcd2a7ba2ca92931138f77"
-metafile = true
-
-[[files]]
-file = "mods/emi-loot.pw.toml"
-hash = "b4ab0cc9a2ddcc3753b6775a62092f90e8f41f47c58a8f4cfcb41001c404d490"
+file = "mods/ducky-periphs.pw.toml"
+hash = "cc6eb3c71b6f59304db3600f9a4878526a87af81f4b2d195e3a8a21d513878ee"
 metafile = true
 
 [[files]]
@@ -558,7 +568,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-mod-integrations.pw.toml"
-hash = "328869cdb2bc7f26d26d4da3d6d2cbf685a94bfd3ac87f72a81711846eef1fd3"
+hash = "376321a4e11e86d932670192b6ddebfd7b898c4e47e74a6b08c7c0123a0aa49c"
 metafile = true
 
 [[files]]
@@ -617,11 +627,6 @@ hash = "cb85864ff2d3936a5ab4f7e7ccf763dbda0153412ba52c95a63b29677a012aaf"
 metafile = true
 
 [[files]]
-file = "mods/interiors.pw.toml"
-hash = "4db62f0cccfdc5af7faf9ffae8792ce7250d148e6202cc17da806273edcdbdaf"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "99efc9e805ce2888680d3cacb9be65733c6d4a8cfcb77e1976205f758db24346"
 metafile = true
@@ -673,7 +678,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "cf22f5c8a97e52848b4d139b6dbd48e6aef970b24570206d6749e7ae0d73dc80"
+hash = "8841a17f6984ef8a9a27000d05660c8506b5aec9a67e87aedccba80bab8fb0d8"
 metafile = true
 
 [[files]]
@@ -713,7 +718,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "0b7ee1f3c69efd7cc2ba5abdd3700d4c30948b291101f73299847c394dec9fc5"
+hash = "49c12e0aa2f5edd221b4ba3450442548dc5af025a9af90212606f728d2b2fdb4"
 metafile = true
 
 [[files]]
@@ -819,11 +824,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "3d6c099cf62c0df13b800759c67bbf1f5e94af968a6d478915eeabb0f60d6442"
-metafile = true
-
-[[files]]
-file = "mods/star-wars-planets.pw.toml"
-hash = "4e7349497e6b7495384fbf132a40ded88f1c4a50400b810560bb3d12db841ac6"
 metafile = true
 
 [[files]]

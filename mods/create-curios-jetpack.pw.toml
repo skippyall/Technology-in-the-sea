@@ -1,6 +1,6 @@
 filename = 'create_jetpack_curios-1.2.0-fabric-1.20.1.jar'
 name = 'Create: Curios Jetpack [Forge/Fabric]'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

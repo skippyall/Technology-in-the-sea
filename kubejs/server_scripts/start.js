@@ -10,16 +10,13 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.shaped(
+    event.shapeless(
         "minecraft:andesite", 
         [
-            "GC",
-            "CG"
-        ],
-        {
-            "G":"minecraft:gravel",
-            "C":"minecraft:cobblestone"
-        }
+            "minecraft:cobblestone",
+            "minecraft:gravel",
+            "minecraft:flint"
+        ]
     )
 
     event.shapeless(

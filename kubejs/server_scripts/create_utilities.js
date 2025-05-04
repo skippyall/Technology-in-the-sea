@@ -1,3 +1,4 @@
+//priority: 0
 ServerEvents.recipes(event => {
     event.remove({output: "createutilities:void_steel_ingot"})
     event.recipes.createoreexcavation.vein("Void Steel Vein", "createutilities:void_steel_ingot")

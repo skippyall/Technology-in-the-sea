@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "the_aether": {
+      "icon": {
+        "item": {
+          "id": "aether:aether_portal_frame",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "aether:the_aether",
+      "title": "Enter The Aether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Build the famous portal with a Glowstone frame and activate it with a Water Bucket. "
+    ],
+    "groups": {
+      "Adventure Time!": {
+        "position": [
+          0,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aether:aether_portal_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Aether"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

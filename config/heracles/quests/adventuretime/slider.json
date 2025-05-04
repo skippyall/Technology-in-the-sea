@@ -1,25 +1,14 @@
 {
   "dependencies": [
-    "management"
+    "the_aether"
   ],
   "tasks": {
-    "mana diamond": {
-      "type": "heracles:item",
-      "item": "botania:mana_diamond",
+    "slider": {
+      "entity": {
+        "type": "aether:slider"
+      },
       "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "mana_pearl": {
-      "type": "heracles:item",
-      "item": "botania:mana_pearl",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "manasteel": {
-      "type": "heracles:item",
-      "item": "botania:manasteel_ingot",
-      "amount": 1,
-      "collection": "AUTOMATIC"
+      "type": "heracles:kill_entity"
     }
   },
   "rewards": {},
@@ -31,23 +20,23 @@
       ""
     ],
     "groups": {
-      "Botania": {
+      "Adventure Time!": {
         "position": [
-          300,
-          0
+          60,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "botania:manasteel_ingot",
+        "id": "aether:bronze_dungeon_key",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Steel Mana"
+      "translate": "Slide away!"
     }
   },
   "settings": {
