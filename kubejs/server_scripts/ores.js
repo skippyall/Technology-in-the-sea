@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
             }
         ]
     )
+
     createRecipe(
         event,
         "create:mixing",
@@ -32,7 +33,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:dried_kelp",
             },
             {
-                "item": "minecraft:dried_kelp",
+                "item": "botania:mana_steel",
             },
             {
                 "item": "minecraft:andesite",
@@ -40,30 +41,15 @@ ServerEvents.recipes(event => {
         ],
         [
             {
-                "item": "minecraft:tuff"
+                "item": "create:asurine"
             }
         ]
     )
 
     event.remove({"id": "create:crushing/tuff"})
 
-    createRecipe(
-        event,
-        "create:milling",
-        [
-            {
-                "item": "minecraft:tuff"
-            }
-        ],
-        [
-            {
-                "item": "create:raw_zinc"
-            }
-        ]
-    )
-
-    event.remove({"input": "create:raw_zinc"})
-    
+    event.remove({"id": "create:smelting/zinc_ingot_from_raw_ore"})
+    event.remove({"id": "create:blasting/zinc_ingot_from_raw_ore"})
 
 })
 

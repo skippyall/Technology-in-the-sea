@@ -14,7 +14,47 @@ hash = "8b9972dccec0fb8b250bb8a38004a4ed7d6cde2e21c6b5abbd882cc2e50d7554"
 
 [[files]]
 file = "config/heracles/groups.txt"
-hash = "c525e37c5059f5f18575ae75ca004c585b684c9f17f011c8e314d3d219544a81"
+hash = "95d7534e1367620e1b0a70496cb994b95936fb841321033c296f176b26fe3805"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/aquamirae.json"
+hash = "05884846862794d5f4c043ee48cffe9c740f2da3883bf8beeee31333bf3d4c88"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/cornelia.json"
+hash = "7cdf28783fdb208db98227a98e711487d78aa61741653d19190813e67f745a36"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/eel.json"
+hash = "8c5e6c0eb2884cd116e9c81bdac1c1915073e072359aa903c042a211cb599403"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/gaia_guardian.json"
+hash = "4b320174f0ff037ea04f3458beb3c636268abbbc9ef60c878ba86768827c220f"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/mother_of_the_maze.json"
+hash = "e61a9ec720fefbe8bd68ce7f09027ca95fa388f90f68e670ce381a2012182b7d"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/slider.json"
+hash = "9c7986472dee6cf3d5b9e170b62d445e61e238c52a796861e6b0f0c83224445c"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/sun_spirit.json"
+hash = "bcf2fd56fbfa3b4611a364540707261e56f18788a616b8c4bd80d501b0504b7b"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/the_aether.json"
+hash = "7a86277bff313a6f1f198c3d55801abf43de4fb8f3526c07e9252c51df58ca70"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/valkyrie_queen.json"
+hash = "6d5812d52bb16cea5e9b95a826d4730a7c9806bb01a91385eb3d5f065b82baa2"
+
+[[files]]
+file = "config/heracles/quests/adventuretime/wither.json"
+hash = "5fc5a267ebba25226869be1b4e21ffa84b772cf3d17f66769836bccf39c6ef61"
 
 [[files]]
 file = "config/heracles/quests/botania/botania_intro.json"
@@ -34,7 +74,7 @@ hash = "64ef0f5a1bbeeb0c64108e654d6752329c4f5c268a67ccb8057193e1efb1283a"
 
 [[files]]
 file = "config/heracles/quests/botania/manasteel.json"
-hash = "7ad47154003080d9ada1f96ec5f18019d3e3e661657dbd4b25ba775947c5d8f0"
+hash = "5d25747a2b688c9b59f1727e2d9b89bdff00b199cd8e13d8190127427d1a13d1"
 
 [[files]]
 file = "config/heracles/quests/botania/mystical_flowers.json"
@@ -254,7 +294,7 @@ hash = "40e430eee1d69124de1897493a2003dd06d1ee4890e29a45f81faeb61a036c8e"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "5b216968f61a47901f721d5927d70e918938b3d6fd521ea347c28d35edf916c5"
+hash = "2bce8e7ac3034708e0bc062b2fc723ed136fd3a2ffe901cd364a9b042efc2d32"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_additions_new_age.js"
@@ -278,11 +318,11 @@ hash = "5a63b9ec7f647d5373f5d1f73e03887182344f0615aed7df564d7d074d3a26ee"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "66082598fe887425f6b843b26cded7b60d0c3a994006030a101abd373837dd7d"
+hash = "3920cff39a3cfb197018db0dfa1319ed2a21161c87aa6b76caa51b59b128cf9b"
 
 [[files]]
 file = "kubejs/server_scripts/spawn.js"
-hash = "1437e5be386bdfb1a54c664952f64398e8110d20821c340bc3510788d62fe319"
+hash = "e946400088f3211678572caf8f4c462e4e1811021bbfb89f2c175259b17e8be8"
 
 [[files]]
 file = "kubejs/server_scripts/start.js"
@@ -299,6 +339,11 @@ hash = "14bed77f9a70ff24e74df8b207cc3985d56ac649e39247fa2a409ad54d2dc2bd"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "d9298a63d5486b0d1891506baf2caf722deaf028c9ce809c11d2a305ca4c4d41"
+metafile = true
+
+[[files]]
+file = "mods/accessories-tc-layer.pw.toml"
+hash = "886832ee8ee9622623a9d36351f3f955a923d3e67a0b097532d1c8b8fc7848b1"
 metafile = true
 
 [[files]]
@@ -328,7 +373,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "ac4237c7c669835ccb766bf1b2714af62a0982c6a93b30545460f18e7a776c70"
+hash = "92facdf346314689b4ec500fb71381da34dd5e31e32d79afccb7e41a299ea7ed"
 metafile = true
 
 [[files]]
@@ -338,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "fb92380f0a6ce4eb13e5f1bf9fbc36843974ef426ee512c2eabf9f1de699d24b"
+hash = "b5f19394d7a00de9c812241bda1a1664bc0b2665ba72b459b932e5b94cb24d9c"
 metafile = true
 
 [[files]]
@@ -378,7 +423,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "af35b89dd62818ffb579ca1aa2314fb7bec49cbc4eda1d312b1733c50f6be352"
+hash = "7dc148833d9a455f8ddebab5c3d8a03c2797cff1296d8c0bcb526e6226b97cb3"
 metafile = true
 
 [[files]]
@@ -518,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "fb814471d9bf68b345f241c08a8e8fa9b0bb7f2014db8611aa0f3d34a5e44a5d"
+hash = "76aba8d8cc62f325d52613c1b66d17dae77dd1df918b1153fc2bd5fb80b42a27"
 metafile = true
 
 [[files]]
@@ -573,22 +618,22 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2d44be0de504bd05e2f6f2e4644f5d7afd2401adcdff92c19871db204e121988"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "97e7fb0bf5c563366b7c6121fa2decb67597107e5594932c6a098cccc980629e"
+hash = "967a780be97bec40b8bca4945a053ee4fbd05d58e218c4fb803959ac0d0c7f08"
 metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "37d6e7a35e1db2a38cd456304ad28fcf41a968ea79a7fa2b284c6f2cd58b5c9c"
+hash = "8e66b7aa4f1bb572f33ef2bfaa27868c2c300c56941093c3f0b58b673c459188"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
-hash = "bce21d8e29640ae226ce2ca33042e7090f74e9c1fc7420d08d3f09e287bf4d6b"
+hash = "5c98012330282f45370e95f4206ccf214fb059b73a8b4ebe0aeb2ae57647d8d5"
 metafile = true
 
 [[files]]
@@ -603,7 +648,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "6ef4d5626e258509b479220129ccc987b3f9e8ac33a6a5e227772f3cde1dbb9f"
+hash = "73eaf730f838085585517587a39a8d8d865c58646346a5bfbf703e5f3ac30314"
 metafile = true
 
 [[files]]
@@ -648,7 +693,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "2c736ba25cb8dd9f3a6c0c9211b46ee21ddec22255cf45803abd3fdaddff32db"
+hash = "a615fd6551b3d47e2d0e42e4ec30df6293bec90c135f1022113425ab8f23f7a6"
 metafile = true
 
 [[files]]
@@ -717,8 +762,13 @@ hash = "ae7e17f4b672f8db1f526e294a903122f06cc1cd6f7bfe5607c9f429766d2c3d"
 metafile = true
 
 [[files]]
+file = "mods/music-notification.pw.toml"
+hash = "2bf98294d7d536983ec8fb77dd220c8c3a1b2662c39a1221884bf6f6f13f3dfe"
+metafile = true
+
+[[files]]
 file = "mods/neruina.pw.toml"
-hash = "49c12e0aa2f5edd221b4ba3450442548dc5af025a9af90212606f728d2b2fdb4"
+hash = "ad302d4bc503de96528b917401fa6f4652cc03bd2e506912d0e5157ecabe9cbd"
 metafile = true
 
 [[files]]
@@ -813,12 +863,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-(unoffical-fabric-port).pw.toml"
-hash = "b7300bbf22cad6c99e2a4922ec7cee7564d59c976b7895884b6a5f0f1ae8bcb6"
+hash = "9d0c1f5a390f545852c363735c0dc38dc2097c0c11cb1afcf8151e38f3567e78"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
-hash = "8b0a4f165bfb20db28433ff27a49a9998fb4fb9b09d4a6bb68bc0e0983b80bec"
+hash = "9be3955190299fe8add6d555aabc46f96fc4246836163b867602924f43fd6611"
 metafile = true
 
 [[files]]
@@ -834,11 +884,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "a77dd2cbda814f4fba77499399279581f129f1cf984a4bde1245f28e5c6ccc08"
-metafile = true
-
-[[files]]
-file = "mods/trinkets.pw.toml"
-hash = "50d286b8c5e586afcd555f743e68d64ed96123b814683c03833b9a145469ca04"
 metafile = true
 
 [[files]]
@@ -862,13 +907,18 @@ hash = "b2c2e165adcf3899cb3f302ddea220b8a5cb0dbee88e2b5d13276d7db6ff3af4"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "dba82d56d2514555ac3e326359a913c804b1a1137a6d696d80f73aadaf0ff62f"
+hash = "a2f8f9c0410885c429945a8e5142a3b4bbaa63bf147f9b2fdd035113b404344f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "72d0e1fcf1e2e44b67b20bf80b33e5f08ca31459fe568cd053f83379e4defea3"
+hash = "9caca4be3884e5a7c22b681fc4b4d123bb7a9648b4d4936f5ce60df8799fa8eb"
 metafile = true
 
 [[files]]

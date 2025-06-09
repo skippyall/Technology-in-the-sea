@@ -7,6 +7,7 @@ const teamDirections = [
 ServerEvents.loaded(event => {
     var server = event.getServer()
     if(!server.persistentData.state || server.persistentData.state == "before_start") {
+        console.log("placing structure...")
         var world = event.getServer().getLevel(new ResourceLocation("ad_astra", "earth_orbit"))
         var structure = event.getServer().getStructureManager().get(new ResourceLocation("technologyinthesea", "space_station")).get()
         structure.placeInWorld(world, new BlockPos(-34,-1,-34), new BlockPos(-34,-1,-34), new $StructurePlaceSettings(), world.getRandom(), 2)
