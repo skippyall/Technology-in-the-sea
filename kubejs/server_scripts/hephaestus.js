@@ -2,7 +2,7 @@ function castingRecipe(/** @type {Internal.RecipesEventJS} */ event, /** @type {
     return event.custom({
         type: type,
         cast: item.toJson(),
-        fluid: fluid.toJson(),
+        fluid: fluid,
         result: output,
         cast_consumed: castConsumed,
         cooling_time: coolingTime
@@ -11,5 +11,16 @@ function castingRecipe(/** @type {Internal.RecipesEventJS} */ event, /** @type {
 
 ServerEvents.recipes(event => {
     event.remove({output: "tconstruct:smeltery_controller"})
-    castingRecipe(event, "tconstruct:casting_basin", Ingredient.of("#tconstruct:seared_blocks"), Fluid.of("tconstruct:molten_brass"), "tconstruct:smeltery_controller", true, 100)
+    castingRecipe(
+        event,
+        "tconstruct:retextured_casting_basin", 
+        Ingredient.of("#tconstruct:smeltery_bricks"),
+        {
+            "name": "hephaestusplus:molten_manasteel",
+            "amount": 36000
+        },
+        "tconstruct:smeltery_controller", 
+        true, 
+        100
+    )
 })

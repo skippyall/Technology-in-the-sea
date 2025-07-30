@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:the_nether",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "height": 1,
+                    "block": "minecraft:bedrock"
+                },
+                {
+                    "height": 254,
+                    "block": "minecraft:lava"
+                },
+                {
+                    "height": 1,
+                    "block": "minecraft:bedrock"
+                }
+            ],
+            "structure_overrides": []
+        }
+    }
+}

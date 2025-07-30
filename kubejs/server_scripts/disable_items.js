@@ -1,5 +1,7 @@
 const disable_items = [
     "ad_astra:coal_generator",
+    "ad_astra:compressor",
+    "ad_astra:etrionic_blast_furnace",
     "ae2:vibration_chamber",
     "ae2:charger"
 ];

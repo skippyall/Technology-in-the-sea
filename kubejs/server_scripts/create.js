@@ -51,6 +51,20 @@ ServerEvents.recipes(event => {
             "A": "minecraft:andesite"
         }
     )
+
+    event.remove({output:"create:empty_blaze_burner"})
+    event.shaped(
+        "create:empty_blaze_burner",
+        [
+            " B ",
+            "BNB",
+            " B "
+        ],
+        {
+            "B": "create:brass_sheet",
+            "N": "minecraft:netherrack"
+        }
+    )
 })
 
 ServerEvents.tags("item", event => {

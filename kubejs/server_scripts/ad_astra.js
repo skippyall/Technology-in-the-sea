@@ -8,39 +8,30 @@ ServerEvents.tags("minecraft:worldgen/biome", event => {
 })
 
 ServerEvents.recipes(event => {
-    event.remove({output: "ad_astra:steel_ingot"})
+    oreVein(event, "desh", "Desh", "technologyinthesea:moon_biomes", 133023984)
     createRecipe(
         event,
-        "create:mixing",
+        "create:crushing",
         [
-            Fluid.of("tconstruct:molten_iron", 9000).toJson(),
-            Item.of("minecraft:coal")
+            Item.of("ad_astra:raw_desh")
         ],
         [
-            Fluid.of("tconstruct:molten_steel", 9000).toJson()
+            Item.of("technologyinthesea:crushed_dirty_desh")
+        ]
+    )
+    createRecipe(
+        event,
+        "create:splashing",
+        [
+            Item.of("technologyinthesea:crushed_dirty_desh")
+        ],
+        [
+            Item.of("technologyinthesea:crushed_clean_desh")
         ]
     )
 
-    event.recipes.createoreexcavation.vein("Desh Vein", "ad_astra:raw_desh")
-        .placement(384, 64, 133023984)
-        .biomeWhitelist("technologyinthesea:moon_biomes")
-        .id("technologyinthesea:desh_vein")
-
-    event.recipes.createoreexcavation.drilling("ad_astra:raw_desh", "technologyinthesea:desh_vein", 1500)
-
-    event.recipes.createoreexcavation.vein("Ostrum Vein", "ad_astra:raw_ostrum")
-        .placement(384, 64, 496057027)
-        .biomeWhitelist("technologyinthesea:mars_biomes")
-        .id("technologyinthesea:ostrum_vein")
-
-    event.recipes.createoreexcavation.drilling("ad_astra:raw_ostrum", "technologyinthesea:ostrum_vein", 1500)
-
-    event.recipes.createoreexcavation.vein("Calorite Vein", "ad_astra:raw_calorite")
-        .placement(384, 64, 759834809)
-        .biomeWhitelist("technologyinthesea:calorite_vein_biomes")
-        .id("technologyinthesea:calorite_vein")
-
-    event.recipes.createoreexcavation.drilling("ad_astra:raw_calorite", "technologyinthesea:calorite_vein", 1500)
+    oreVein(event, "ostrum", "Ostrum", "technologyinthesea:mars_biomes", 496057027)
+    oreVein(event, "calorite", "calorite", "technologyinthesea:calorite_vein_biomes", 759834809)
 
     event.recipes.createoreexcavation.vein("Oil Vein", "ad_astra:oil_bucket")
         .placement(384, 64, 636174428)
@@ -49,3 +40,15 @@ ServerEvents.recipes(event => {
 
     event.recipes.createoreexcavation.extracting(Fluid.of("ad_astra:oil", 810), "technologyinthesea:oil_vein", 20)
 })
+
+function oreVein(/** @type {Internal.RecipesEventJS}*/ event, name, displayName, biomes, salt) {
+    event.recipes.createoreexcavation.vein(displayName + " Vein", "ad_astra:raw_" + name)
+        .placement(384, 64, salt)
+        .biomeWhitelist(biomes)
+        .id("technologyinthesea:" + name + "_vein")
+
+    event.recipes.createoreexcavation.drilling("ad_astra:raw_" + name, "technologyinthesea:" + name + "_vein", 1500)
+
+    event.remove({id: "ad_astra:smelting/" + name + "_ingot_from_smelting_raw_" + name})
+    event.remove({id: "ad_astra:blasting/" + name + "_ingot_from_blasting_raw_" + name})
+}
