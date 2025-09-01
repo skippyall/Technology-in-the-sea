@@ -1,17 +1,11 @@
 {
   "dependencies": [
-    "press"
+    "runic_altar"
   ],
   "tasks": {
-    "mixer": {
+    "terrestial_agglomoration_plate": {
       "type": "heracles:item",
-      "item": "create:mechanical_mixer",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "basin": {
-      "type": "heracles:item",
-      "item": "create:basin",
+      "item": "botania:terra_plate",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -25,23 +19,23 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Botania": {
         "position": [
-          240,
+          420,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:mechanical_mixer",
+        "id": "botania:terra_plate",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "@Mixin(BasinBlock.class)"
+      "translate": "terrestial_agglomoration_plate"
     }
   },
   "settings": {

@@ -1,3 +1,132 @@
 ServerEvents.recipes(event => {
-    
+    sequencedAssembly(
+        event,
+        Item.of("minecraft:glass_bottle"),
+        [
+            Item.of("technologyinthesea:liquidest_bottle_of_liquids")
+        ],
+        [
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("minecraft:lava", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("create:chocolate", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("createaddition:bioethanol", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("create_bic_bit:ketchup", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("hephaestusplus:molten_manasteel", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("technologyinthesea:void_essence", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("technologyinthesea:icy_essence", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            ),
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:liquid_bottle"),
+                    Fluid.of("create:potion", FluidAmounts.BUCKET, {Potion: "minecraft:long_water_breathing"}).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:liquid_bottle")
+                ],
+                {}
+            )
+        ],
+        1000,
+        Item.of("technologyinthesea:liquid_bottle")
+    )
+    sequencedAssembly(
+        event,
+        Item.of("minecraft:glass_bottle"),//Item.of("technologyinthesea:liquidest_bottle_of_liquids"),
+        [
+            Item.of("technologyinthesea:aqua_shard")
+        ],
+        [
+            createRecipe(
+                event, 
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:not_enough_aqua_shard"),
+                    Fluid.of("minecraft:water", FluidAmounts.BUCKET).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:not_enough_aqua_shard")
+                ],
+                {}
+            )
+        ],
+        50000000,//40000,
+        Item.of("technologyinthesea:not_enough_aqua_shard")
+    )
 })

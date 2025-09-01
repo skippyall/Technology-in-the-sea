@@ -1,17 +1,11 @@
 {
   "dependencies": [
-    "press"
+    "fluid_well_extractor"
   ],
   "tasks": {
-    "mixer": {
+    "oil": {
       "type": "heracles:item",
-      "item": "create:mechanical_mixer",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "basin": {
-      "type": "heracles:item",
-      "item": "create:basin",
+      "item": "ad_astra:oil_bucket",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -25,23 +19,23 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Resources": {
         "position": [
-          240,
+          300,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:mechanical_mixer",
+        "id": "ad_astra:oil_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "@Mixin(BasinBlock.class)"
+      "translate": "Oil"
     }
   },
   "settings": {

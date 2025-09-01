@@ -1,4 +1,4 @@
-const teamDirections = [
+/*const teamDirections = [
     [100, 0],
     [0, 100],
     [-100, 0],
@@ -73,4 +73,4 @@ ServerEvents.commandRegistry(event => {
         )
         
     )
-})
+})*/

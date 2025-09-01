@@ -1,17 +1,11 @@
 {
   "dependencies": [
-    "press"
+    "drilling_machine"
   ],
   "tasks": {
-    "mixer": {
+    "extractor": {
       "type": "heracles:item",
-      "item": "create:mechanical_mixer",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "basin": {
-      "type": "heracles:item",
-      "item": "create:basin",
+      "item": "createoreexcavation:extractor",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -25,7 +19,7 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Resources": {
         "position": [
           240,
           0
@@ -34,14 +28,14 @@
     },
     "icon": {
       "item": {
-        "id": "create:mechanical_mixer",
+        "id": "createoreexcavation:extractor",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "@Mixin(BasinBlock.class)"
+      "translate": "Extractor"
     }
   },
   "settings": {

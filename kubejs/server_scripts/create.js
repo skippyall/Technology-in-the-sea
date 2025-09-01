@@ -13,13 +13,24 @@ function sequencedAssembly(
     /** @type {Ingredient} */ input,
     /** @type {OutputItem[]} */ outputs,
     /** @type {Internal.RecipeJS[]} */ steps,
-    /** @type {number}*/ repeats
+    /** @type {number}*/ loops,
+    transitionalItem
     
 ) {
-    
+    steps.forEach(recipe => console.log(recipe))
+    steps = steps.map(getJsonAndRemove)
+    steps.forEach(recipe => console.log(recipe))
+    return event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": input,
+        "loops": loops,
+        "results": outputs,
+        "sequence": steps,
+        "transitionalItem": transitionalItem
+    })
 }
 
-function getJsonAndRemove(recipe) {
+function getJsonAndRemove(/** @type {Internal.RecipeJS} */ recipe) {
     let json = recipe.json
     recipe.remove()
     return json
@@ -65,12 +76,4 @@ ServerEvents.recipes(event => {
             "N": "minecraft:netherrack"
         }
     )
-})
-
-ServerEvents.tags("item", event => {
-    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_tube_coral_fan")
-    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_horn_coral_fan")
-    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_fire_coral_fan")
-    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_brain_coral_fan")
-    event.add("technologyinthesea:dead_coral_fans", "minecraft:dead_bubble_coral_fan")
 })

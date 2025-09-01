@@ -1,17 +1,15 @@
 {
-  "dependencies": [
-    "press"
-  ],
+  "dependencies": [],
   "tasks": {
-    "mixer": {
+    "heater": {
       "type": "heracles:item",
-      "item": "create:mechanical_mixer",
+      "item": "tconstruct:seared_heater",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "basin": {
+    "melter": {
       "type": "heracles:item",
-      "item": "create:basin",
+      "item": "tconstruct:seared_melter",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -25,23 +23,23 @@
       ""
     ],
     "groups": {
-      "Create": {
+      "Hephaestus": {
         "position": [
-          240,
+          0,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:mechanical_mixer",
+        "id": "tconstruct:seared_melter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "@Mixin(BasinBlock.class)"
+      "translate": "Melter"
     }
   },
   "settings": {

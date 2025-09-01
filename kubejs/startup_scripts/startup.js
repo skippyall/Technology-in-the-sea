@@ -6,35 +6,21 @@ StartupEvents.registry("fluid", event => {
         .thinTexture(0x000066)
         .bucketColor(0x000066)
         .displayName("Void Essence")
+
+    event.create("technologyinthesea:icy_essence")
+        .noBlock()
+        .thinTexture(0x58c0fc)
+        .bucketColor(0x58c0fc)
+        .displayName("Icy Essence")
+    event.create("technologyinthesea:sunscreen")
+        .noBlock()
+        .thinTexture(0xf0bc6e)
+        .bucketColor(0xf0bc6e)
+        .displayName("Sunscreen")
 })
 
-StartupEvents.registry("mob_effect", event => {
-    event.create("technologyinthesea:sun_protection")
-        .beneficial()
-        .displayName("Sun Protection")
-})
 
 StartupEvents.registry("item", event => {
-    event.create("technologyinthesea:sunscreen")
-        .useAnimation("drink")
-        .food(builder => {
-            builder
-                .alwaysEdible()
-                .effect("technologyinthesea:sun_protection", 1200, 0, 1)
-        })
-    
-    event.create("technologyinthesea:aqua_shard")
-    event.create("technologyinthesea:liquidest_bottle_of_liquids")
-
-    event.create("technologyinthesea:diamond_wire")
-})
-
-StartupEvents.registry("enchantment", event => {
-    event.create("technologyinthesea:sun_protection")
-        .maxLevel(1)
-        .displayName("Sun Protection")
-        .veryRare()
-        .undiscoverable()
-        .untradeable()
-        .wearable()
+    event.create("technologyinthesea:diamond_shard")
+        .tooltip(Text.literal("Shards bring luck"))
 })

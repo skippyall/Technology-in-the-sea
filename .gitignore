@@ -5,3 +5,4 @@ LICENSE
 kubejs/probe/**
 kubejs/jsconfig.json
 .vscode/**
+config/heracles-old

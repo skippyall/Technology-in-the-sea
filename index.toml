@@ -13,6 +13,162 @@ file = "config/cumulus_menus-client.toml"
 hash = "8b9972dccec0fb8b250bb8a38004a4ed7d6cde2e21c6b5abbd882cc2e50d7554"
 
 [[files]]
+file = "config/heracles-old/groups.txt"
+hash = "95d7534e1367620e1b0a70496cb994b95936fb841321033c296f176b26fe3805"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/aquamirae.json"
+hash = "05884846862794d5f4c043ee48cffe9c740f2da3883bf8beeee31333bf3d4c88"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/cornelia.json"
+hash = "7cdf28783fdb208db98227a98e711487d78aa61741653d19190813e67f745a36"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/eel.json"
+hash = "8c5e6c0eb2884cd116e9c81bdac1c1915073e072359aa903c042a211cb599403"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/gaia_guardian.json"
+hash = "4b320174f0ff037ea04f3458beb3c636268abbbc9ef60c878ba86768827c220f"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/mother_of_the_maze.json"
+hash = "e61a9ec720fefbe8bd68ce7f09027ca95fa388f90f68e670ce381a2012182b7d"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/slider.json"
+hash = "9c7986472dee6cf3d5b9e170b62d445e61e238c52a796861e6b0f0c83224445c"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/sun_spirit.json"
+hash = "bcf2fd56fbfa3b4611a364540707261e56f18788a616b8c4bd80d501b0504b7b"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/the_aether.json"
+hash = "7a86277bff313a6f1f198c3d55801abf43de4fb8f3526c07e9252c51df58ca70"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/valkyrie_queen.json"
+hash = "6d5812d52bb16cea5e9b95a826d4730a7c9806bb01a91385eb3d5f065b82baa2"
+
+[[files]]
+file = "config/heracles-old/quests/adventuretime/wither.json"
+hash = "5fc5a267ebba25226869be1b4e21ffa84b772cf3d17f66769836bccf39c6ef61"
+
+[[files]]
+file = "config/heracles-old/quests/botania/botania_intro.json"
+hash = "08da7ca588712cdf66a308c809f54953ee6d6fde9e1a6d33bbb45937ed435093"
+
+[[files]]
+file = "config/heracles-old/quests/botania/endoflame.json"
+hash = "4d7cf7907f53b5b030ea9f1424dcbd060bf9815ef5c1c9673fb3dd580a3bcded"
+
+[[files]]
+file = "config/heracles-old/quests/botania/floral_fertilizer.json"
+hash = "103219d083c5972d7a6821458a67addc823356025b416526ab90b47aa7f09e1f"
+
+[[files]]
+file = "config/heracles-old/quests/botania/management.json"
+hash = "64ef0f5a1bbeeb0c64108e654d6752329c4f5c268a67ccb8057193e1efb1283a"
+
+[[files]]
+file = "config/heracles-old/quests/botania/manasteel.json"
+hash = "5d25747a2b688c9b59f1727e2d9b89bdff00b199cd8e13d8190127427d1a13d1"
+
+[[files]]
+file = "config/heracles-old/quests/botania/mystical_flowers.json"
+hash = "e56498e07ff155b376e36739f4cbba9dee492d1500d1e88a94aa5c62989fa62c"
+
+[[files]]
+file = "config/heracles-old/quests/botania/petal_apothecary.json"
+hash = "70d75dd41459516b954650758112e4e2d82a5bd2664bbe90ddcd6d877b776385"
+
+[[files]]
+file = "config/heracles-old/quests/botania/pure_daisy.json"
+hash = "7fd1d384213930823dca64a9c79c98628fbc3d0dae63a16c89dbbdc25cf76be5"
+
+[[files]]
+file = "config/heracles-old/quests/create/andesite_alloy.json"
+hash = "6628dac07cda6aa6262036a630646ccc1ebfcdbc96196e96890f430a44e5abe4"
+
+[[files]]
+file = "config/heracles-old/quests/create/backtank.json"
+hash = "16e3705fa00dde18e7847a13d18756e1d7a1e3702fec9993e61594234cda1c9a"
+
+[[files]]
+file = "config/heracles-old/quests/create/create.json"
+hash = "bafa822040803199ba981a5e600b22f0987c82f3399593c10bfeb696e4a06ef7"
+
+[[files]]
+file = "config/heracles-old/quests/create/diving_boots.json"
+hash = "01fb53d689fce021fd365e2e59653c740285974d70fd37fc3029da0460056c94"
+
+[[files]]
+file = "config/heracles-old/quests/create/fan.json"
+hash = "ea24f01a2f9b41d2d2c3a773fa0ba7bcf059ed4d1f2b5716de4670a9c37ec5b9"
+
+[[files]]
+file = "config/heracles-old/quests/create/mixer.json"
+hash = "74231ae03ee6d1c743d9afe4d0d200fc02b455777dc4f27851cd06be37bd5ed8"
+
+[[files]]
+file = "config/heracles-old/quests/create/press.json"
+hash = "f66f50e30490e2df3fec0df920c1ac41b1cf1266509bd9e1886622b520498858"
+
+[[files]]
+file = "config/heracles-old/quests/create/waterwheel.json"
+hash = "8bba5db5a76848f1c6bddd0793113a2bbb08acdee2b92eab2b81d1cd357378f8"
+
+[[files]]
+file = "config/heracles-old/quests/resources/copper.json"
+hash = "e0809be8409b7fb985bba5ac0dfbc8fb3f0fb86525351cf132c8926ab9c4bd84"
+
+[[files]]
+file = "config/heracles-old/quests/resources/iron.json"
+hash = "c45503109576e57d362bc3410af346bfe83c2179fa4d0394fe59e15b177c2f47"
+
+[[files]]
+file = "config/heracles-old/quests/resources/resources.json"
+hash = "e700c30aa1603ea7b8d9b231e2aa194452a6a7c221224ab78efeb321a94348d7"
+
+[[files]]
+file = "config/heracles-old/quests/start/andesite.json"
+hash = "db6179e465b12b49eec27142c38bd93da89beef65367e6cdd0da2e28e7ea02f4"
+
+[[files]]
+file = "config/heracles-old/quests/start/bonemeal.json"
+hash = "d67c0b56f09964b5a92c2b9cdad59225fb5744b324d2ce19094c8ed86f1e2087"
+
+[[files]]
+file = "config/heracles-old/quests/start/campfire.json"
+hash = "4bd82c624f9ba2a7822f6b318f83ffe63f6fe6a1139a54bb4d7ba57a9051e331"
+
+[[files]]
+file = "config/heracles-old/quests/start/cobblestone.json"
+hash = "214d5b7d606924626e689e0cd48847143b49d57ccdf59d239fbd213a28bb140b"
+
+[[files]]
+file = "config/heracles-old/quests/start/fish.json"
+hash = "5f8d53927fd46494d71bf8c7a5d4b6ae6a7625093878986bdd16ba768c4dd42b"
+
+[[files]]
+file = "config/heracles-old/quests/start/kelp.json"
+hash = "bc6e9b22d4249e3375895899368e826f1f06f751db68e977cf03dab04836c00c"
+
+[[files]]
+file = "config/heracles-old/quests/start/start.json"
+hash = "62b6ef31e2e9c82ee0856397d81cd22f2aff3e8b324f832af2b8cca67b55b518"
+
+[[files]]
+file = "config/heracles-old/quests/start/wood.json"
+hash = "44a3a57583d086765d354db96f20db1de99387b581bb7e0cd7f09e0ae7ba25dd"
+
+[[files]]
+file = "config/heracles-old/tutorial.html"
+hash = "3ee4fc4dea2619980a842af8e3b992a25d5aa0e3405c693d4d5def280928fa03"
+
+[[files]]
 file = "config/heracles/groups.txt"
 hash = "95d7534e1367620e1b0a70496cb994b95936fb841321033c296f176b26fe3805"
 
@@ -30,11 +186,11 @@ hash = "8c5e6c0eb2884cd116e9c81bdac1c1915073e072359aa903c042a211cb599403"
 
 [[files]]
 file = "config/heracles/quests/adventuretime/gaia_guardian.json"
-hash = "4b320174f0ff037ea04f3458beb3c636268abbbc9ef60c878ba86768827c220f"
+hash = "c7a78a874b1f002e38f59be9e69d8176d4d4a364c6ad33de16d2f69b21514709"
 
 [[files]]
 file = "config/heracles/quests/adventuretime/mother_of_the_maze.json"
-hash = "e61a9ec720fefbe8bd68ce7f09027ca95fa388f90f68e670ce381a2012182b7d"
+hash = "f9b25e99b53a3eb36d2b9e3a0f49e031fd4b096cfe4d900a813e880eaa50f08c"
 
 [[files]]
 file = "config/heracles/quests/adventuretime/slider.json"
@@ -89,12 +245,28 @@ file = "config/heracles/quests/botania/pure_daisy.json"
 hash = "7fd1d384213930823dca64a9c79c98628fbc3d0dae63a16c89dbbdc25cf76be5"
 
 [[files]]
+file = "config/heracles/quests/botania/runic_altar.json"
+hash = "6e12e29593da8a726312994e96d9decfa66a9df5aaab0b3c5d917369a93dac07"
+
+[[files]]
+file = "config/heracles/quests/botania/terrestial_agglomoration_plate.json"
+hash = "12a6e6e0e8150aadf9b60ac375e712dffe3b3f802b1334882b1079233beeb7c6"
+
+[[files]]
 file = "config/heracles/quests/create/andesite_alloy.json"
 hash = "6628dac07cda6aa6262036a630646ccc1ebfcdbc96196e96890f430a44e5abe4"
 
 [[files]]
 file = "config/heracles/quests/create/backtank.json"
 hash = "16e3705fa00dde18e7847a13d18756e1d7a1e3702fec9993e61594234cda1c9a"
+
+[[files]]
+file = "config/heracles/quests/create/blaze_burner.json"
+hash = "90b0b1ebed08e3295a390bc827226dbdd323182c0d3d25c3b4e7a8a67fac44d3"
+
+[[files]]
+file = "config/heracles/quests/create/brass.json"
+hash = "68974906fe449040dca9549a98c8a4addebf028e75c55963a675847484e93690"
 
 [[files]]
 file = "config/heracles/quests/create/create.json"
@@ -110,7 +282,7 @@ hash = "ea24f01a2f9b41d2d2c3a773fa0ba7bcf059ed4d1f2b5716de4670a9c37ec5b9"
 
 [[files]]
 file = "config/heracles/quests/create/mixer.json"
-hash = "74231ae03ee6d1c743d9afe4d0d200fc02b455777dc4f27851cd06be37bd5ed8"
+hash = "e61edb5c6e8408257ceff2cc1635510995bf8bc27fd99bb10a62ea83329b1779"
 
 [[files]]
 file = "config/heracles/quests/create/press.json"
@@ -121,16 +293,40 @@ file = "config/heracles/quests/create/waterwheel.json"
 hash = "8bba5db5a76848f1c6bddd0793113a2bbb08acdee2b92eab2b81d1cd357378f8"
 
 [[files]]
+file = "config/heracles/quests/hephaestus/melter.json"
+hash = "6c55a1405e5a15f956035a28fc16bfeb0d879e579e0f27e6ffe1c492c709e234"
+
+[[files]]
 file = "config/heracles/quests/resources/copper.json"
 hash = "e0809be8409b7fb985bba5ac0dfbc8fb3f0fb86525351cf132c8926ab9c4bd84"
 
 [[files]]
+file = "config/heracles/quests/resources/drilling_machine.json"
+hash = "5b12da36a83dc32d9e2fc4895707dba3a37752f01f4bae243890ca45dfd0d40c"
+
+[[files]]
+file = "config/heracles/quests/resources/fluid_well_extractor.json"
+hash = "41e022d4302f3e0a679b9d8e613ecc86ea466f8644c674d0622335e6901cdd70"
+
+[[files]]
+file = "config/heracles/quests/resources/gold.json"
+hash = "1f92890c8f1fc664d3dbf0ef18659370156b8ab32ac18c562dec735a990c6152"
+
+[[files]]
 file = "config/heracles/quests/resources/iron.json"
-hash = "c45503109576e57d362bc3410af346bfe83c2179fa4d0394fe59e15b177c2f47"
+hash = "7952353354d56c8d181cf3892e458f44268d8d9d47c231b210e6be64814f5b70"
+
+[[files]]
+file = "config/heracles/quests/resources/oil.json"
+hash = "08c1c09fb39f04bbfb2abfa20c3757caebee3abff3220f847ea9e9bfb51947d5"
 
 [[files]]
 file = "config/heracles/quests/resources/resources.json"
 hash = "e700c30aa1603ea7b8d9b231e2aa194452a6a7c221224ab78efeb321a94348d7"
+
+[[files]]
+file = "config/heracles/quests/resources/zinc.json"
+hash = "9ece6a3d8cde24f8e24f68df785534bba4d718dcea074116b0abee61845e15f6"
 
 [[files]]
 file = "config/heracles/quests/start/andesite.json"
@@ -169,6 +365,10 @@ file = "config/heracles/tutorial.html"
 hash = "3ee4fc4dea2619980a842af8e3b992a25d5aa0e3405c693d4d5def280928fa03"
 
 [[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "9e84fddcbcb8e3e6c5c6458cf8882fedf0cf47c0a85157ae1c7767ae694eef7f"
+
+[[files]]
 file = "config/tconstruct-common.toml"
 hash = "08750086ede3c081e64220822c1842c002f0008039df6543ec6a08435182adad"
 
@@ -193,12 +393,20 @@ file = "kubejs/assets/technologyinthesea/textures/item/aqua_shard.png"
 hash = "106d9e518ce8aed7e8cd4914be6ffacb8629fb95006be87d2add3526c83035ea"
 
 [[files]]
-file = "kubejs/assets/technologyinthesea/textures/item/sun_screen.png"
-hash = "93f73262863a683025d8f1a9dc316e32fc3f16490f53b0d2bede546a0cde44af"
+file = "kubejs/assets/technologyinthesea/textures/item/liquid_bottle.png"
+hash = "3d4678ccbad676febee55084e1a4546a976142d986192296274bc516e71d5f62"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/liquidest_bottle_of_liquids.png"
+hash = "3d4678ccbad676febee55084e1a4546a976142d986192296274bc516e71d5f62"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/not_enough_aqua_shard.png"
+hash = "c948c888f39d05a4cb3fbd47d1d9d34516cb12d77772256dc2d17ef41e924987"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/textures/mob_effect/sun_protection.png"
-hash = "d706035ccecbb057da5f321e6942e803e5e794610e086e9c7785e1fa0224c04f"
+hash = "2822d12ad0a201478f513c56ad539e41324ff06a9ea2e8afc35e6f3eacdb6e01"
 
 [[files]]
 file = "kubejs/client_scripts/ad_astra.js"
@@ -278,31 +486,27 @@ hash = "0703fe419d6044ff312e44925aca4dac5aa7d1b4ff8335a2e2c9a1b45b6cd353"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra.js"
-hash = "763f91f7e13b2326957af867306569275be9e260f563e37b511a807207b6f3a7"
+hash = "a26a43f597b0a7248b62554252bedd9f5ebc873c98329b32b1ed8a57092c6285"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "a833343c04ee2e855bc396b6ee9b871474784b879baeb8f1a44fe1c8bf8a86cb"
+hash = "33b4aafdc242cf55403a56d4f20b2faf4b5dde7f80001ec609df025d5ded7175"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
-hash = "d4944230993bae7ccf53718fc571089f0f66b8a6e87590d59ef306022ec0e77d"
+hash = "26d50166f0548ea789db63f00811fe5baf996a4f6fba37c96afb142b04d1be6b"
 
 [[files]]
 file = "kubejs/server_scripts/botania.js"
-hash = "4556cc0b3931a56b8a01db862c542fddd463bf679585017549fab430ae037394"
-
-[[files]]
-file = "kubejs/server_scripts/classes.js"
-hash = "40e430eee1d69124de1897493a2003dd06d1ee4890e29a45f81faeb61a036c8e"
+hash = "c1089db6581098c2c5291fe06dcec6196db57ba6960259119171737be2e63097"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "2aaf6d418d382122d96e7f00557bb84fcdd64978c3ebc793e3cd5d47553ceaa3"
+hash = "56a46b6a6d084dfa7491ee429481ecccf0c4f0105dec46eb23bb5d9be6d2b4bd"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_additions_new_age.js"
-hash = "f02e0a0390f5232df67800f429b3cf4ce2fed044a46f07cbbc689b197667ab28"
+hash = "4eb4116634559bf03682d99d5fa182da20bcb66b8a5f652f0cf774ac43da1148"
 
 [[files]]
 file = "kubejs/server_scripts/create_ore_excavation.js"
@@ -310,7 +514,7 @@ hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
-hash = "266bf7eee6435e4ee0ece78aa3928da599713359e0bb85abba5101d6175731ef"
+hash = "567fca822d9210d520b930036236de083c832c89abebb5f0f405c3d73e487b19"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"
@@ -321,32 +525,36 @@ file = "kubejs/server_scripts/hephaestus.js"
 hash = "f52f9decbc18ea6997f40afe7584651afa5bc58ac0b3c66ea64ba7a0a38ae7dc"
 
 [[files]]
+file = "kubejs/server_scripts/misc.js"
+hash = "f4034f1b301cdf2af39a315b6de1e99210785ac1484403422643fd2485a02c37"
+
+[[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "aed77e33e5c7d38f99e1104297b9634f06e4856798704cde4d13ad90f1555e2e"
+hash = "84fd20b5a93f0932b76a5b9d30d03e69f5bf587096921949d8c49b89cdcba3d3"
 
 [[files]]
 file = "kubejs/server_scripts/spawn.js"
-hash = "e946400088f3211678572caf8f4c462e4e1811021bbfb89f2c175259b17e8be8"
+hash = "b1ffc8c677c7dc76a2e326983c59ca13a0031865988c924ca90df1b6524b9571"
 
 [[files]]
 file = "kubejs/server_scripts/start.js"
-hash = "fb4ce48abb38f13ab430483eacdda5e5ffd7fa0f26a89f2b0ec79e32915259f3"
+hash = "4fcdb30354db7c4e1bd4316b49cc1a3e30c12a8a289bc2b554d360386eb7cb21"
 
 [[files]]
 file = "kubejs/server_scripts/sun.js"
-hash = "d364d513e14c14c330620973347e4974a9815985fd39b1073c63a7d7c04b031a"
+hash = "76233813b69e22c517d79491e6f4f0c73ba91229e9e147f4087e363c8cd2bed3"
 
 [[files]]
 file = "kubejs/startup_scripts/crafting_items.js"
-hash = "45be65d1779aad784ac5be0c493161319e2d4854c50414bb29a1856f9ed18c81"
+hash = "3525d3509a06524b679f7af042a044e1ff5db0ad2d436b2a3b432ede518c6d90"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "14bed77f9a70ff24e74df8b207cc3985d56ac649e39247fa2a409ad54d2dc2bd"
+hash = "ee8400fa4f0a07b087b9cc18f96a12de3500abacf35545fb57592591cd673ed5"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "89c5cc16522edbc203d3d85f2e766b6c7991148c1f5a1740ed3530014fcb3628"
+hash = "c1e356c39dca0549fd7a88da7f183b7f65cb63dcdd48d120b8dd5b75dbad6999"
 metafile = true
 
 [[files]]
@@ -381,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "c63034f7214537ebcb573a7802dc158595697918022a1424b8c68f83ae397355"
+hash = "6b05f3d7ec7e979133e3caf44600d4717870071b9f061198ee1b3adb47eeffaf"
 metafile = true
 
 [[files]]
@@ -391,7 +599,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "b5f19394d7a00de9c812241bda1a1664bc0b2665ba72b459b932e5b94cb24d9c"
+hash = "b935f12a70c0710c898d32ec49f8c4b9f3f7d8e69397b7070abb4b86a33d4401"
 metafile = true
 
 [[files]]
@@ -431,7 +639,12 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "4c6bd9db593961209b5b8836f4bb05ff86791fd981fce381569220a23ef5c5aa"
+hash = "a10f7f1072508bbe2d8d9cd9ce980cabc46805568ae9f055a5f47622aead26a7"
+metafile = true
+
+[[files]]
+file = "mods/bedrockify.pw.toml"
+hash = "2c89dbb76c9118ebb9f75e23aa0b337588907891d9fe50d7d5a497eaacb82fee"
 metafile = true
 
 [[files]]
@@ -446,7 +659,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "8fd4ddf48d8e591c6a8708921579a94628f7c6eba5e102c42fc0f544b60c621d"
+hash = "c325387d3cbdf2658de2a51ea6235b610505c6de8dc8be71799d050c713c88a2"
 metafile = true
 
 [[files]]
@@ -575,11 +788,6 @@ hash = "76aba8d8cc62f325d52613c1b66d17dae77dd1df918b1153fc2bd5fb80b42a27"
 metafile = true
 
 [[files]]
-file = "mods/createnuclear.pw.toml"
-hash = "a583a5e1190ef2189487ee5bd87d0adebbc8fcbb31d828a48d28a5104f9c1e06"
-metafile = true
-
-[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "78085457d022d795c7f4f5566476fde9a8a4e81eee96db09ef7f5bd09eb34926"
 metafile = true
@@ -636,12 +844,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "f217a0233c8aef84e914e1f8e90718be2496a923725215190d375ab3140379ab"
+hash = "36587a2be418f365faa1a6deac5eadcc00b6a79ebacab25ad87839f9ddc021e7"
 metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "e8238cec79622e7bb07dab6d224972fac5bac01fcf1ec3b400d6a68fae29bb9c"
+hash = "8eb10c86083225d12ec67f6bd65e19e8f917a7f08495dfcd12a210768cf06c4e"
 metafile = true
 
 [[files]]
@@ -661,7 +869,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "791ac009a9a44b6d19c232b0c563bf08439b8ead9ba39ee65eda2e4e5127f78e"
+hash = "bc7e199dc865b98387fb460ab134ec17778bdef7977e2f9e5975dbe5326c8b9b"
 metafile = true
 
 [[files]]
@@ -696,7 +904,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic.pw.toml"
-hash = "e93445d4d21b7ad40204394fc4be435f1b596f8d922141e973f83528a38e0210"
+hash = "1282603004e7a752ed2b808057e32cb9ce962586432bd668160c58471e093a05"
 metafile = true
 
 [[files]]
@@ -791,7 +999,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "365f9fc8f0088acdf6887b7f41b1d5fa4b5533317503f6ad49fdfe3fdc4fe5aa"
+hash = "2b24c4202cb5c7ec741b3015d131a60f67f55117c0d525f2d31adaf8e2f6bd26"
 metafile = true
 
 [[files]]
@@ -866,7 +1074,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "177b37256afd171f2e5447434057f604acd09b5328e85e46ed4c5399f90269f5"
+hash = "16136cf70bfc6953a131de88e6650f3d41c0edd32baa5cd2d8ea126be656286e"
 metafile = true
 
 [[files]]
@@ -891,7 +1099,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
-hash = "9be3955190299fe8add6d555aabc46f96fc4246836163b867602924f43fd6611"
+hash = "d81e094b7e2a9179c927c1c4f76327825182626d041fa5b8a3b6126a2303bc66"
 metafile = true
 
 [[files]]
@@ -908,6 +1116,10 @@ metafile = true
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "a77dd2cbda814f4fba77499399279581f129f1cf984a4bde1245f28e5c6ccc08"
 metafile = true
+
+[[files]]
+file = "mods/technology-in-the-sea-companion-1.0-SNAPSHOT.jar"
+hash = "551183a1eef5d3613f336842de2c4b1ed4b234bb4cb9d779e2f35e61d6525496"
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
@@ -951,5 +1163,9 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "b9f04a29216982a51ecf2dc249ba9daef134a0d59ba19c0ce52cd1d069c92d3e"
+hash = "79a6d1e1f7f067c36cbb2e16465eeeda65874fc6e8606efeff6eedba9f485fcc"
 metafile = true
+
+[[files]]
+file = "publish.sh"
+hash = "24a1ad04953a9190a37c3b9e3295b4c1a73a905445ab6359729a0eecea2459ef"

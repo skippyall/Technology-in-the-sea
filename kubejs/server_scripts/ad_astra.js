@@ -9,36 +9,27 @@ ServerEvents.tags("minecraft:worldgen/biome", event => {
 
 ServerEvents.recipes(event => {
     oreVein(event, "desh", "Desh", "technologyinthesea:moon_biomes", 133023984)
-    createRecipe(
-        event,
-        "create:crushing",
-        [
-            Item.of("ad_astra:raw_desh")
-        ],
-        [
-            Item.of("technologyinthesea:crushed_dirty_desh")
-        ]
-    )
-    createRecipe(
-        event,
-        "create:splashing",
-        [
-            Item.of("technologyinthesea:crushed_dirty_desh")
-        ],
-        [
-            Item.of("technologyinthesea:crushed_clean_desh")
-        ]
-    )
+    oreProcessing(event, "desh", true, Fluid.of("minecraft:lava", FluidAmounts.BUCKET * 0.2).toJson(), 3)
 
     oreVein(event, "ostrum", "Ostrum", "technologyinthesea:mars_biomes", 496057027)
-    oreVein(event, "calorite", "calorite", "technologyinthesea:calorite_vein_biomes", 759834809)
+    oreProcessing(event, "ostrum", false, Fluid.of("technologyinthesea:void_essence", FluidAmounts.BUCKET * 0.2).toJson(), 5)
+
+    oreVein(event, "calorite", "Calorite", "technologyinthesea:calorite_vein_biomes", 759834809)
+    oreProcessing(event, "calorite", false, Fluid.of("technologyinthesea:icy_essence", FluidAmounts.BUCKET * 0.2).toJson(), 7)
 
     event.recipes.createoreexcavation.vein("Oil Vein", "ad_astra:oil_bucket")
         .placement(384, 64, 636174428)
         .biomeWhitelist("c:in_overworld")
         .id("technologyinthesea:oil_vein")
 
-    event.recipes.createoreexcavation.extracting(Fluid.of("ad_astra:oil", 810), "technologyinthesea:oil_vein", 20)
+    event.recipes.createoreexcavation.extracting(Fluid.of("ad_astra:oil", FluidAmounts.BUCKET * 0.01), "technologyinthesea:oil_vein", 20)
+
+    event.recipes.createoreexcavation.vein("Ice Shard Vein", "ad_astra:ice_shard")
+        .placement(384, 64, 699779059)
+        .biomeWhitelist("technologyinthesea:mars_biomes")
+        .id("technologyinthesea:ice_shard_vein")
+
+    event.recipes.createoreexcavation.drilling("ad_astra:ice_shard", "technologyinthesea:ice_shard_vein", 1500)
 })
 
 function oreVein(/** @type {Internal.RecipesEventJS}*/ event, name, displayName, biomes, salt) {
@@ -51,4 +42,84 @@ function oreVein(/** @type {Internal.RecipesEventJS}*/ event, name, displayName,
 
     event.remove({id: "ad_astra:smelting/" + name + "_ingot_from_smelting_raw_" + name})
     event.remove({id: "ad_astra:blasting/" + name + "_ingot_from_blasting_raw_" + name})
+}
+
+function oreProcessing(event, ore, blasting, fluid, loops) {
+    createRecipe(
+        event,
+        "create:crushing",
+        [
+            Item.of("ad_astra:raw_" + ore)
+        ],
+        [
+            Item.of("technologyinthesea:crushed_dirty_" + ore)
+        ]
+    )
+    createRecipe(
+        event,
+        "create:splashing",
+        [
+            Item.of("technologyinthesea:crushed_dirty_" + ore)
+        ],
+        [
+            Item.of("technologyinthesea:crushed_clean_" + ore)
+        ]
+    )
+
+    if(blasting) {
+        createRecipe(
+            event,
+            "create:haunting",
+            [
+                Item.of("technologyinthesea:crushed_clean_" + ore)
+            ],
+            [
+                {
+                    "item": "ad_astra:" + ore + "_nugget",
+                    "count": 3
+                },
+                {
+                    "item": "ad_astra:" + ore + "_nugget",
+                    "chance": 0.5
+                },
+                {
+                    "item": "ad_astra:" + ore + "_nugget",
+                    "chance": 0.5
+                }
+            ]
+        )
+    }
+
+    sequencedAssembly(
+        event,
+        Item.of("technologyinthesea:crushed_clean_" + ore),
+        [
+            Item.of("ad_astra:" + ore + "_ingot")
+        ],
+        [
+            createRecipe(
+                event,
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:unfinished_" + ore + "_ingot"),
+                    fluid
+                ],
+                [
+                    Item.of("technologyinthesea:unfinished_" + ore + "_ingot")
+                ]
+            ),
+            createRecipe(
+                event,
+                "create:pressing",
+                [
+                    Item.of("technologyinthesea:unfinished_" + ore + "_ingot")
+                ],
+                [
+                    Item.of("technologyinthesea:unfinished_" + ore + "_ingot")
+                ]
+            ),
+        ],
+        loops,
+        Item.of("technologyinthesea:unfinished_" + ore + "_ingot")
+    )
 }

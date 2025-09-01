@@ -1,3 +1,5 @@
+// priority: 1
+
 function botaniaRecipe(event, type, input, output, extra) {
     event.custom(
         Object.assign(
@@ -13,10 +15,9 @@ function botaniaRecipe(event, type, input, output, extra) {
 
 ServerEvents.recipes(event => {
     event.remove({id:"botania:petal_apothecary/bubbell"})
-    botaniaRecipe(
-        event,
-        "botania:petal_apothecary",
-        [
+    event.custom({
+        "type": "botania:petal_apothecary",
+        "ingredients": [
             {
                 "tag": "botania:petals/cyan"
             },
@@ -36,13 +37,11 @@ ServerEvents.recipes(event => {
                 "tag": "botania:petals/blue"
             }
         ],
-        {
+        "output": {
             "item": "botania:bubbell"
         },
-        {
-            "reagent": {
-                "tag": "botania:seed_apothecary_reagent"
-            }
+        "reagent": {
+            "tag": "botania:seed_apothecary_reagent"
         }
-    )
+    })
 })

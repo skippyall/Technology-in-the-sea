@@ -42,4 +42,14 @@ ServerEvents.recipes(event => {
             "S": "createaddition:spool"
         }
     )
+    
+    event.shaped(
+        "create_new_age:heat_pump",
+        [
+            "HPH"
+        ], {
+            "H": "create_new_age:heat_pump",
+            "P": "create:mechanical_pump"
+        }
+    )
 })

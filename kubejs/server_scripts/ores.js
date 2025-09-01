@@ -29,24 +29,77 @@ ServerEvents.recipes(event => {
     event.remove({"id": "create:smelting/zinc_ingot_from_raw_ore"})
     event.remove({"id": "create:blasting/zinc_ingot_from_raw_ore"})
 
-    event.remove({output: "ad_astra:steel_ingot"})
-    event.remove({output: "createnuclear:steel_ingot"})
+    event.remove({id: "ad_astra:alloying/steel_from_alloying_iron_ingot_and_coals"})
     createRecipe(
         event,
         "create:mixing",
         [
             Fluid.of("tconstruct:molten_iron", 9000).toJson(),
-            Item.of("createnuclear:coal_dust")
+            Item.of("minecraft:coal")
         ],
         [
             Fluid.of("tconstruct:molten_steel", 9000).toJson()
         ]
     )
 
+    event.remove({input: "createoreexcavation:raw_diamond"})
+    sequencedAssembly(
+        event,
+        Item.of("createoreexcavation:raw_diamond"),
+        [
+            {
+                "item": "minecraft:diamond",
+                "chance": 0.4
+            },
+            {
+                "item": "technologyinthesea:diamond_shard",
+                "chance": 0.6
+            }
+        ],
+        [
+            createRecipe(
+                event,
+                "create:cutting",
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond")
+                ],
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond")
+                ],
+                {}
+            ),
+            createRecipe(
+                event,
+                "create:filling",
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond"),
+                    Fluid.of("minecraft:water", 100).toJson()
+                ],
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond")
+                ],
+                {}
+            ),
+            createRecipe(
+                event,
+                "create:deploying",
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond"),
+                    Item.of("create:sand_paper")
+                ],
+                [
+                    Item.of("technologyinthesea:slightly_polished_diamond")
+                ],
+                {}
+            ),
+        ],
+        1,
+        Item.of("technologyinthesea:slightly_polished_diamond")
+    )
 })
 
 ServerEvents.tags("item", event => { 
-    event.add("c:steel_ingots", "ad_astra:steel_ingot", "createnuclear:steel_ingot")
+    event.add("c:steel_ingots", "ad_astra:steel_ingot")
 })
 
 ServerEvents.blockLootTables(event => {

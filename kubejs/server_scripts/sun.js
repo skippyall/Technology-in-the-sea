@@ -1,5 +1,5 @@
 // priority: 0
-
+/*
 const SUN_DAMAGE_KEY = $ResourceKey.create(new ResourceLocation("minecraft", "damage_type"), new ResourceLocation("technologyinthesea","sun"))
 const OVERWORLD_KEY = new ResourceLocation("minecraft", "overworld")
 
@@ -20,4 +20,4 @@ PlayerEvents.tick(event => {
             }
         }
     }
-});
+});*/

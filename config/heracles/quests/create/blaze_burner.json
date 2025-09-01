@@ -1,21 +1,8 @@
 {
   "dependencies": [
-    "press"
+    "mixer"
   ],
-  "tasks": {
-    "mixer": {
-      "type": "heracles:item",
-      "item": "create:mechanical_mixer",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "basin": {
-      "type": "heracles:item",
-      "item": "create:basin",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -27,21 +14,21 @@
     "groups": {
       "Create": {
         "position": [
-          240,
+          300,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:mechanical_mixer",
+        "id": "create:blaze_burner",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "@Mixin(BasinBlock.class)"
+      "translate": "MixinSquared"
     }
   },
   "settings": {
