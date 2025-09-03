@@ -505,7 +505,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "df546a9db2a50aed4ceead2db3bd802ec121b25efcd3fb3988f58c25455c30d5"
+hash = "1a3bf593845cfc56f0f9d4902b7fa030841e2aa4371ca1c794000c8c7b2eae00"
 metafile = true
 
 [[files]]
@@ -885,12 +885,12 @@ metafile = true
 
 [[files]]
 file = "mods/odyssey-allies.pw.toml"
-hash = "80f6a2c2cd22db388c332cbdb03865ef9571ba3ad1390044ad00e27bd9c985c6"
+hash = "bded7a826b261f0e925468fb6b01419d1d375a675c87c49849e3a84145e11177"
 metafile = true
 
 [[files]]
 file = "mods/odyssey-claims.pw.toml"
-hash = "17009c6e2231242cc1673132342d3f4be28a7b1aaa6a2f35afa05807d4d70f6a"
+hash = "a341fe76a39246b0321458edb9528e24fa1015aa7eb96e4851b781c7e50c9063"
 metafile = true
 
 [[files]]
