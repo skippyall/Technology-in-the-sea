@@ -17,9 +17,7 @@ function sequencedAssembly(
     transitionalItem
     
 ) {
-    steps.forEach(recipe => console.log(recipe))
     steps = steps.map(getJsonAndRemove)
-    steps.forEach(recipe => console.log(recipe))
     return event.custom({
         "type": "create:sequenced_assembly",
         "ingredient": input,

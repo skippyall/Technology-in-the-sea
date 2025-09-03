@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "overrides": {
+        "zoomify": {
+			"depends": {
+				"yet_another_config_lib_v3": "3.6.x"
+			}
+		},
+        "harmonia": {
+            "-depends": {
+                "cadmus": "IGNORED"
+            }
+        }
+    }
+}
+

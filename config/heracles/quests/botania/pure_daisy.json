@@ -15,7 +15,9 @@
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Pure Daisy can convert blocks next to it into their living form!"
+    ],
     "groups": {
       "Botania": {
         "position": [

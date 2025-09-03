@@ -102,6 +102,12 @@ ServerEvents.tags("item", event => {
     event.add("c:steel_ingots", "ad_astra:steel_ingot")
 })
 
+ServerEvents.tags("block", event => {
+    ores.forEach(ore => {
+        event.add("technlogyinthesea:disable_experience_drop", ore)
+    })
+})
+
 ServerEvents.blockLootTables(event => {
     ores.forEach(ore => {
         event.modifyBlock(ore, table => {

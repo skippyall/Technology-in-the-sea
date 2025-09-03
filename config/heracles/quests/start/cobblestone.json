@@ -16,7 +16,8 @@
       "translate": "Obtain Cobblestone."
     },
     "description": [
-      "Obtain Cobblestone by compacting Gravel in the Crafting Table."
+      "Obtain Cobblestone by compacting Gravel in the Crafting Table.",
+      "<crafting-recipe id=\"minecraft:kjs/cobblestone\"></crafting-recipe>"
     ],
     "groups": {
       "Start": {

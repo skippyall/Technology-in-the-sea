@@ -1,11 +1,9 @@
 {
-  "dependencies": [
-    "mixer"
-  ],
+  "dependencies": [],
   "tasks": {
-    "blaze_burner": {
+    "mana_generator": {
       "type": "heracles:item",
-      "item": "create:blaze_burner",
+      "item": "#botania:generating_special_flowers",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,26 +14,26 @@
       "text": ""
     },
     "description": [
-      "A Blaze Burner can be obtained by using an Empty Blaze Burner on a blaze. To spawn a Blaze, place a Fel Pumpkin on top of two Iron Bars."
+      ""
     ],
     "groups": {
-      "Create": {
+      "Botania": {
         "position": [
-          300,
+          420,
           0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:blaze_burner",
+        "id": "botania:creative_pool",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "MixinSquared"
+      "translate": "Many Many Mana"
     }
   },
   "settings": {

@@ -72,13 +72,42 @@ ServerEvents.recipes(event => {
             Item.of("minecraft:snow_block"),
             Item.of("botania:bifrost_perm"),
             Item.of("botania:rune_winter"),
-            Item.of("ad_astra:ice_shard"),
             Fluid.of("ad_astra:cryo_fuel", FluidAmounts.BUCKET * 0.5).toJson()
         ],
         [
             Fluid.of("technologyinthesea:icy_essence", FluidAmounts.BUCKET * 0.5).toJson()
         ]
     )
+
+    event.shaped(
+        "technologyinthesea:sunscreen",
+        [
+            "NSN",
+            "N N",
+            "NSN"
+        ],
+        {
+            "N": "minecraft:iron_nugget",
+            "S": "create:iron_sheet"
+        }
+    )
+
+    createRecipe(
+        event,
+        "create:mixing",
+        [
+            {
+                "tag": "technologyinthesea:dead_corals_and_fans"
+            },
+            Item.of("minecraft:sea_pickle"),
+            Fluid.of("minecraft:water", FluidAmounts.BUCKET).toJson()
+        ],
+        [
+            Fluid.of("technologyinthesea:sunscreen", FluidAmounts.BUCKET).toJson()
+        ]
+    )
+
+
 })
 
 ServerEvents.tags("item", event => {

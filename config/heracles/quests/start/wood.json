@@ -16,7 +16,7 @@
       "translate": "Make Wood"
     },
     "description": [
-      "Craft"
+      "<crafting-recipe id=\"minecraft:kjs/bamboo_block\"></crafting-recipe>"
     ],
     "groups": {
       "Start": {

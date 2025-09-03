@@ -2,13 +2,22 @@
   "dependencies": [
     "andesite_alloy"
   ],
-  "tasks": {},
+  "tasks": {
+    "press": {
+      "type": "heracles:item",
+      "item": "create:mechanical_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "The Press can make sheets! Drop an item or place it on a depot under the press."
+    ],
     "groups": {
       "Create": {
         "position": [

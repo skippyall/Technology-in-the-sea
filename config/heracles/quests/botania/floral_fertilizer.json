@@ -17,7 +17,7 @@
       "translate": "Craft Floral Fertilizer"
     },
     "description": [
-      ""
+      "<crafting-recipe id=\"botania:fertilizer_dye\"></crafting-recipe>"
     ],
     "groups": {
       "Botania": {

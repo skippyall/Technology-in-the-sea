@@ -50,32 +50,4 @@ ServerEvents.recipes(event => {
             "name": "minecraft:oak_sapling"
         }
     });
-
-    createRecipe(
-        event,
-        "create:filling",
-        [
-            Item.of("technologyinthesea:empty_sunscreen"),
-            Fluid.of("technologyinthesea:sunscreen", FluidAmounts.BUCKET).toJson()
-        ],
-        [
-            Item.of("technologyinthesea:sunscreen")
-        ],
-        {}
-    )
-
-    createRecipe(
-        event,
-        "create:mixing",
-        [
-            {
-                "tag": "technologyinthesea:dead_corals_and_fans"
-            },
-            Item.of("minecraft:sea_pickle"),
-            Fluid.of("minecraft:water", FluidAmounts.BUCKET).toJson()
-        ],
-        [
-            Fluid.of("technologyinthesea:sunscreen", FluidAmounts.BUCKET).toJson()
-        ]
-    )
 })

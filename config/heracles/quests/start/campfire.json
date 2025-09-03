@@ -16,7 +16,7 @@
       "translate": "Craft a Campfire"
     },
     "description": [
-      ""
+      "<crafting-recipe id=\"minecraft:kjs/campfire\"></crafting-recipe>"
     ],
     "groups": {
       "Start": {

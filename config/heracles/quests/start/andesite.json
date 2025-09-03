@@ -16,7 +16,7 @@
       "translate": "Obtain Andesite"
     },
     "description": [
-      "Make Andesite from Gravel and Cobblestone."
+      "<crafting-recipe id=\"minecraft:kjs/andesite\"></crafting-recipe>"
     ],
     "groups": {
       "Start": {

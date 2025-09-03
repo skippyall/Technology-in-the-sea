@@ -2,13 +2,22 @@
   "dependencies": [
     "blaze_burner"
   ],
-  "tasks": {},
+  "tasks": {
+    "brass": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "<p>If you place the Blaze Burner under a Basin and give it some fuel, you can use it to craft heated mixing or compacting recipes.</p> <p>This allows you to make Brass, which is required for advanced Create components.</p>"
+    ],
     "groups": {
       "Create": {
         "position": [
