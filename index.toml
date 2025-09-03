@@ -382,7 +382,7 @@ hash = "a476079a79ec6180c10df2754142af624d7652a51234428df00c1321918e3040"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_additions_new_age.js"
-hash = "4eb4116634559bf03682d99d5fa182da20bcb66b8a5f652f0cf774ac43da1148"
+hash = "ecd3871df1a1e6925726b9df3d2e041c64918fe23eb6d0a3c71ecfdc44b94ad6"
 
 [[files]]
 file = "kubejs/server_scripts/create_ore_excavation.js"
@@ -402,11 +402,11 @@ hash = "f52f9decbc18ea6997f40afe7584651afa5bc58ac0b3c66ea64ba7a0a38ae7dc"
 
 [[files]]
 file = "kubejs/server_scripts/misc.js"
-hash = "aac7d4af39e1407b1d766b93a16874096b8e1516bf6ef6344da4c2e17bb34fb3"
+hash = "70612ddabc0d38619bad7d77540a256756155d8c28561a279ac781d4f9ef4259"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "9f66d0839c1df9760fb8152fa31cfb6ce80f6da97d03f7d0171706f14c43a281"
+hash = "98905462d60de3bea9f41ec0e809b5ca16a91e9712d9b857e2628b519749d8dc"
 
 [[files]]
 file = "kubejs/server_scripts/spawn.js"
@@ -950,7 +950,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "16136cf70bfc6953a131de88e6650f3d41c0edd32baa5cd2d8ea126be656286e"
+hash = "8b1d0f0eb793ac16826d5fe1955b65a250971c073e38dbb9d846b0bce8f72f8b"
 metafile = true
 
 [[files]]
@@ -995,7 +995,7 @@ metafile = true
 
 [[files]]
 file = "mods/technology-in-the-sea-companion-1.0-SNAPSHOT.jar"
-hash = "ed3e4c973d384931eb69df753a6c27e04fa18db802a8ec1dab26afe8b14b4fad"
+hash = "4e6fbf9bbcf3339822cb8f7dfeb4dcac1d6fe22fb0f2b42aa6e9a5da55d7439a"
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"

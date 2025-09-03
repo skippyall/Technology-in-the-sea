@@ -104,7 +104,7 @@ ServerEvents.tags("item", event => {
 
 ServerEvents.tags("block", event => {
     ores.forEach(ore => {
-        event.add("technlogyinthesea:disable_experience_drop", ore)
+        event.add("technologyinthesea:disable_experience_drop", ore)
     })
 })
 

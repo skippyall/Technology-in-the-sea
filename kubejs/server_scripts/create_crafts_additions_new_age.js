@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({output: "create_new_age:copper_wire"})
     event.remove({output: "create_new_age:overcharged_iron_wire"})
     event.remove({output: "create_new_age:overcharged_golden_wire"})
+    event.remove({output: "createaddition:electric_motor"})
 
     event.shapeless(
         "create_new_age:copper_wire", 

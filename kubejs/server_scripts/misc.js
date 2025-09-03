@@ -127,3 +127,7 @@ ServerEvents.tags("item", event => {
     event.add("technologyinthesea:sun_protection_armor", "#ad_astra:space_suit_items")
     event.add("technologyinthesea:sun_protection_armor", "#ad_astra:netherite_space_suit_items")
 })
+
+ServerEvents.tags("block", event => {
+    event.add("cadmus:allows_claim_interactions", "yigd:grave")
+});
