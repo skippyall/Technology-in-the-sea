@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
                 "create:filling",
                 [
                     Item.of("technologyinthesea:slightly_polished_diamond"),
-                    Fluid.of("minecraft:water", 100).toJson()
+                    Fluid.of("minecraft:water", 8100).toJson()
                 ],
                 [
                     Item.of("technologyinthesea:slightly_polished_diamond")
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
                 "create:deploying",
                 [
                     Item.of("technologyinthesea:slightly_polished_diamond"),
-                    Item.of("create:sand_paper")
+                    Item.of("minecraft:paper")
                 ],
                 [
                     Item.of("technologyinthesea:slightly_polished_diamond")

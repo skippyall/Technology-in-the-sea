@@ -1,3 +1,6 @@
  {
-    "death.attack.sun": "%s was exposed to sunlight"
+    "death.attack.sun": "sun/misc/Unsafe",
+    "item.technologyinthesea.sunscreen": "Sunscreen",
+    "enchantment.technologyinthesea.sun_protection": "Sun Protection",
+    "effect.technologyinthesea.sun_protection": "Sun Protection"
  }

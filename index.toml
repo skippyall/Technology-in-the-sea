@@ -13,6 +13,10 @@ file = "config/cumulus_menus-client.toml"
 hash = "8b9972dccec0fb8b250bb8a38004a4ed7d6cde2e21c6b5abbd882cc2e50d7554"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "d7c49ce46e8c18077a6d16c232d8afebc705aefef6fda7dfd1384a4717228edc"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "e0394d27316fb53911853f5f60d461710221090ea218bf782faaa1d5bdf3e0ed"
 
@@ -266,11 +270,19 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/lang/en_us.json"
-hash = "fa185fb803d8ded52b889298d715c4082eea1b02b565c0407cd188febc3984dc"
+hash = "21f19fd52cbd6ada95daf880f24f33ca5808e9abf1a32088877bba3dcb45e655"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/models/item/sunscreen.json"
+hash = "4e970275f9f9a10b3ad018db1dd805180ea9a3402c914cac35e09f103b09bf72"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/textures/item/aqua_shard.png"
 hash = "106d9e518ce8aed7e8cd4914be6ffacb8629fb95006be87d2add3526c83035ea"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/diamond_shard.png"
+hash = "ffd4345337d3d8d293103f7871912dcf91cf2083369d4339db1a6db6d8a114b5"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/textures/item/liquid_bottle.png"
@@ -283,6 +295,18 @@ hash = "3d4678ccbad676febee55084e1a4546a976142d986192296274bc516e71d5f62"
 [[files]]
 file = "kubejs/assets/technologyinthesea/textures/item/not_enough_aqua_shard.png"
 hash = "c948c888f39d05a4cb3fbd47d1d9d34516cb12d77772256dc2d17ef41e924987"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/slightly_polished_diamond.png"
+hash = "5555b2df8076e00c459fb6908792454423d0e8e6d06b268c3222446b70cdc9ad"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/item/sunscreen.png"
+hash = "93f73262863a683025d8f1a9dc316e32fc3f16490f53b0d2bede546a0cde44af"
+
+[[files]]
+file = "kubejs/assets/technologyinthesea/textures/mob_effect/sun_protection.png"
+hash = "2822d12ad0a201478f513c56ad539e41324ff06a9ea2e8afc35e6f3eacdb6e01"
 
 [[files]]
 file = "kubejs/client_scripts/ad_astra.js"
@@ -345,20 +369,16 @@ file = "kubejs/data/technologyinthesea/damage_type/sun.json"
 hash = "93617b7eb442556a7c00e8a121ff1dfd8986cef150e781da34d68371869389a8"
 
 [[files]]
-file = "kubejs/data/technologyinthesea/structures/space_station.nbt"
-hash = "4c53d771b7de8ecbe86d523cf8251924196e8339980a4ac9fbe1db9a524b87b4"
+file = "kubejs/data/technologyinthesea/loot_tables/extra"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/data/technologyinthesea/structures/start.nbt"
-hash = "90962912ad1ed52c9db9f8f2e573821b2aad16f18ece8f93b8694aa07fc735b5"
+file = "kubejs/data/technologyinthesea/structures/base.nbt"
+hash = "dd49912b718aaec69d421fc5dd6d34b61be0472d9905a6d5cbdb4e9adeb2e9df"
 
 [[files]]
-file = "kubejs/data/technologyinthesea/worldgen/structure/start.json"
-hash = "19594f96e25f21f10ba76970da13b902d388b2e3d97486a3a537cad676f37d5f"
-
-[[files]]
-file = "kubejs/data/technologyinthesea/worldgen/template_pool/start.json"
-hash = "0703fe419d6044ff312e44925aca4dac5aa7d1b4ff8335a2e2c9a1b45b6cd353"
+file = "kubejs/data/technologyinthesea/structures/ship.nbt"
+hash = "26a8b627e09f8b02732512e3fd6fecda6cb9203ed82ba5b452c1a3b8ed70b7a2"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra.js"
@@ -406,7 +426,7 @@ hash = "70612ddabc0d38619bad7d77540a256756155d8c28561a279ac781d4f9ef4259"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "98905462d60de3bea9f41ec0e809b5ca16a91e9712d9b857e2628b519749d8dc"
+hash = "4330c39943e7542242e5b29418056a83291c34b93610ddb738fa74bccfbbb13c"
 
 [[files]]
 file = "kubejs/server_scripts/spawn.js"
@@ -414,7 +434,7 @@ hash = "b1ffc8c677c7dc76a2e326983c59ca13a0031865988c924ca90df1b6524b9571"
 
 [[files]]
 file = "kubejs/server_scripts/start.js"
-hash = "a20607ff9d5efd84222d58026fa800b284437b1b11bd5ae4b556b7bcec213c3d"
+hash = "f09f0f33540633799488c0d04534595674aaf3d25deac233a9c68fc196f2f2db"
 
 [[files]]
 file = "kubejs/server_scripts/sun.js"
