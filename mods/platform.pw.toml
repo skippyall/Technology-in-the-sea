@@ -3,11 +3,11 @@ filename = "Platform-fabric-1.20.1-1.2.10.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/i6fiqm5y/versions/pbv4kIBG/Platform-fabric-1.20.1-1.2.10.1.jar"
-hash-format = "sha512"
-hash = "68e862c00b62a8f4b48b6028ee8c7163e8b677fff81b49f6c392240b4812e35ef6110b33cb96274ba821bc0f6510ee2e18c4cac3dff1d63330d3b9694a57bca1"
+hash-format = "sha1"
+hash = "fd573b3470cb3773fd7f998fc64ce83880fe123b"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "i6fiqm5y"
-version = "pbv4kIBG"
+[update.curseforge]
+file-id = 6673723
+project-id = 997634

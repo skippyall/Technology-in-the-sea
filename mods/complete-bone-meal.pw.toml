@@ -1,16 +1,13 @@
-filename = 'complete-bone-meal-2.1.1+1.20.1.jar'
-name = 'Complete Bone Meal'
-side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Complete Bone Meal"
+filename = "complete-bone-meal-2.1.1+1.20.1.jar"
+side = "both"
 
 [download]
-hash = 'ebdba1a1a872a4e67bb6372963ba3516c634d0dbb462e041743c568d268c27d21845e3df4fa5c19f29b8f05be9c8cca7a3cf1504d0d0941e3d5471b4086ce692'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/KhOKMbz0/versions/vxDmEHad/complete-bone-meal-2.1.1%2B1.20.1.jar'
+hash-format = "sha1"
+hash = "5410d72dbf84d152435cd0c66a7f17d9249f4960"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = 'KhOKMbz0'
-version = 'vxDmEHad'
+[update]
+[update.curseforge]
+file-id = 4595268
+project-id = 443969

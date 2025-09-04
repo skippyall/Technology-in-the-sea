@@ -1,16 +1,13 @@
-filename = 'ExtendedDrawers-2.1.1+mc.1.20.1.jar'
-name = 'Extended Drawers'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Extended Drawers"
+filename = "ExtendedDrawers-2.1.1+mc.1.20.1.jar"
+side = "both"
 
 [download]
-hash = '071ed371ffcf81144a85177b30a3781948e2345431b8f89509cf65a48b997dde95182578af97d36051703c75ffc5e94581f74b3d122bf0b7e59887ef56ce1df7'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/AhtxbnpG/versions/jAVkcXz6/ExtendedDrawers-2.1.1%2Bmc.1.20.1.jar'
+hash-format = "sha1"
+hash = "3bd92feec248b44394d89cea91f1b421e9d4c186"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = 'AhtxbnpG'
-version = 'jAVkcXz6'
+[update]
+[update.curseforge]
+file-id = 5022286
+project-id = 616602

@@ -1,0 +1,13 @@
+name = "Modern KeyBinding [Fabric]"
+filename = "ModernKeyBinding-Fabric-1.20-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "178d06d782267fbe120061f1cbd3f8415980c22a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4646836
+project-id = 695433

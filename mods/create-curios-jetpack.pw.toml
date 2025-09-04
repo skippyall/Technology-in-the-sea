@@ -1,16 +1,13 @@
-filename = 'create_jetpack_curios-1.2.0-fabric-1.20.1.jar'
-name = 'Create: Curios Jetpack [Forge/Fabric]'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge]"
+filename = "create_jetpack_curios-1.2.0-fabric-1.20.1.jar"
+side = "both"
 
 [download]
-hash = 'a64aad023ae5b771ded58a7de86278ef03f26ea78d25d6d8abc81367b874fc3c370d8334ae4abca8e1674b751c64f2c160a9d80eb2e88fd82c6f5a232f0efeb7'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/BBhCMftF/versions/W3nb22WX/create_jetpack_curios-1.2.0-fabric-1.20.1.jar'
+hash-format = "sha1"
+hash = "520104be46acb1aa1e86cdd78ab4853a9c57851b"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = 'BBhCMftF'
-version = 'W3nb22WX'
+[update]
+[update.curseforge]
+file-id = 5887737
+project-id = 1057194

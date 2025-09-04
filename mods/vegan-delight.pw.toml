@@ -1,16 +1,13 @@
-filename = 'VeganDelightFabric-1.4.1.jar'
-name = 'Vegan Delight'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Vegan Delight"
+filename = "VeganDelightFabric-1.4.1.jar"
+side = "both"
 
 [download]
-hash = 'c36535897f7889400268665d47830a293fc573b2db65e84ee39884a39a97da6dce75bb8a2fa26fb91dbd9527b3feeb0af55396fd6222c7b8ac994729327bcca7'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/Na8nA0jA/versions/gSf2iuR1/VeganDelightFabric-1.4.1.jar'
+hash-format = "sha1"
+hash = "c598555acaa64a2ce36f0394d55b2e28e7a87c04"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = 'Na8nA0jA'
-version = 'gSf2iuR1'
+[update]
+[update.curseforge]
+file-id = 6102629
+project-id = 928290

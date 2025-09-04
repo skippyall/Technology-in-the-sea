@@ -1,13 +1,13 @@
-name = "ItemPhysic"
+name = "ItemPhysic Full"
 filename = "ItemPhysic_FABRIC_v1.8.8_mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/aT8BzaOj/versions/fNVgMKbh/ItemPhysic_FABRIC_v1.8.8_mc1.20.1.jar"
-hash-format = "sha512"
-hash = "9b92d87ee5a142bc1557dfc50561ec7e857bafd6a812871fae292d013d36f87271caeac1258767d68013fdd551a277d13688d9e0935ba20e5dfa7d45a76daf63"
+hash-format = "sha1"
+hash = "d7bf9f0e4ba6c32d48fc86aaa9b227d58f5b4881"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "aT8BzaOj"
-version = "fNVgMKbh"
+[update.curseforge]
+file-id = 6862493
+project-id = 258587
