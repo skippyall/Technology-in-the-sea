@@ -386,7 +386,7 @@ hash = "a26a43f597b0a7248b62554252bedd9f5ebc873c98329b32b1ed8a57092c6285"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "18be5482a3208a9cd2a8d9727c21c7b8762b8b47fa22ae8219fb562c7f8e0e5c"
+hash = "7e5d5e2ab4cb36cebc2e4e0797d9c99b718013388ab6535a0c7ebbfec0140b50"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
@@ -410,7 +410,7 @@ hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
-hash = "567fca822d9210d520b930036236de083c832c89abebb5f0f405c3d73e487b19"
+hash = "8525fbc4e6a7c937173f6bcd1b7de4db7c8f68e8779361cf474be9905517c819"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"

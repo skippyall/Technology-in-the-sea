@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     )
     press(event, "ae2:silicon_press", "ae2:silicon")
     press(event, "ae2:logic_processor_press", "minecraft:gold_ingot")
-    press(event, "ae2:calculation_processor_press", "ae2:certus_quartz")
+    press(event, "ae2:calculation_processor_press", "ae2:certus_quartz_crystal")
     press(event, "ae2:engineering_processor_press", "minecraft:diamond")
 })
 
@@ -60,7 +60,7 @@ function press(event, press, deploy) {
             )
         ],
         1,
-        "technologyinthesea:unpressed_press"
+        Item.of("technologyinthesea:unpressed_press")
     )
 }
 
