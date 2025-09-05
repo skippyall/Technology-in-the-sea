@@ -13,7 +13,8 @@ const items = [
     "liquid_bottle",
     "liquidest_bottle_of_liquids",
     "not_enough_aqua_shard",
-    "diamond_wire"
+    "diamond_wire",
+    "unpressed_press"
 ]
 
 StartupEvents.registry("item", event => {

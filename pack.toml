@@ -1,12 +1,12 @@
 name = "Technology in the Sea"
 author = "skippyall"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5500de50ad24585d2b20984b58818610a0bcad748d686e024de822b67601d191"
+hash = "4283892907c6ff93dedf9ba3f8c270bcab070b0bfa869586dfcf413f227e01b0"
 
 [versions]
 fabric = "0.16.14"

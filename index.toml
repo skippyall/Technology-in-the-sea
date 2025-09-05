@@ -386,7 +386,7 @@ hash = "a26a43f597b0a7248b62554252bedd9f5ebc873c98329b32b1ed8a57092c6285"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "33b4aafdc242cf55403a56d4f20b2faf4b5dde7f80001ec609df025d5ded7175"
+hash = "18be5482a3208a9cd2a8d9727c21c7b8762b8b47fa22ae8219fb562c7f8e0e5c"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
@@ -442,7 +442,7 @@ hash = "76233813b69e22c517d79491e6f4f0c73ba91229e9e147f4087e363c8cd2bed3"
 
 [[files]]
 file = "kubejs/startup_scripts/crafting_items.js"
-hash = "3525d3509a06524b679f7af042a044e1ff5db0ad2d436b2a3b432ede518c6d90"
+hash = "34af491c7a0dea91c43161c69347094a1615da7f4ef5d69a63987ca22f123b22"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
