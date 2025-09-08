@@ -1,13 +1,13 @@
 name = "Default Options"
-filename = "defaultoptions-fabric-1.20.1-18.0.3.jar"
+filename = "defaultoptions-fabric-1.20.1-18.0.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a122c843b13e321d3540c9848cbcfd713feca0f5"
+hash = "cd193e02621a599dedf5f07bba761e59a2bff29a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6804662
+file-id = 6972468
 project-id = 232131

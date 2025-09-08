@@ -684,7 +684,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "ebb64ea46b861c1a15228d26be3930f3c8b342c24cc627d91b0e5ed5f751bba0"
+hash = "a897fbbddfc8e2cd40decdec35e89f09a0a6088d8a8eb844479348f56cce10aa"
 metafile = true
 
 [[files]]
@@ -844,7 +844,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-keybinding-fabric.pw.toml"
-hash = "696c33a6426fe3f3251d89d1a76200393979a225aa141fdc21d251220b2495a8"
+hash = "c95ebbff90fa8facf46e20571d8db9c00706617d8181466f53037ecc04b8c218"
 metafile = true
 
 [[files]]
@@ -919,7 +919,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "773eea8b01f8570be10ac366c20f19cba875e19014f8f1b0ff508996249d7b45"
+hash = "9fd9b86bdb5097fea5f7eafe7cc5561802db9bda3509aa6e5e7801a08ca435c1"
 metafile = true
 
 [[files]]
@@ -934,7 +934,7 @@ metafile = true
 
 [[files]]
 file = "mods/probejs.pw.toml"
-hash = "d2ee196fdd163d919870bbcd15056a324b6c1f0358d3c660408ffefb8fe22713"
+hash = "aeaed2e0347ef601178e1c900da39328c5a09e43b20aba277ca665eac57fef6a"
 metafile = true
 
 [[files]]
@@ -964,7 +964,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "aab39f22ace4c36f3b227c9911a5bc47f6553c2ef45c24987fe6aea60e5d8008"
+hash = "d2b44eebe495b46f2bb5c105704fccecdc2610bc1ce5e30b1647f2fc6682cea8"
 metafile = true
 
 [[files]]
