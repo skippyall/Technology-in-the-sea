@@ -318,7 +318,7 @@ hash = "d6b910aab0eb73daa57186f626f375f94cdf1816dce8e5ee2c1b7231754fea9d"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "66f83fe8debe31ec553a1ef4b7d06f6c12db56282b239c091c20bfeebdcc5fb4"
+hash = "fa3da757baa670706d2b2c87396357bf644d8e21b37b7aa477f379c9a97b3c3b"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -410,7 +410,7 @@ hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
-hash = "8525fbc4e6a7c937173f6bcd1b7de4db7c8f68e8779361cf474be9905517c819"
+hash = "bf4c3ccbe1d86baa047c569a76f641dd9c2e55bbec7314ca8d0c564e4a5a8aef"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"
@@ -695,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "6d177676bfb422b8d9e2c7702ec7db9da034dfb93fc4b5817bfdbeb934218850"
+hash = "b886b1761e9a0e36cfc351c3e8cd3455fbe35143ade876c97cc43d02b07b061d"
 metafile = true
 
 [[files]]
@@ -970,7 +970,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8b1d0f0eb793ac16826d5fe1955b65a250971c073e38dbb9d846b0bce8f72f8b"
+hash = "72c1533380179770ae00d958d3f5750842cd8df096ba05779e3903f935951bb7"
 metafile = true
 
 [[files]]
