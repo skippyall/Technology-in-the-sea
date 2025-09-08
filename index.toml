@@ -318,7 +318,7 @@ hash = "d6b910aab0eb73daa57186f626f375f94cdf1816dce8e5ee2c1b7231754fea9d"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "66f83fe8debe31ec553a1ef4b7d06f6c12db56282b239c091c20bfeebdcc5fb4"
+hash = "fa3da757baa670706d2b2c87396357bf644d8e21b37b7aa477f379c9a97b3c3b"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -386,7 +386,7 @@ hash = "a26a43f597b0a7248b62554252bedd9f5ebc873c98329b32b1ed8a57092c6285"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "33b4aafdc242cf55403a56d4f20b2faf4b5dde7f80001ec609df025d5ded7175"
+hash = "7e5d5e2ab4cb36cebc2e4e0797d9c99b718013388ab6535a0c7ebbfec0140b50"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
@@ -410,7 +410,7 @@ hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
-hash = "567fca822d9210d520b930036236de083c832c89abebb5f0f405c3d73e487b19"
+hash = "bf4c3ccbe1d86baa047c569a76f641dd9c2e55bbec7314ca8d0c564e4a5a8aef"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"
@@ -442,7 +442,7 @@ hash = "76233813b69e22c517d79491e6f4f0c73ba91229e9e147f4087e363c8cd2bed3"
 
 [[files]]
 file = "kubejs/startup_scripts/crafting_items.js"
-hash = "3525d3509a06524b679f7af042a044e1ff5db0ad2d436b2a3b432ede518c6d90"
+hash = "34af491c7a0dea91c43161c69347094a1615da7f4ef5d69a63987ca22f123b22"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
@@ -1014,7 +1014,7 @@ metafile = true
 
 [[files]]
 file = "mods/technology-in-the-sea-companion-1.0-SNAPSHOT.jar"
-hash = "4e6fbf9bbcf3339822cb8f7dfeb4dcac1d6fe22fb0f2b42aa6e9a5da55d7439a"
+hash = "2672cb9f761c157d1609a857801eb5839cf9996631fc2ad61f3eb749b491e991"
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
