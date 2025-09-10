@@ -564,6 +564,11 @@ hash = "a5dc532eb294bc91cec4f83cef915397d442bd53c8ea2e2dfd414b569855acf0"
 metafile = true
 
 [[files]]
+file = "mods/camera-utils.pw.toml"
+hash = "5bf200284967ba5b6cfc3c2fb9cd2a865b94a7b39dffb6b41f529cce7bc44185"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0ed502ad7d53ca1936079cb7508b2e085909610ac51337fff2a3ce0fa6dcae28"
 metafile = true
@@ -586,6 +591,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "5f3a107d604bd188061a646de7fe5537bea2ed55956d47287adb33c50ebba5e3"
+metafile = true
+
+[[files]]
+file = "mods/clientsort.pw.toml"
+hash = "7b5041803251be83ec0a23bb10f068d634b051a5cff85e970e249e57a5f13beb"
 metafile = true
 
 [[files]]
@@ -754,8 +764,18 @@ hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
 metafile = true
 
 [[files]]
+file = "mods/freecam.pw.toml"
+hash = "858b7118ce19537e0833360fbb636ff070639799a0d14b471e05aa834a8673c7"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "bc7e199dc865b98387fb460ab134ec17778bdef7977e2f9e5975dbe5326c8b9b"
+metafile = true
+
+[[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "0f88e46eb7b6487e139e4cf9e75c3b6c2764ffea3a222655798a893399bdfa1a"
 metafile = true
 
 [[files]]
@@ -776,6 +796,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "dd42008c5965a39e8d48ab45c17e4049a89638759032491567031e34fc5daf06"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "67099bc47fc849c2964b3b64b6f3af6fcbf941d9a4f1c03dda25f746b279015b"
 metafile = true
 
 [[files]]
@@ -826,6 +851,11 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "6b986485b44e2007fc69334325f45ad1a4ad1d09d7f7814b1dbc443f171abbd1"
 metafile = true
 
 [[files]]
@@ -969,6 +999,11 @@ hash = "4106590136e394ed5d7958fa8addeb04ea1ca22943ae76474e04761d4f4a9322"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "2e6fb1842744392bac79f92c25c04613af1b82a904a29f7afd0df4f61a4c757e"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "72c1533380179770ae00d958d3f5750842cd8df096ba05779e3903f935951bb7"
 metafile = true
@@ -1055,9 +1090,4 @@ metafile = true
 [[files]]
 file = "mods/yigd.pw.toml"
 hash = "fc1d7a1ee1bb2d4906b2686d105c82b67297e8a8376bd3882fea0fdb7e6499eb"
-metafile = true
-
-[[files]]
-file = "mods/zoomify.pw.toml"
-hash = "79a6d1e1f7f067c36cbb2e16465eeeda65874fc6e8606efeff6eedba9f485fcc"
 metafile = true
