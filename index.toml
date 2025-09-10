@@ -564,6 +564,11 @@ hash = "a5dc532eb294bc91cec4f83cef915397d442bd53c8ea2e2dfd414b569855acf0"
 metafile = true
 
 [[files]]
+file = "mods/camera-utils.pw.toml"
+hash = "5bf200284967ba5b6cfc3c2fb9cd2a865b94a7b39dffb6b41f529cce7bc44185"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0ed502ad7d53ca1936079cb7508b2e085909610ac51337fff2a3ce0fa6dcae28"
 metafile = true
@@ -586,6 +591,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "5f3a107d604bd188061a646de7fe5537bea2ed55956d47287adb33c50ebba5e3"
+metafile = true
+
+[[files]]
+file = "mods/clientsort.pw.toml"
+hash = "7b5041803251be83ec0a23bb10f068d634b051a5cff85e970e249e57a5f13beb"
 metafile = true
 
 [[files]]
@@ -759,6 +769,11 @@ hash = "bc7e199dc865b98387fb460ab134ec17778bdef7977e2f9e5975dbe5326c8b9b"
 metafile = true
 
 [[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "0f88e46eb7b6487e139e4cf9e75c3b6c2764ffea3a222655798a893399bdfa1a"
+metafile = true
+
+[[files]]
 file = "mods/hephaestus.pw.toml"
 hash = "8cf0b05d939262d611b932657858b1822f97c6fc9f51e005413c1510492db70c"
 metafile = true
@@ -826,6 +841,11 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "6b986485b44e2007fc69334325f45ad1a4ad1d09d7f7814b1dbc443f171abbd1"
 metafile = true
 
 [[files]]
@@ -1055,9 +1075,4 @@ metafile = true
 [[files]]
 file = "mods/yigd.pw.toml"
 hash = "fc1d7a1ee1bb2d4906b2686d105c82b67297e8a8376bd3882fea0fdb7e6499eb"
-metafile = true
-
-[[files]]
-file = "mods/zoomify.pw.toml"
-hash = "79a6d1e1f7f067c36cbb2e16465eeeda65874fc6e8606efeff6eedba9f485fcc"
 metafile = true
