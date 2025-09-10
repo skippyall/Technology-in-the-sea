@@ -29,9 +29,10 @@ function press(event, press, deploy) {
         [
             createRecipe(
                 event,
-                "create:pressing",
+                "create:deploying",
                 [
-                    Item.of("technologyinthesea:unpressed_press")
+                    Item.of("technologyinthesea:unpressed_press"),
+                    Item.of(deploy)
                 ],
                 [
                     Item.of("technologyinthesea:unpressed_press")
@@ -39,10 +40,9 @@ function press(event, press, deploy) {
             ),
             createRecipe(
                 event,
-                "create:deploying",
+                "create:pressing",
                 [
-                    Item.of("technologyinthesea:unpressed_press"),
-                    Item.of(deploy)
+                    Item.of("technologyinthesea:unpressed_press")
                 ],
                 [
                     Item.of("technologyinthesea:unpressed_press")

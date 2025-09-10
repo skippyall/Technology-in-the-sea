@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         [
             {
                 "item": "minecraft:iron_nugget",
-                "chance": 0.15
+                "chance": 0.30
             },
             {
                 "item": "create:copper_nugget",
@@ -25,9 +25,10 @@ ServerEvents.recipes(event => {
     )
 
     event.remove({"id": "create:crushing/tuff"})
-
-    event.remove({"id": "create:smelting/zinc_ingot_from_raw_ore"})
-    event.remove({"id": "create:blasting/zinc_ingot_from_raw_ore"})
+    event.remove({"id": "create:crushing/ochrum"})
+    event.remove({"id": "create:crushing/crimsite"})
+    event.remove({"id": "create:crushing/asurine"})
+    event.remove({"id": "create:crushing/veridium"})
 
     event.remove({id: "ad_astra:alloying/steel_from_alloying_iron_ingot_and_coals"})
     createRecipe(
@@ -96,10 +97,23 @@ ServerEvents.recipes(event => {
         1,
         Item.of("technologyinthesea:slightly_polished_diamond")
     )
+
+    event.shaped(
+        "createoreexcavation:raw_diamond",
+        [
+            "###",
+            "###",
+            "###"
+        ],
+        {
+            "#": "technologyinthesea:diamond_shard"
+        }
+    )
 })
 
 ServerEvents.tags("item", event => { 
     event.add("c:steel_ingots", "ad_astra:steel_ingot")
+    event.remove("c:copper_blocks", "minecraft:cut_copper")
 })
 
 ServerEvents.tags("block", event => {

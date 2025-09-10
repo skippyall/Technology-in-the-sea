@@ -107,7 +107,20 @@ ServerEvents.recipes(event => {
         ]
     )
 
-
+    event.remove({id: "constructionwand:core_destruction"})
+    event.shaped(
+        "constructionwand:core_destruction",
+        [
+            " GP",
+            "GBG",
+            "PG "
+        ],
+        {
+            "P": "minecraft:iron_pickaxe",
+            "G": "minecraft:glass_pane",
+            "B": "minecraft:iron_block"
+        }
+    )
 })
 
 ServerEvents.tags("item", event => {
