@@ -22,7 +22,6 @@ const ores = [
 
     "minecraft:nether_gold_ore",
     "minecraft:nether_quartz_ore",
-    "minecraft:ancient_debris",
 
     "create:zinc_ore",
     "create:deepslate_zinc_ore",

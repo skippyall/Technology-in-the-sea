@@ -30,7 +30,6 @@ ServerEvents.recipes(event => {
     event.remove({"id": "create:crushing/asurine"})
     event.remove({"id": "create:crushing/veridium"})
 
-    event.remove({id: "ad_astra:alloying/steel_from_alloying_iron_ingot_and_coals"})
     createRecipe(
         event,
         "create:mixing",

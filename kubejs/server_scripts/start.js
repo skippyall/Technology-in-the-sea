@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
                 "chance": 0.1
             },
             {
-                "item": "minecraft:moss",
+                "item": "minecraft:moss_block",
                 "chance": 0.1
             }
         ]

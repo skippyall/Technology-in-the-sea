@@ -63,4 +63,6 @@ ServerEvents.recipes(event => {
             "D": "create:mechanical_drill"
         }
     )
+
+    event.remove("createoreexcavation:ore_vein_type/water")
 })
