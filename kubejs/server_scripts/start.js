@@ -51,18 +51,6 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.shaped(
-        "minecraft:blaze_rod",
-        [
-            " BB",
-            "BBB",
-            "BB "
-        ],
-        {
-            "B": "minecraft:blaze_powder"
-        }
-    )
-
     event.shapeless(
         "minecraft:dirt",
         [
@@ -99,16 +87,14 @@ ServerEvents.recipes(event => {
     )
 
     event.custom({
-        "type": "tconstruct:melting",
-        "ingredient": {
-            "tag": "c:cobblestone"
+        "type": "botania:pure_daisy",
+        "input": {
+            "type": "block",
+            "block": "minecraft:andesite"
         },
-        "result": {
-            "amount": 81000,
-            "fluid": "minecraft:lava"
-        },
-        "temperature": 750,
-        "time": 133
+        "output": {
+            "name": "minecraft:lava"
+        }
     })
 
     event.remove({id: "create:milling/gravel"})
@@ -127,28 +113,6 @@ ServerEvents.recipes(event => {
         {
             "processingTime": 250
         }
-    )
-    event.custom({
-        "type": "botania:pure_daisy",
-        "input": {
-            "type": "block",
-            "block": "minecraft:sand"
-        },
-        "output": {
-            "name": "minecraft:soul_sand"
-        }
-    })
-    createRecipe(
-        event,
-        "create:mixing",
-        [
-            Item.of("minecraft:soul_sand"),
-            Fluid.of("minecraft:lava", FluidAmounts.BUCKET).toJson()
-        ],
-        [
-            Item.of("minecraft:netherrack")
-        ],
-        {}
     )
 
     createRecipe(

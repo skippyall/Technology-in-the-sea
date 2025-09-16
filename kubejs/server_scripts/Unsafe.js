@@ -11,17 +11,17 @@ ServerEvents.recipes(event => {
             "Y": "minecraft:yellow_dye"
         }
     )
+
     event.shaped(
-        "createoreexcavation:netherite_drill",
+        "minecraft:sponge",
         [
-            "424",
-            "212",
-            "424"
+            " K ",
+            "KYK",
+            " K "
         ],
         {
-            "4": "createoreexcavation:diamond_drill",
-            "2": "minecraft:diamond_block",
-            "1": "botania:mana_diamond",
+            "K": "minecraft:dried_kelp_block",
+            "Y": "minecraft:yellow_dye"
         }
     )
 })
