@@ -270,7 +270,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/lang/en_us.json"
-hash = "21f19fd52cbd6ada95daf880f24f33ca5808e9abf1a32088877bba3dcb45e655"
+hash = "2ef60897419e0fb25698c1449a17e6d470502080b5759814cad0a917ffbe89b2"
 
 [[files]]
 file = "kubejs/assets/technologyinthesea/models/item/sunscreen.json"
@@ -333,20 +333,40 @@ file = "kubejs/data/minecraft/dimension/the_nether.json"
 hash = "596ff7c9dfef2371d9e9acc09c283dc9a8f2ca1f7701ccb5ea12db7d541fe19f"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/brain_coral.json"
+hash = "6eea655c67878a5b121cd5e3fa3381d20c45b8295f81072b971d3cb3b095948a"
+
+[[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/brain_coral_fan.json"
 hash = "0499f996ac01fd4bed8ef9a1a497a5a6c741058d92593d81782f9c42e8bca338"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/bubble_coral.json"
+hash = "5a2e35cc9cc6e928fa16595a724d3dcf427961721eeb5a0f0638bd7e17d05ed8"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/bubble_coral_fan.json"
 hash = "8538bdd99047cc4fa0faae16c4a8d3ea9ef5d5c73321a10e88c89b809676bb2b"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/fire_coral.json"
+hash = "4225efd5a68df6217a889a696ae6b53d2162133fad427582f38231295fafd24e"
+
+[[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/fire_coral_fan.json"
 hash = "42f163b80263564473f988d30994b3d52602108a0c4214571f92fc7c6c1e0d07"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/horn_coral.json"
+hash = "582cc96709304e94398c641470855811f1da65a44e0042cbf911ad8c13d93c24"
+
+[[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/horn_coral_fan.json"
 hash = "d8e71d84d15aebb783d76732ccfb6f9a9e82e0632fde3e81ffd5875fcea3792e"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/tube_coral.json"
+hash = "7ddbfa6be16ef3b93db1d2724bcc106382d7d476940dcc35bca0d83956bdb7d8"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/blocks/tube_coral_fan.json"
@@ -369,10 +389,6 @@ file = "kubejs/data/technologyinthesea/damage_type/sun.json"
 hash = "93617b7eb442556a7c00e8a121ff1dfd8986cef150e781da34d68371869389a8"
 
 [[files]]
-file = "kubejs/data/technologyinthesea/loot_tables/extra"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "kubejs/data/technologyinthesea/structures/base.nbt"
 hash = "dd49912b718aaec69d421fc5dd6d34b61be0472d9905a6d5cbdb4e9adeb2e9df"
 
@@ -381,16 +397,20 @@ file = "kubejs/data/technologyinthesea/structures/ship.nbt"
 hash = "26a8b627e09f8b02732512e3fd6fecda6cb9203ed82ba5b452c1a3b8ed70b7a2"
 
 [[files]]
+file = "kubejs/server_scripts/Unsafe.js"
+hash = "0753a216392b753d0a562f9e3ab93d4db5ee37a7abcaea26b731ad1d4757846b"
+
+[[files]]
 file = "kubejs/server_scripts/ad_astra.js"
 hash = "a26a43f597b0a7248b62554252bedd9f5ebc873c98329b32b1ed8a57092c6285"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "7e5d5e2ab4cb36cebc2e4e0797d9c99b718013388ab6535a0c7ebbfec0140b50"
+hash = "057351267e7b9076b05a2eddab3f90205bbe40875dff9ed4c084d284df43cd05"
 
 [[files]]
 file = "kubejs/server_scripts/aqua_shard.js"
-hash = "26d50166f0548ea789db63f00811fe5baf996a4f6fba37c96afb142b04d1be6b"
+hash = "7e766c209893e30a594a9c0c21d03dfb4afe441e58fac1a6f49f215adf28a5b0"
 
 [[files]]
 file = "kubejs/server_scripts/botania.js"
@@ -398,7 +418,7 @@ hash = "c1089db6581098c2c5291fe06dcec6196db57ba6960259119171737be2e63097"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "a476079a79ec6180c10df2754142af624d7652a51234428df00c1321918e3040"
+hash = "9d53de4154ec7df8402059333b530fcacf566588e45b67dd23b924a2b9e0b7e4"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_additions_new_age.js"
@@ -406,7 +426,7 @@ hash = "ecd3871df1a1e6925726b9df3d2e041c64918fe23eb6d0a3c71ecfdc44b94ad6"
 
 [[files]]
 file = "kubejs/server_scripts/create_ore_excavation.js"
-hash = "19d37f52c07651533b77aa01ee6245d6b573b26da5780f3be72580d43c787732"
+hash = "fa95d5c6a11be413690025b4af9307843f9ed2e68723490f21b12216a1291b08"
 
 [[files]]
 file = "kubejs/server_scripts/create_utilities.js"
@@ -414,31 +434,31 @@ hash = "bf4c3ccbe1d86baa047c569a76f641dd9c2e55bbec7314ca8d0c564e4a5a8aef"
 
 [[files]]
 file = "kubejs/server_scripts/disable_items.js"
-hash = "9885295b20ac15660813f0994de6b68d8f3bab1460886c5a9359e754d4c9981f"
+hash = "7b14fc42c0baaa242d3867855f60e16c5b5aab2ed5c5cd7f96122af2dd4212d7"
 
 [[files]]
-file = "kubejs/server_scripts/hephaestus.js"
-hash = "f52f9decbc18ea6997f40afe7584651afa5bc58ac0b3c66ea64ba7a0a38ae7dc"
+file = "kubejs/server_scripts/farmers_delight.js"
+hash = "935e07a32ebe3fa97b5d4fde73ed5246eb2c6befd4bf564daa3942c7563179f8"
 
 [[files]]
 file = "kubejs/server_scripts/misc.js"
-hash = "70612ddabc0d38619bad7d77540a256756155d8c28561a279ac781d4f9ef4259"
+hash = "9bea961208e5062edddfcaaf4a8370c3a898db026448c2b0579dd9865914fbcc"
+
+[[files]]
+file = "kubejs/server_scripts/nether.js"
+hash = "ab59781916e82b2b623045ff20715482a5f64eb9498150bda61b2d27bf73077d"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "4330c39943e7542242e5b29418056a83291c34b93610ddb738fa74bccfbbb13c"
-
-[[files]]
-file = "kubejs/server_scripts/spawn.js"
-hash = "b1ffc8c677c7dc76a2e326983c59ca13a0031865988c924ca90df1b6524b9571"
+hash = "62fa8546c32a771cdb7742d464bb630a5669782ee225c19cc157c8517e37632c"
 
 [[files]]
 file = "kubejs/server_scripts/start.js"
-hash = "f09f0f33540633799488c0d04534595674aaf3d25deac233a9c68fc196f2f2db"
+hash = "251fa72ffe1df720cd638cc0cf3e12f5d4f3f45583459f7c337efbc25cffe7cd"
 
 [[files]]
 file = "kubejs/server_scripts/sun.js"
-hash = "76233813b69e22c517d79491e6f4f0c73ba91229e9e147f4087e363c8cd2bed3"
+hash = "95f932999e5241ed235eefdd4775f08bc8473b3c9b35723b4fe1c2c7836d0212"
 
 [[files]]
 file = "kubejs/startup_scripts/crafting_items.js"
@@ -446,7 +466,12 @@ hash = "34af491c7a0dea91c43161c69347094a1615da7f4ef5d69a63987ca22f123b22"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "ee8400fa4f0a07b087b9cc18f96a12de3500abacf35545fb57592591cd673ed5"
+hash = "e0ff5e833a17316fdc98923adc4ae168a7d866ddd1e5fa0ba933a8f85e911a56"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "c1e356c39dca0549fd7a88da7f183b7f65cb63dcdd48d120b8dd5b75dbad6999"
+metafile = true
 
 [[files]]
 file = "mods/accessories-tc-layer.pw.toml"
@@ -469,13 +494,18 @@ hash = "b8d57e5d0c5c5354ab21827762cba59cacb79bbdf4e5fb1217f7c7a693e4758d"
 metafile = true
 
 [[files]]
-file = "mods/advancement-plaques-fabric.pw.toml"
-hash = "1a9ac4888b6c071009a64b9e472716b937bda6545e334f3c3ba51b751bf1c7c3"
+file = "mods/advancement-plaques.pw.toml"
+hash = "85bf9211523f2b232142e659b31f8cd1fa3ffd942e2513e0c4e305a66ecc78fc"
 metafile = true
 
 [[files]]
-file = "mods/ae2-emi-crafting-integration.pw.toml"
-hash = "5ed5dc27fa616884f1a26e9aae94bd815f37d78d4f66af1c82ebb88b8f3a7d79"
+file = "mods/ae2-emi-crafting.pw.toml"
+hash = "3e6e351526d952a2abfcbcb685a3045f8f9a05dcedf3b1b528b1884c7d7f1db6"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
+hash = "6b05f3d7ec7e979133e3caf44600d4717870071b9f061198ee1b3adb47eeffaf"
 metafile = true
 
 [[files]]
@@ -550,7 +580,12 @@ metafile = true
 
 [[files]]
 file = "mods/botarium.pw.toml"
-hash = "62eee72c3a020fa7e20ddb186d6831b2a8561ab8f1345b0e3bf1d3fa5322ce90"
+hash = "a5dc532eb294bc91cec4f83cef915397d442bd53c8ea2e2dfd414b569855acf0"
+metafile = true
+
+[[files]]
+file = "mods/camera-utils.pw.toml"
+hash = "5bf200284967ba5b6cfc3c2fb9cd2a865b94a7b39dffb6b41f529cce7bc44185"
 metafile = true
 
 [[files]]
@@ -574,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/chipped.pw.toml"
-hash = "b00f404689c1c4a502c779cd7d8d5a06f9bcfd33c62b70f224eb4b86bd9c3ada"
+hash = "5f3a107d604bd188061a646de7fe5537bea2ed55956d47287adb33c50ebba5e3"
 metafile = true
 
 [[files]]
@@ -689,17 +724,17 @@ metafile = true
 
 [[files]]
 file = "mods/ducky-periphs.pw.toml"
-hash = "3dc065eeb299cc0e9641d049e4657dfa6a37077be7506e2efa36086cd32382c3"
-metafile = true
-
-[[files]]
-file = "mods/emi-trades-villager-trading-emi-plugin.pw.toml"
-hash = "cba9a89d5114ad8aaec8c4593851388bacf317cbe99428e347441c93ae9f8c1b"
+hash = "cc6eb3c71b6f59304db3600f9a4878526a87af81f4b2d195e3a8a21d513878ee"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "233834513e0bf17c37562fd5a81a917ac391f92aeb9e9e8bc51bd18560b41635"
+hash = "fec1ffa03b4d62e47be25512840490844fc383cf82d2ad35345b2f87a21e8228"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
+hash = "4df910c76d6fed4bc49e1dee2452136dfea1fd05b07ebf83f730e2e0ff12ef11"
 metafile = true
 
 [[files]]
@@ -709,12 +744,12 @@ metafile = true
 
 [[files]]
 file = "mods/extended-drawers.pw.toml"
-hash = "ff360ba97565b8efba9387e2b9a267937634568a8d56c39ae8711701ab499c3d"
+hash = "db7fd2142cdcbfb63192945085d993b0e661e008013a272158136e3cfe2fd4b2"
 metafile = true
 
 [[files]]
 file = "mods/extra-mod-integrations.pw.toml"
-hash = "dc5d10caacfbe148a8ac1b522f758b7b1085c2420d18f01fb6fd0da6acd49e47"
+hash = "376321a4e11e86d932670192b6ddebfd7b898c4e47e74a6b08c7c0123a0aa49c"
 metafile = true
 
 [[files]]
@@ -729,7 +764,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "9eb6843c81c82a1c341ce0f32b462b995c8a7686efac764ced8ad71efad1402f"
+hash = "36587a2be418f365faa1a6deac5eadcc00b6a79ebacab25ad87839f9ddc021e7"
 metafile = true
 
 [[files]]
@@ -749,17 +784,17 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "0d1f699d7c68b6a5189e679987886e0cb940f87ff143fffdbb12e7c26b69f99c"
+hash = "bc7e199dc865b98387fb460ab134ec17778bdef7977e2f9e5975dbe5326c8b9b"
 metafile = true
 
 [[files]]
-file = "mods/harmonia.pw.toml"
-hash = "9165b102db35ad9e00eb1670e55ce8c513614d0e336392e943396f6dce9a44be"
+file = "mods/hephaestus.pw.toml"
+hash = "8cf0b05d939262d611b932657858b1822f97c6fc9f51e005413c1510492db70c"
 metafile = true
 
 [[files]]
-file = "mods/hephaestus-fabric.pw.toml"
-hash = "2191748d6ec536fc3d9ee9c7f420a2cb89819176f91124b8dfbdae6bcb05e2e9"
+file = "mods/hephaestusplus.pw.toml"
+hash = "6eb54613d2aafdb6d08fc3c820366c6441fa2ecc69c7e6215e52fc67e835c638"
 metafile = true
 
 [[files]]
@@ -768,8 +803,8 @@ hash = "9c3c544bdc1aa3c52b709b9fcec8e2f5bb7959c966f3e733ca156fa7410a4a28"
 metafile = true
 
 [[files]]
-file = "mods/iceberg-fabric.pw.toml"
-hash = "2c1bac5d5bc9061449e91525e3564883743273cbe2eade645a2a70e8c38a9927"
+file = "mods/iceberg.pw.toml"
+hash = "dd42008c5965a39e8d48ab45c17e4049a89638759032491567031e34fc5daf06"
 metafile = true
 
 [[files]]
@@ -794,12 +829,12 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "910fa36384741dbc199805f0afde8f5ef06940d1a74d1d737b7bc1048c58916f"
+hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "789d382695029e664f45314b7c3d915dfb8baa82ef62a745ae3acb8b43559e3f"
+hash = "a615fd6551b3d47e2d0e42e4ec30df6293bec90c135f1022113425ab8f23f7a6"
 metafile = true
 
 [[files]]
@@ -819,7 +854,7 @@ metafile = true
 
 [[files]]
 file = "mods/lazydfu.pw.toml"
-hash = "e75515de6f60227e731affe8077018bd68d8556ebd62032a5e5bd5217b28d44f"
+hash = "1a5cd03008ca7ce028479312bbbe858996d08015db3028ac9c7a839be9e8560e"
 metafile = true
 
 [[files]]
@@ -934,7 +969,7 @@ metafile = true
 
 [[files]]
 file = "mods/probejs.pw.toml"
-hash = "aeaed2e0347ef601178e1c900da39328c5a09e43b20aba277ca665eac57fef6a"
+hash = "901167b37c963d43c6e561fd2cc8c7bbccf76203b9e60a53292adfaed87266ae"
 metafile = true
 
 [[files]]
@@ -959,17 +994,12 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "98739e44d0a6e97c0776861a551cf689d9190a215640210007dd28d3edad9107"
+hash = "4106590136e394ed5d7958fa8addeb04ea1ca22943ae76474e04761d4f4a9322"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d2b44eebe495b46f2bb5c105704fccecdc2610bc1ce5e30b1647f2fc6682cea8"
-metafile = true
-
-[[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "91874e1ce0e4d95d427d7e40159c7b5675c001b9ba6cdf9a77a026a98373cb06"
+hash = "72c1533380179770ae00d958d3f5750842cd8df096ba05779e3903f935951bb7"
 metafile = true
 
 [[files]]
@@ -1014,7 +1044,7 @@ metafile = true
 
 [[files]]
 file = "mods/technology-in-the-sea-companion-1.0-SNAPSHOT.jar"
-hash = "2672cb9f761c157d1609a857801eb5839cf9996631fc2ad61f3eb749b491e991"
+hash = "556d15a121417f2800579d3b0e756cf7be93efb615d37887ab99f45a059b0e9e"
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
@@ -1047,11 +1077,11 @@ hash = "eac5d5405a7020336980c31c15aab41e0a8fd6881f53deca8ad07c247e968206"
 metafile = true
 
 [[files]]
-file = "mods/youre-in-grave-danger.pw.toml"
-hash = "48b8a677eea2a71da6691bafbebbf256374df5411a867a55be12c83c54c1bb3a"
+file = "mods/yigd.pw.toml"
+hash = "fc1d7a1ee1bb2d4906b2686d105c82b67297e8a8376bd3882fea0fdb7e6499eb"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "40d98dfe2349cc97116e8f300bbae1286fa08a05341c4b5d916121dff2c0516a"
+hash = "79a6d1e1f7f067c36cbb2e16465eeeda65874fc6e8606efeff6eedba9f485fcc"
 metafile = true

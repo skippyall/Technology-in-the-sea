@@ -51,18 +51,6 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.shaped(
-        "minecraft:blaze_rod",
-        [
-            " BB",
-            "BBB",
-            "BB "
-        ],
-        {
-            "B": "minecraft:blaze_powder"
-        }
-    )
-
     event.shapeless(
         "minecraft:dirt",
         [
@@ -79,6 +67,8 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.remove({id: "create:milling/grass"})
+
     createRecipe(
         event,
         "create:milling",
@@ -87,22 +77,67 @@ ServerEvents.recipes(event => {
         ],
         [
             {
-                "item": "minecraft:pumpkin_seed",
+                "item": "minecraft:pumpkin_seeds",
+                "chance": 0.1
+            }
+        ],
+        {
+            "processingTime": 250
+        }
+    )
+
+    event.custom({
+        "type": "botania:pure_daisy",
+        "input": {
+            "type": "block",
+            "block": "minecraft:andesite"
+        },
+        "output": {
+            "name": "minecraft:lava"
+        }
+    })
+
+    event.remove({id: "create:milling/gravel"})
+
+    createRecipe(
+        event,
+        "create:milling",
+        [
+            Item.of("minecraft:gravel")
+        ],
+        [
+            {
+                "item": "minecraft:sand"
+            }
+        ],
+        {
+            "processingTime": 250
+        }
+    )
+
+    createRecipe(
+        event,
+        "create:splashing",
+        [
+            Item.of("minecraft:dirt")
+        ],
+        [
+            {
+                "item": "minecraft:sugar_cane",
+                "chance": 0.1
+            },
+            {
+                "item": "minecraft:bamboo",
+                "chance": 0.1
+            },
+            {
+                "item": "minecraft:brown_mushroom",
+                "chance": 0.1
+            },
+            {
+                "item": "minecraft:moss_block",
                 "chance": 0.1
             }
         ]
     )
-
-    event.custom({
-        "type": "tconstruct:melting",
-        "ingredient": {
-            "tag": "c:cobblestone"
-        },
-        "result": {
-            "amount": 81000,
-            "fluid": "minecraft:lava"
-        },
-        "temperature": 750,
-        "time": 133
-    })
 })

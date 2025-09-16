@@ -17,6 +17,11 @@ StartupEvents.registry("fluid", event => {
         .thinTexture(0xf0bc6e)
         .bucketColor(0xf0bc6e)
         .displayName("Sunscreen")
+    event.create("technologyinthesea:mana_essence")
+        .noBlock()
+        .thinTexture(0x0000FF)
+        .bucketColor(0x0000FF)
+        .displayName("Mana Essence")
 })
 
 

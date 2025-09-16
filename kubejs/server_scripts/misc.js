@@ -1,56 +1,3 @@
-// priority: 10
-/*const $ResourceKey = Java.loadClass(`net.minecraft.resources.ResourceKey`)
-const $StructurePlaceSettings = Java.loadClass('net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings')*/
-
-const ores = [
-    "minecraft:coal_ore",
-    "minecraft:deepslate_coal_ore",
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore",
-    "minecraft:copper_ore",
-    "minecraft:deepslate_copper_ore",
-    "minecraft:gold_ore",
-    "minecraft:deepslate_gold_ore",
-    "minecraft:redstone_ore",
-    "minecraft:deepslate_redstone_ore",
-    "minecraft:emerald_ore",
-    "minecraft:deepslate_emerald_ore",
-    "minecraft:lapis_ore",
-    "minecraft:deepslate_lapis_ore",
-    "minecraft:diamond_ore",
-    "minecraft:deepslate_diamond_ore",
-
-    "minecraft:nether_gold_ore",
-    "minecraft:nether_quartz_ore",
-    "minecraft:ancient_debris",
-
-    "create:zinc_ore",
-    "create:deepslate_zinc_ore",
-    "create_new_age:thorium_ore",
-    "tconstruct:cobalt_ore",
-
-    "ad_astra:moon_desh_ore",
-    "ad_astra:moon_iron_ore",
-
-    "ad_astra:mars_ostrum_ore",
-    "ad_astra:mars_iron_ore",
-    "ad_astra:mars_diamond_ore",
-
-    "ad_astra:venus_calorite_ore",
-    "ad_astra:venus_coal_ore",
-    "ad_astra:venus_gold_ore",
-    "ad_astra:venus_diamond_ore",
-
-    "ad_astra:glacio_coal_ore",
-    "ad_astra:glacio_copper_ore",
-    "ad_astra:glacio_iron_ore",
-    "ad_astra:glacio_lapis_ore",
-    
-    "ad_astra:deepslate_calorite_ore",
-    "ad_astra:deepslate_desh_ore",
-    "ad_astra:deepslate_ostrum_ore",
-]
-
 ServerEvents.recipes(event => {
     createRecipe(
         event, 
@@ -79,35 +26,69 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    event.shaped(
-        "technologyinthesea:sunscreen",
+    createRecipe(
+        event,
+        "create:compacting",
         [
-            "NSN",
-            "N N",
-            "NSN"
+            Item.of("botania:manasteel_ingot"),
+            Item.of("botania:life_essence"),
+        ],
+        [
+            Fluid.of("technologyinthesea:mana_essence", FluidAmounts.BUCKET).toJson(),
+            Item.of("botania:life_essence")
         ],
         {
-            "N": "minecraft:iron_nugget",
-            "S": "create:iron_sheet"
+            "heatRequirement": "superheated"
         }
     )
 
-    createRecipe(
-        event,
-        "create:mixing",
+    event.remove({id: "constructionwand:core_destruction"})
+    event.shaped(
+        "constructionwand:core_destruction",
         [
-            {
-                "tag": "technologyinthesea:dead_corals_and_fans"
-            },
-            Item.of("minecraft:sea_pickle"),
-            Fluid.of("minecraft:water", FluidAmounts.BUCKET).toJson()
+            " GP",
+            "GBG",
+            "PG "
         ],
-        [
-            Fluid.of("technologyinthesea:sunscreen", FluidAmounts.BUCKET).toJson()
-        ]
+        {
+            "P": "minecraft:iron_pickaxe",
+            "G": "minecraft:glass_pane",
+            "B": "minecraft:iron_block"
+        }
     )
 
+    event.remove({id: "botania:mana_infusion/cherry_sapling_to_oak_sapling"})
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "botania:sapling_cycle",
+        "input": {
+            "item": "minecraft:cherry_sapling"
+        },
+        "mana": 120,
+        "output": {
+            "item": "vanillabackport:pale_oak_sapling"
+        }
+    })
 
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "botania:sapling_cycle",
+        "input": {
+            "item": "vanillabackport:pale_oak_sapling"
+        },
+        "mana": 120,
+        "output": {
+            "item": "minecraft:oak_sapling"
+        }
+    })
 })
 
 ServerEvents.tags("item", event => {

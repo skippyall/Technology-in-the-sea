@@ -1,23 +1,29 @@
-// priority: 0
-/*
-const SUN_DAMAGE_KEY = $ResourceKey.create(new ResourceLocation("minecraft", "damage_type"), new ResourceLocation("technologyinthesea","sun"))
-const OVERWORLD_KEY = new ResourceLocation("minecraft", "overworld")
-
-PlayerEvents.tick(event => {
-    if(event.getLevel().getDimensionKey().location() == OVERWORLD_KEY) {
-        let player = event.getPlayer();
-        let light = event.getLevel().getBrightness("sky", new BlockPos(player.getBlockX(), player.getBlockY(), player.getBlockZ())) - event.getLevel().getSkyDarken();
-        if(light > 10) {
-            let ingredient = Ingredient.of("#ad_astra:space_suit_items").or(Ingredient.of("#ad_astra:netherite_space_suit_items"))
-            let pass = true
-            player.getArmorSlots().forEach(item => {
-                if(!(ingredient.test(item) || item.hasEnchantment("technologyinthesea:sun_protection", 1))) {
-                    pass = false;
-                }
-            })
-            if(!pass && !player.hasEffect("technologyinthesea:sun_protection")) {
-                player.attack(event.getLevel().damageSources().source(SUN_DAMAGE_KEY), 2);
-            }
+ServerEvents.recipes(event => {
+    event.shaped(
+        "technologyinthesea:sunscreen",
+        [
+            "NSN",
+            "N N",
+            "NSN"
+        ],
+        {
+            "N": "minecraft:iron_nugget",
+            "S": "create:iron_sheet"
         }
-    }
-});*/
+    )
+
+    createRecipe(
+        event,
+        "create:mixing",
+        [
+            {
+                "tag": "technologyinthesea:dead_corals_and_fans"
+            },
+            Item.of("minecraft:sea_pickle"),
+            Fluid.of("minecraft:water", FluidAmounts.BUCKET).toJson()
+        ],
+        [
+            Fluid.of("technologyinthesea:sunscreen", FluidAmounts.BUCKET).toJson()
+        ]
+    )
+})

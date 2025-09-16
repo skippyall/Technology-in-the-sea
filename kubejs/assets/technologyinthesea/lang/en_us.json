@@ -1,6 +1,10 @@
  {
     "death.attack.sun": "sun/misc/Unsafe",
     "item.technologyinthesea.sunscreen": "Sunscreen",
+    "item.technologyinthesea.zinc_vein_creator": "Zinc Vein Creator",
+    "item.technologyinthesea.redstone_vein_creator": "Redstone Vein Creator",
+    "item.technologyinthesea.netherite_vein_creator": "Netherite Vein Creator",
+    "item.technologyinthesea.oil_vein_creator": "Oil Vein Creator",
     "enchantment.technologyinthesea.sun_protection": "Sun Protection",
     "effect.technologyinthesea.sun_protection": "Sun Protection"
  }

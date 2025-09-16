@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
                 "create:filling",
                 [
                     Item.of("technologyinthesea:liquid_bottle"),
-                    Fluid.of("hephaestusplus:molten_manasteel", FluidAmounts.BUCKET).toJson()
+                    Fluid.of("technologyinthesea:mana_essence", FluidAmounts.BUCKET).toJson()
                 ],
                 [
                     Item.of("technologyinthesea:liquid_bottle")
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     )
     sequencedAssembly(
         event,
-        Item.of("minecraft:glass_bottle"),//Item.of("technologyinthesea:liquidest_bottle_of_liquids"),
+        Item.of("technologyinthesea:liquidest_bottle_of_liquids"),
         [
             Item.of("technologyinthesea:aqua_shard")
         ],
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
                 {}
             )
         ],
-        50000000,//40000,
+        40000,
         Item.of("technologyinthesea:not_enough_aqua_shard")
     )
 })

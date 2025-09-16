@@ -3,8 +3,7 @@ ServerEvents.recipes(event => {
         "create:mixing", 
         [
             Item.of("minecraft:diamond"),
-            Item.of("minecraft:quartz"),
-            Fluid.of("technologyinthesea:icy_essence", FluidAmounts.BUCKET).toJson()
+            Item.of("minecraft:quartz")
         ],
         [
             Item.of("ae2:certus_quartz_crystal")
@@ -14,6 +13,30 @@ ServerEvents.recipes(event => {
     press(event, "ae2:logic_processor_press", "minecraft:gold_ingot")
     press(event, "ae2:calculation_processor_press", "ae2:certus_quartz_crystal")
     press(event, "ae2:engineering_processor_press", "minecraft:diamond")
+
+    event.remove({id:"ae2:misc/fluixpearl"})
+    createRecipe(
+        event,
+        "create:mixing",
+        [
+            Fluid.of("technologyinthesea:icy_essence", FluidAmounts.BUCKET * 0.1).toJson(),
+            Ingredient.of("#c:fluix_dusts"),
+            Ingredient.of("#ae2:all_fluix"),
+            Ingredient.of("#c:ender_pearls")
+        ],
+        [
+            Item.of("ae2:fluix_pearl")
+        ]
+    )
+
+    event.shapeless(
+        "ae2:sky_dust",
+        [
+            "botania:mana_powder",
+            "minecraft:gunpowder",
+            "minecraft:black_dye"
+        ]
+    )
 })
 
 function press(event, press, deploy) {
@@ -29,9 +52,10 @@ function press(event, press, deploy) {
         [
             createRecipe(
                 event,
-                "create:pressing",
+                "create:deploying",
                 [
-                    Item.of("technologyinthesea:unpressed_press")
+                    Item.of("technologyinthesea:unpressed_press"),
+                    Item.of(deploy)
                 ],
                 [
                     Item.of("technologyinthesea:unpressed_press")
@@ -39,10 +63,9 @@ function press(event, press, deploy) {
             ),
             createRecipe(
                 event,
-                "create:deploying",
+                "create:pressing",
                 [
-                    Item.of("technologyinthesea:unpressed_press"),
-                    Item.of(deploy)
+                    Item.of("technologyinthesea:unpressed_press")
                 ],
                 [
                     Item.of("technologyinthesea:unpressed_press")

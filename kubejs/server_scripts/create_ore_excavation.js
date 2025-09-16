@@ -33,4 +33,36 @@ ServerEvents.recipes(event => {
             "G": "create:metal_girder"
         }
     )
+    event.shaped(
+        "createoreexcavation:vein_finder",
+        [
+            "  M",
+            " S ",
+            "S  "
+        ],
+        {
+            "S": "minecraft:stick",
+            "M": "botania:manasteel_ingot"
+        }
+    )
+    event.shapeless(
+        "createoreexcavation:vein_atlas",
+        [
+            "minecraft:book",
+            "minecraft:iron_ingot"
+        ]
+    )
+    event.shaped(
+        "createoreexcavation:sample_drill",
+        [
+            "C",
+            "D"
+        ],
+        {
+            "C": "minecraft:chest",
+            "D": "create:mechanical_drill"
+        }
+    )
+
+    event.remove("createoreexcavation:ore_vein_type/water")
 })
