@@ -398,7 +398,7 @@ hash = "26a8b627e09f8b02732512e3fd6fecda6cb9203ed82ba5b452c1a3b8ed70b7a2"
 
 [[files]]
 file = "kubejs/server_scripts/Unsafe.js"
-hash = "0753a216392b753d0a562f9e3ab93d4db5ee37a7abcaea26b731ad1d4757846b"
+hash = "d6f21bab553b7a8cdb6856e87d0893aadcc319f063fd5946aabb1290af1835cc"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra.js"
@@ -960,7 +960,7 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
-hash = "657ff0025d408f1021309ce5c759821d1f48e397811cc0da6f0b0400827896fa"
+hash = "2c5d9c47c2c16b1207f1335d10f99b1ba976bdc3363784674b8907ddd96e9c0a"
 metafile = true
 
 [[files]]

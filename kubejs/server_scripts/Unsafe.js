@@ -24,4 +24,25 @@ ServerEvents.recipes(event => {
             "Y": "minecraft:yellow_dye"
         }
     )
+
+    event.shaped(
+        "minecraft:netherite_upgrade_smithing_template",
+        [
+            "DND",
+            "DND",
+            "DDD"
+        ],
+        {
+            "D": "minecraft:diamond",
+            "N": "minecraft:netherrack"
+        }
+    )
+
+    event.shapeless(
+        "minecraft:budding_amethyst",
+        [
+            "ae2:flawed_budding_quartz",
+            "minecraft:purple_dye"
+        ]
+    )
 })
