@@ -28,4 +28,16 @@ StartupEvents.registry("fluid", event => {
 StartupEvents.registry("item", event => {
     event.create("technologyinthesea:diamond_shard")
         .tooltip(Text.literal("Shards bring luck"))
+
+    event.create("technologyinthesea:kibbeling")
+        .food(builder => {
+            builder.hunger(4)
+                .saturation(1)
+        })
+    event.create("technologyinthesea:kibbeling_bucket")
+        .food(builder => {
+            builder.hunger(20)
+                .saturation(1)
+                .effect("minecraft:saturation", 400, 0, 1)
+        })
 })
