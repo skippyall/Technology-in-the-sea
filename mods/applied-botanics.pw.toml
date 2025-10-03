@@ -1,16 +1,13 @@
-filename = 'Applied-Botanics-fabric-1.5.0.jar'
-name = 'Applied Botanics'
-side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Applied Botanics"
+filename = "applied-botanics-fabric-1.5.1.jar"
+side = "both"
 
 [download]
-hash = '0f96996bf2710c92b03c14f15e27e72fb4b601aef3cedb0d37e66e2f546077136b52d08f874ce9eaa7a36f4a192667c6bfed1651c11cfeab394a14008bd40c4d'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/545hUrw9/versions/j9qN58Hl/Applied-Botanics-fabric-1.5.0.jar'
+url = "https://cdn.modrinth.com/data/545hUrw9/versions/7eH0ddTk/applied-botanics-fabric-1.5.1.jar"
+hash-format = "sha512"
+hash = "c7dd1a49987e83a792e95c8b3538583cceb83327c8d4d8b773a9e28cfa83234e5b2e8ff232b8e47d2eba92795fa6cf39ee1031233f9bd8a84766efc2a47fcba8"
 
+[update]
 [update.modrinth]
-mod-id = '545hUrw9'
-version = 'j9qN58Hl'
+mod-id = "545hUrw9"
+version = "7eH0ddTk"

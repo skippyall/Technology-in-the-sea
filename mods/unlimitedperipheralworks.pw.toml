@@ -1,13 +1,13 @@
 name = "UnlimitedPeripheralWorks"
-filename = "peripheralworks-fabric-1.20.1-1.5.1.jar"
+filename = "peripheralworks-fabric-1.20.1-1.6.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/I9HU4uWg/peripheralworks-fabric-1.20.1-1.5.1.jar"
+url = "https://cdn.modrinth.com/data/Sf7QBsRP/versions/X1BD49bC/peripheralworks-fabric-1.20.1-1.6.0.jar"
 hash-format = "sha512"
-hash = "61d12e4824db082957b33439029fc4929a4fa89698497eb8f7958f875e0c3fb1049352b5076101d0d030c25fafe3d0bdc011849a3f4ce0dc519cecf9a0d9173e"
+hash = "25730ec4499769db4c9de109d74bf0878ac3116f1aee43344b8d49448713e1eb68d29068f59246b2fe2e5f86372593ef150ad797e2aee65ccb2c7305f58e3065"
 
 [update]
 [update.modrinth]
 mod-id = "Sf7QBsRP"
-version = "I9HU4uWg"
+version = "X1BD49bC"
