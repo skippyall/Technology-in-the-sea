@@ -1050,7 +1050,7 @@ metafile = true
 
 [[files]]
 file = "mods/technology-in-the-sea-companion-1.0-SNAPSHOT.jar"
-hash = "a8fe6198c1a1c8ac69173cadaf735207fd5dacbd051dbd7600bae6fb1ede8268"
+hash = "ef032fe1c4b260422a8fccd186cf4d818a4d1d84e8896ef9722704639b47e448"
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
