@@ -1,13 +1,13 @@
 name = "Applied Botanics Addon"
-filename = "Applied-Botanics-fabric-1.5.0.jar"
+filename = "applied-botanics-fabric-1.5.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f3b8d31767f13d8ca13501ce553448bf9c76360b"
+hash = "a9d0e8c678c043f40683004bf63ea9c13a391c71"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4904184
+file-id = 7024173
 project-id = 610632
