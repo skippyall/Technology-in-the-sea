@@ -39,5 +39,6 @@ StartupEvents.registry("item", event => {
             builder.hunger(20)
                 .saturation(1)
                 .effect("minecraft:saturation", 400, 0, 1)
+                .eaten(e => e.getPlayer().getInventory().insertItem(Item.of("minecraft:bucket"), false))
         })
 })

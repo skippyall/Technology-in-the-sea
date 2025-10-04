@@ -69,9 +69,9 @@ ServerEvents.recipes(event => {
         event,
         "create:mixing",
         [
-            Ingredient.of("c:foods/raw_fishes").toJson(),
+            Ingredient.of("#c:foods/raw_fishes").toJson(),
             Item.of("create:wheat_flour", 2),
-            Fluid.of("milk:still_milk", FluidAmounts.BUCKET * 0.25)
+            Fluid.of("milk:still_milk", FluidAmounts.BUCKET * 0.25).toJson()
         ]
     )
 
@@ -89,4 +89,73 @@ ServerEvents.recipes(event => {
             "technologyinthesea:kibbeling"
         ]
     )
+
+    event.remove({id: "create_new_age:enchanted_golden_apple"})
+
+    event.custom({
+        "type": "create:sequenced_assembly",
+
+        "ingredient": {
+            "item": "minecraft:apple"
+        },
+
+        "transitionalItem": {
+            "item": "create_new_age:incomplete_enchanted_golden_apple"
+        },
+
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "create_new_age:incomplete_enchanted_golden_apple"
+                    },
+                    {
+                        "item": "minecraft:gold_block"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ]
+            },
+
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "create_new_age:incomplete_enchanted_golden_apple"
+                    },
+                    {
+                        "item": "minecraft:gold_block"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ]
+            },
+            {
+                "type": "createaddition:charging",
+                "input": {
+                    "item": "create_new_age:incomplete_enchanted_golden_apple",
+                    "count": 1
+                },
+                "result": {
+                    "item": "create_new_age:incomplete_enchanted_golden_apple",
+                    "count": 1,
+                },
+                "energy": 2000000,
+                "maxChargeRate": 10000
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:enchanted_golden_apple"
+            }
+        ],
+        "loops": 4
+    })
 })
