@@ -93,69 +93,16 @@ ServerEvents.recipes(event => {
     event.remove({id: "create_new_age:enchanted_golden_apple"})
 
     event.custom({
-        "type": "create:sequenced_assembly",
-
-        "ingredient": {
-            "item": "minecraft:apple"
+        "type":"createaddition:charging",
+        "input": {
+            "item": "minecraft:golden_apple",
+            "count": 9
         },
-
-        "transitionalItem": {
-            "item": "create_new_age:incomplete_enchanted_golden_apple"
+        "result": {
+            "item": "minecraft:enchanted_golden_apple",
+            "count": 1
         },
-
-        "sequence": [
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "create_new_age:incomplete_enchanted_golden_apple"
-                    },
-                    {
-                        "item": "minecraft:gold_block"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "create_new_age:incomplete_enchanted_golden_apple"
-                    }
-                ]
-            },
-
-            {
-                "type": "create:deploying",
-                "ingredients": [
-                    {
-                        "item": "create_new_age:incomplete_enchanted_golden_apple"
-                    },
-                    {
-                        "item": "minecraft:gold_block"
-                    }
-                ],
-                "results": [
-                    {
-                        "item": "create_new_age:incomplete_enchanted_golden_apple"
-                    }
-                ]
-            },
-            {
-                "type": "createaddition:charging",
-                "input": {
-                    "item": "create_new_age:incomplete_enchanted_golden_apple",
-                    "count": 1
-                },
-                "result": {
-                    "item": "create_new_age:incomplete_enchanted_golden_apple",
-                    "count": 1,
-                },
-                "energy": 2000000,
-                "maxChargeRate": 10000
-            }
-        ],
-        "results": [
-            {
-                "item": "minecraft:enchanted_golden_apple"
-            }
-        ],
-        "loops": 4
+        "energy": 8000000,
+        "maxChargeRate": 40000
     })
 })
