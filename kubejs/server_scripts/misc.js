@@ -107,6 +107,12 @@ ServerEvents.tags("item", event => {
 
     event.add("technologyinthesea:sun_protection_armor", "#ad_astra:space_suit_items")
     event.add("technologyinthesea:sun_protection_armor", "#ad_astra:netherite_space_suit_items")
+
+    event.add("accessories:back", "create:copper_backtank")
+    event.add("accessories:back", "create:netherite_backtank")
+
+    event.add("accessories:back", "create_jetpack:jetpack")
+    event.add("accessories:back", "create_jetpack:netherite_jetpack")
 })
 
 ServerEvents.tags("block", event => {
