@@ -560,7 +560,7 @@ metafile = true
 
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
-hash = "b334afca6e5d33243292218e95e6ca92f61c09f1ff864bb9596cf18c6a6fe687"
+hash = "39ae2ffb2c8dbe5037b9d818fa8efcaba3132581ca6fa3fcc0ac4ead26c53585"
 metafile = true
 
 [[files]]
@@ -595,7 +595,7 @@ metafile = true
 
 [[files]]
 file = "mods/cccbridge.pw.toml"
-hash = "dcbe0ee85bfa16137085751b34443bebecdd57cca4258b7fa0b1f06e589ee6d2"
+hash = "e3d5188a4b98aa2031677589f14190e866957e9286716f2b56b950a1bda64a40"
 metafile = true
 
 [[files]]
@@ -645,67 +645,67 @@ metafile = true
 
 [[files]]
 file = "mods/create-bitterballen.pw.toml"
-hash = "0cdfe98be0d6e8991501ed43913cd16a1750f787a07ee9fdecacb3ec13123600"
+hash = "766ae4535bf0f90bc54c5bec7b7dbd5028e20374a6136d8b32ecde5304417a83"
 metafile = true
 
 [[files]]
 file = "mods/create-curios-jetpack.pw.toml"
-hash = "b941ceb429ed12e57ef955823698dd61e5eb0abddc01442ad83375e3351b2815"
+hash = "16d4d85fd807dd73deec50913551cb180fe4c73f8dd8b33e88170969b9118fc8"
 metafile = true
 
 [[files]]
 file = "mods/create-deco.pw.toml"
-hash = "cb5b55935e85b9b225d21c18646ba3c1340e7e3b204e9ba3e5ac5395a53f4751"
+hash = "42e39dfd9abfad7e63774698bb81127f58d23521ab99a7490323faac16ec5d24"
 metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry-fabric.pw.toml"
-hash = "c13dd88a4bae6a2358110dd95791b98987bf4b2f7b4ff562ff429b509bb8210b"
+hash = "5c85cd8cab3210e01157f86a589788c0210628c67049d887cfa3961f397639db"
 metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "431b2535a04fd1095f30904d35d29d3264692362567d3204562d001e51db7732"
+hash = "4cca0cddfe3807bd101a9860bd575004997771e8d2a100cdabbfcf9240154167"
 metafile = true
 
 [[files]]
 file = "mods/create-jetpack.pw.toml"
-hash = "83f2924d9c62e876633c396c486ed5360e769dfc97584fda4afed2fece927f67"
+hash = "88d3d4b11a9688cff6ef885bdc14feac7dd193743978186ececc78001789754e"
 metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "666a3b77d3b424072201ae641635a3300d76fa0ef49e48c4bf8db3986d96cd28"
+hash = "4650a0f28412849205e6bf60577a99f8cdd16a23bb507da91c26fe93bf29ba7a"
 metafile = true
 
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
-hash = "0e5ba40676820576676c598d16aafa263862b204f79b35fcc8bd31f0da6a7f37"
+hash = "1c4a2e0c54fa6bc5fcda883b83669519d33ab49acdd6024894b40efaeacbb7d3"
 metafile = true
 
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
-hash = "77337d348c0a7c091a2a7d990fdf16904fb6b7af5ca211853118c66e177eaad4"
+hash = "0930726c193dbf34cdbc98e360dbcf8d2413151df8c0d80f3f6e257e3676315b"
 metafile = true
 
 [[files]]
 file = "mods/create-power-loader-fabric.pw.toml"
-hash = "fa24402f716728e6065c17223072b9b32efc8bbaca6630e929f30f5f0499c8ae"
+hash = "eb9e612e87f270e61c289f75a6ce7a53c7c3f4e4bb80f7fdafbac62db367c3fc"
 metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "0681da1588a9a51e34f8cd131795121e3669b9cd8d394f4f1bd5c15dae65fea6"
+hash = "84c2c5388f61854ab9c382f44d440c044b5399d0c5f2c3a169c85fabda5f4e39"
 metafile = true
 
 [[files]]
 file = "mods/create-utilities.pw.toml"
-hash = "10cbe022757c838fbe011fc546ebc42c5eeaac53995938442b1a46d0ae5446eb"
+hash = "1089947d8fec4a2b68348e70f51ccb9f5d559df6d27cf2744193924e2301dea2"
 metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "76aba8d8cc62f325d52613c1b66d17dae77dd1df918b1153fc2bd5fb80b42a27"
+hash = "54501f6922db71caddd565a10588263a9acbf8838809fba12eede6177e4f74dd"
 metafile = true
 
 [[files]]
@@ -1010,7 +1010,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "3e9a7578610252a1fe2ed6a181bf49a4b597d3c27bcd3969517fd19836ccda7a"
+hash = "1df6f4411a9dbdf6366af19bf61f92b2963bc94badf6208543589db4383e4da6"
 metafile = true
 
 [[files]]

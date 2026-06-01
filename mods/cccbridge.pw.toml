@@ -1,6 +1,7 @@
 name = "CC:C Bridge"
 filename = "cccbridge-mc1.20.1-v1.7.0-fabric.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/fXt291FO/versions/xmxP9wDw/cccbridge-mc1.20.1-v1.7.0-fabric.jar"
