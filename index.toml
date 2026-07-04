@@ -398,7 +398,7 @@ hash = "26a8b627e09f8b02732512e3fd6fecda6cb9203ed82ba5b452c1a3b8ed70b7a2"
 
 [[files]]
 file = "kubejs/server_scripts/Unsafe.js"
-hash = "48c789e03c6da20244d06db1f33ec13fc3a1d10166e75ef0393391556141c574"
+hash = "1c3ecbcc280cdb12e01c8eee129f6881dec6b14097331886f524b0c57f1a6bda"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra.js"
@@ -466,7 +466,7 @@ hash = "846d19bcb96f40b0205e76594e45491f9542aef7e09937d49f48943937a3c406"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "bba3accbbfd641a11c7b4bf27a046d35639fa376f98465b43d1abddc8e0d22f6"
+hash = "79d2f5dcfe00a16ed9f445475f5fd6f63fe167477ccb85d6bfdfb888ee531623"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
