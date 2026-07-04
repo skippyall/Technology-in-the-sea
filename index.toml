@@ -398,7 +398,7 @@ hash = "26a8b627e09f8b02732512e3fd6fecda6cb9203ed82ba5b452c1a3b8ed70b7a2"
 
 [[files]]
 file = "kubejs/server_scripts/Unsafe.js"
-hash = "48c789e03c6da20244d06db1f33ec13fc3a1d10166e75ef0393391556141c574"
+hash = "1c3ecbcc280cdb12e01c8eee129f6881dec6b14097331886f524b0c57f1a6bda"
 
 [[files]]
 file = "kubejs/server_scripts/ad_astra.js"
@@ -466,7 +466,7 @@ hash = "846d19bcb96f40b0205e76594e45491f9542aef7e09937d49f48943937a3c406"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "bba3accbbfd641a11c7b4bf27a046d35639fa376f98465b43d1abddc8e0d22f6"
+hash = "79d2f5dcfe00a16ed9f445475f5fd6f63fe167477ccb85d6bfdfb888ee531623"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -590,7 +590,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "f53bc4542e229d3d32127358a50773c521e051883bc75438bfa83f615eddd5b5"
+hash = "27ce43aa0348ee38e0dd339d75ac07b2964a141c98de919194cfaffaf166e7ee"
 metafile = true
 
 [[files]]
@@ -640,7 +640,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "79d2d0db0f6cffec9bc3661d9a591ad379e041de1235239dba921f63f452eec7"
+hash = "d5757b5acce4be94a2d5b06a877d82d30e16f59b6410ec1edeba6b54fe68d466"
 metafile = true
 
 [[files]]
@@ -815,7 +815,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade-addons-fabric.pw.toml"
-hash = "b28167f09bbcaca3fee27d748191ed19ce37b9382bb4ae693a20f415f80ed305"
+hash = "1caf84a20cde6b649404e82677f0451cb70cb0a4c0ee7feccb9cdc874643054f"
 metafile = true
 
 [[files]]
@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-hash = "7ebf197c43f662a98d2064d3b46e399e1929d6e6f55ba2bc46ada0d48e56aaa1"
+hash = "da4ed811a8c23d8b40c08f2b6399253206b442f820d3361b67ab7b5c3baaa7cb"
 metafile = true
 
 [[files]]
@@ -966,6 +966,11 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "901167b37c963d43c6e561fd2cc8c7bbccf76203b9e60a53292adfaed87266ae"
+metafile = true
+
+[[files]]
+file = "mods/recipe-modification.pw.toml"
+hash = "e6ceb0788c3f2022f5739a56ec1b177297bba85eea453c97cb75f41982eba810"
 metafile = true
 
 [[files]]
@@ -1074,12 +1079,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3b4f0baf93606fb8eaef2079b05ccb4cc98c259c6b5e8f8578d59a970faf0527"
+hash = "91e4af6c3bd7ffaa711e9c886b8847e6573757a9792fb0c2ba43e743029f642e"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "12af3e98950aa9a07f49604936f382a259687f74341f7708b96f642ad018aeb1"
+hash = "5e12637f27ece84edfcaa4defe9244ee5fd4b98395a52e696bb81f4c30a88da7"
 metafile = true
 
 [[files]]
